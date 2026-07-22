@@ -1,0 +1,31 @@
+﻿code,english_full_name,korean_meaning
+WIND,Wind Speed,풍속
+RAIN,Rainfall Intensity,시간당 강수량
+TEMP,Apparent Temperature (Heat),체감온도(폭염)
+COLD,Morning Minimum Temperature,아침 최저기온(한파)
+WAVE,Significant Wave Height,파고(유의파고)
+SNOW,Fresh Snow Depth (24h),24시간 신적설
+AIR,Comprehensive Air-quality Index (CAI),통합대기환경지수
+SLOPE,Slope Degree,경사도
+CROWD,Crowding Ratio,혼잡도(수용력 대비 %)
+TIME,Time/Light Condition,시간대(일몰·일출 기준)
+NORMAL,Normal,정상
+CAUTION,Caution (service pre-caution),주의(서비스 사전주의 기준)
+DANGER,Danger (service pre-avoidance),위험(서비스 사전회피 기준)
+ALERT_ADVISORY,Official Advisory Issued,특보(주의보) 발효 구간
+ALERT_WARNING,Official Warning Issued,특보(경보) 발효 구간
+ALLOW,Allow,방문 가능
+CAUTION_ACT,Caution / Prepare,주의·준비물 안내
+AVOID,Avoid,회피 권고
+CONTROL,Control / Prohibit,통제·이용 자제
+m/s,Meters per second,초속
+mm/h,Millimeters per hour,시간당 강수량
+cm,Centimeters (fresh snow),신적설 센티미터
+m,Meters,미터
+C,Degrees Celsius,섭씨
+CAI,Comprehensive Air-quality Index,통합대기환경지수 값
+degree,Degree,도(°)
+percent,Percentage,백분율
+minute_offset,Minutes relative to sunset/sunrise,일몰/일출 기준 상대 분
+SUNSET,Sunset-based,일몰 기준
+SUNRISE,Sunrise-based,일출 기준

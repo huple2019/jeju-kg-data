@@ -1,0 +1,39 @@
+﻿envId,type,name
+ENV_001,weather,강풍
+ENV_002,weather,폭우
+ENV_003,weather,폭설
+ENV_004,weather,급변풍
+ENV_005,weather,파도
+ENV_006,weather,눈
+ENV_007,weather,건조한 날씨
+ENV_008,weather,강한 바람
+ENV_009,weather,비
+ENV_010,weather,안개
+ENV_011,weather,호우
+ENV_012,weather,수온상승
+ENV_013,weather,쌀쌀함
+ENV_014,weather,태풍
+ENV_015,weather,강한 비바람
+ENV_016,weather,빗물 침투로 인한 지지력 약화
+ENV_017,weather,기상악화
+ENV_018,weather,높은파도
+ENV_019,weather,짙은안개
+ENV_020,weather,풍량
+ENV_021,weather,바람
+ENV_022,weather,장마
+ENV_023,weather,여름철 폭우로 인한 지반 약화
+ENV_024,weather,너울
+ENV_025,weather,강한바람
+ENV_026,weather,폭염
+ENV_027,weather,무더위
+ENV_028,weather,자연정화
+ENV_029,weather,싱크홀
+ENV_030,weather,비바람
+ENV_031,weather,풍랑
+ENV_032,weather,거센 파도
+ENV_033,weather,겨울철바다
+ENV_034,weather,풍랑경보
+ENV_035,weather,심한 안개
+ENV_036,weather,북서풍
+ENV_037,weather,파고 1.0~1.5m
+ENV_038,weather,높은 파도

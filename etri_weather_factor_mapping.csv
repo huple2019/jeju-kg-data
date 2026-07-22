@@ -1,0 +1,11 @@
+﻿factor,etri_forecast_col,etri_observation_col,etri_alert_col,unit,source,note
+wind_speed,wind_speed,wind_speed_10m_avg_ms,wind_speed_max_instant_ms,m/s,ETRI_weather,관측 순간최대=특보판정용
+rain_mm_h,precipitation,rain_acc_60m_mm,rain_acc_12h_mm,mm/h,ETRI_weather,"예보 precipitation=시간당, 관측 60m/12h 누적"
+wave_height,wave_height,,,m,ETRI_weather,예보만 제공(관측 없음)
+apparent_temp,temperature,temp_air_1m_avg_c,,C,ETRI_weather,기온→체감온도 서버 환산(습도 결합)
+min_temp,temperature,temp_air_1m_avg_c,,C,ETRI_weather,일 최저는 예보 시계열 min 산출
+lightning,lightning_strike,,,code,ETRI_weather,낙뢰(신규 활용 가능)
+snow_24h,,,,cm,external,ETRI 미제공 — 기상청 별도 or 예보 확장 필요
+cai,,,,CAI,external,환경부 에어코리아(ETRI 밖)
+occupancy,,,,percent,external,혼잡도 — 별도 산출(교통/방문자)
+minutes_to_sunset,,,,min,external,천문 계산(서버)

@@ -1,0 +1,37 @@
+﻿risk_id,rule_id,risk_name,risk_name_en,env_id,risk_type,condition_expr,threshold_min,threshold_max,threshold_unit,risk_level,target_scope,evidence_source,rule_status
+RP_WIND_01,TR_WIND_02,강풍_노출구간주의,WindExposureCaution,ENV_WIND_SPEED,강풍위험,"wind_speed >= 7 AND wind_speed < 10 AND zone IN [해안,오름,전망대]",7.0,10.0,m/s,주의,해안·오름·전망대,기상청,적용
+RP_WIND_02,TR_WIND_03,강풍_노출구간회피,WindExposureAvoid,ENV_WIND_SPEED,강풍위험,wind_speed >= 10 AND wind_speed < 14,10.0,14.0,m/s,위험,해안·오름·노출구간,기상청,적용
+RP_WIND_03,TR_WIND_04,강풍특보_통제,WindAlertControl,ENV_WIND_SPEED,강풍위험,wind_speed >= 14,14.0,,m/s,위험,전반,"기상청 강풍특보 / 강풍주의보 구간(14~21)—시간조정, 경보21+는 실시간특보로 통제",적용
+RP_RAIN_01,TR_RAIN_02,강수_미끄럼주의,RainSlipCaution,ENV_RAIN_AMOUNT,강수위험,rain_mm_h >= 3 AND rain_mm_h < 10,3.0,10.0,mm/h,주의,트레킹·오름·계곡,기상청,적용
+RP_RAIN_02,TR_RAIN_03,강수_트레킹회피,RainTrekkingAvoid,ENV_RAIN_AMOUNT,강수위험,rain_mm_h >= 10 AND rain_mm_h < 20,10.0,20.0,mm/h,위험,트레킹·오름·계곡,기상청,적용
+RP_RAIN_03,TR_RAIN_04,호우_이동자제,HeavyRainControl,ENV_RAIN_AMOUNT,강수위험,rain_mm_h >= 20,20.0,,mm/h,매우위험,전반·계곡·세월교,기상청,적용
+RP_FLASHFLOOD_01,TR_RAIN_03,상류강수_하류범람위험,FlashFloodRisk,ENV_UPSTREAM_RAIN,강수위험,upstream_region = 한라산권 AND rain_mm_h >= 10,10.0,,mm/h,위험,세월교·계곡구간,올레 인터뷰·기상청,적용
+RP_HEAT_01,TR_TEMP_02,폭염_건강주의,HeatHealthCaution,ENV_APPARENT_TEMP,폭염위험,apparent_temp >= 32 AND apparent_temp < 33,32.0,33.0,C,주의,야외 장시간 체류지,질병관리청,적용
+RP_HEAT_02,TR_TEMP_03,폭염_온열질환위험,HeatIllnessRisk,ENV_APPARENT_TEMP,폭염위험,apparent_temp >= 33 AND apparent_temp < 35,33.0,35.0,C,위험,야외 장시간 체류지,기상청 폭염주의보,적용
+RP_HEAT_03,TR_TEMP_04,폭염경보_통제,HeatAlertControl,ENV_APPARENT_TEMP,폭염위험,apparent_temp >= 35,35.0,,C,통제,전반,기상청 폭염경보,적용
+RP_ICE_01,TR_COLD_02,결빙_미끄럼위험,IceSlipRisk,ENV_MIN_TEMP,한파위험,min_temp <= 0 AND precipitation = true,,0.0,C,주의,도로·오름 진입 동선,기상청,적용
+RP_COLD_01,TR_COLD_04,한파_저체온위험,ColdHypothermiaRisk,ENV_MIN_TEMP,한파위험,min_temp <= -12,,-12.0,C,통제,산지·전반,기상청 한파특보,적용
+RP_WAVE_01,TR_WAVE_02,파고_갯바위주의,WaveRockCaution,ENV_WAVE_HEIGHT,파고위험,"wave_height >= 1.0 AND wave_height < 2.0 AND zone IN [갯바위,방파제]",1.0,2.0,m,주의,갯바위·방파제,기상청 파고등급,적용
+RP_WAVE_02,TR_WAVE_03,파고_해안회피,SwellWaveRisk,ENV_WAVE_HEIGHT,파고위험,wave_height >= 2.0 AND wave_height < 3.0,2.0,3.0,m,위험,해안산책로·갯바위,기상청 파고등급·올레 인터뷰(너울),적용
+RP_WAVE_03,TR_WAVE_04,풍랑특보_해안통제,WaveAlertControl,ENV_WAVE_HEIGHT,파고위험,wave_height >= 3.0,3.0,,m,위험,해안 전반,"기상청 풍랑특보 / 풍랑주의보 구간(3~5)—시간조정, 경보5+는 실시간특보로 통제",적용
+RP_SNOW_01,TR_SNOW_02,적설_이동주의,SnowTravelCaution,ENV_SNOW_DEPTH,적설위험,snow_24h >= 1 AND snow_24h < 5,1.0,5.0,cm,주의,산간도로·오름 진입,기상청,적용
+RP_SNOW_02,TR_SNOW_03,대설_이동회피,SnowTravelAvoid,ENV_SNOW_DEPTH,적설위험,snow_24h >= 5,5.0,,cm,위험,산간 전반,기상청 대설특보,적용
+RP_AIR_01,TR_AIR_02,대기질_민감군주의,AirSensitiveCaution,ENV_AIR_CAI,대기질위험,cai >= 101 AND cai <= 250 AND place_isOutdoor = true,101.0,250.0,CAI,주의,실외 관광지,환경부 CAI,적용
+RP_AIR_02,TR_AIR_03,대기질_실외회피,AirOutdoorAvoid,ENV_AIR_CAI,대기질위험,cai >= 251 AND place_isOutdoor = true,251.0,,CAI,위험,실외 관광지,환경부 CAI,적용
+RP_CROWD_01,TR_CROWD_02,혼잡_분산권고,CrowdDisperse,ENV_CROWD_RATIO,혼잡위험,occupancy >= 60 AND occupancy < 80,60.0,80.0,percent,주의,인기 관광지,행안부 지침 참고(서비스 기준),적용
+RP_CROWD_02,TR_CROWD_03,혼잡_대체추천,CrowdAvoid,ENV_CROWD_RATIO,혼잡위험,occupancy >= 80,80.0,,percent,위험,인기 관광지,행안부 지침 참고(서비스 기준),적용
+RP_NIGHT_01,TR_TIME_02,야간_저조도위험,NightLowLightRisk,ENV_TIME_SUNSET,야간위험,"minutes_to_sunset <= 60 AND zone IN [오름,중산간,해안]",,,minute_offset,주의,오름·중산간·해안,서비스 기준·소방 조기귀가 유도,적용
+RP_LOST_01,TR_TIME_03,길잃음위험,LostRisk,ENV_TIME_SUNSET,야간위험,"after_sunset = true AND zone IN [오름,중산간]",,,minute_offset,위험,오름·중산간,소방 통계(5년 558건)·SA_01,적용
+RP_DROWN_01,,익수위험(수난·다이빙),DrowningRisk,,수난위험,"activity IN [Swimming,Diving,Fishing,PhotoTaking] AND zone IN [해수욕장,항포구,갯바위,테트라포드]",,,,위험,항포구·해수욕장·갯바위,소방 통계(수난 3년 245건·항포구 5년 96건)·SA_05·SA_19,적용
+RP_MACHINE_01,,농기계 상해위험,MachineInjuryRisk,,활동위험,"activity IN [Farming,Mowing,Harvesting] AND equipment IN [파쇄기,예초기,전동가위]",,,,위험,농가·묘지,소방 통계(파쇄기 46건·벌초 170명)·SA_02~04·SA_07,적용
+RP_ANIMAL_01,,동물 접촉위험(벌·뱀·해파리),AnimalEncounterRisk,,활동위험,"activity IN [Mowing,Trekking,Swimming] AND season IN [여름,초가을]",,,,주의,중산간·묘지·해수욕장,소방청 벌쏘임 예보제·SA_08,적용
+RP_OUTDOOR_01,,휴가철 야외활동 복합위험,OutdoorCompositeRisk,,복합위험,season = 휴가철(7~9월) AND activity = OutdoorActivity,,,,주의,도 전역,"소방 통계(37,624명 중 28.6% 집중)·SA_06",적용
+RP_TRAFFIC_01,,교통사고위험(렌터카·연휴),TrafficCompositeRisk,,교통위험,activity = Driving AND (vehicleType = rental OR period = 연휴),,,,주의,도로 전역,소방 인터뷰(렌터카 11.4%)·SA_09·SA_15,적용
+RP_MOUNTAIN_01,,산악사고위험(실족·조난),MountainAccidentRisk,,활동위험,"activity = Trekking AND zone IN [한라산,오름,올레길]",,,,주의,한라산·오름·올레길,소방 통계(등산·오름 길잃음 30.6%)·SA_10·SA_17,적용
+RP_FALL_01,,수확철 낙상위험(사다리),HarvestFallRisk,,활동위험,activity = Harvesting AND equipment = 사다리,,,,주의,감귤 농가,SA_11(추정),적용
+RP_FIRE_01,,난방기기 화재위험,FireRisk,,화재위험,season = 겨울 AND activity = IndoorHeating,,,,주의,주거·숙박시설,전국 소방 겨울철 대책·SA_13(추정),적용
+RP_CO_01,,일산화탄소 중독위험,COPoisoningRisk,,활동위험,"activity IN [Camping,Fishing] AND enclosed_space = true AND heating = true",,,,위험,캠핑장·낚시터,소방청 낚시 CO 중독 통계·SA_14,적용
+RP_ROCKFALL_01,,해빙기 낙석·붕괴위험,RockfallRisk,,자연위험,season = 해빙기(2~3월) AND zone = 절개지,,,,주의,절개지·낙석 우려 구간,행안부 해빙기 점검 제도·SA_16(추정),적용
+RP_TYPHOON_01,,태풍 복합위험,TyphoonRisk,,복합위험,"weather_alert IN [태풍주의보,태풍경보]",,,,통제,해안·하천·전역,기상청 태풍특보·SA_20,적용
+RP_FALL_CLIFF,,추락위험(절벽·노출지형),CliffFallRisk,,자연위험,"zone IN [절벽,전망대,갯바위,노출지형]",,,,위험,절벽·전망대·갯바위,뉴스 사고 데이터(추락 38건) — 기사화된 중대사고,적용
+RP_SLIP_TERRAIN,,지형·노면 미끄럼낙상위험,TerrainSlipRisk,,자연위험,"surface IN [판석,데크,야자매트,너덜길,비포장] OR terrain = 급경사",,,,주의,트레일·산책로·시장 보행구간,뉴스 사고 데이터(지형·노면 낙상/미끄럼 31건),적용

@@ -1,0 +1,29 @@
+﻿risk_id,match_field,match_values(;구분),scope_note
+RP_WIND_01,categoryMid,해양;산·오름;트레일·산책로,전망대·해안·오름 노출구간
+RP_WIND_02,categoryMid,해양;산·오름;트레일·산책로,노출구간 회피
+RP_WIND_03,ALL,,특보 시 전 실외
+RP_RAIN_01,categoryMid,트레일·산책로;산·오름;지질·특수자원,미끄럼 우려 보행구간
+RP_RAIN_02,categoryMid,트레일·산책로;산·오름,트레킹 회피
+RP_RAIN_03,ALL_OUTDOOR,,실외 전반
+RP_FLASHFLOOD_01,categorySub,계곡;폭포,세월교·계곡(향후 RouteSegment 지정)
+RP_HEAT_01,indoorOutdoor,실외,그늘 없는 야외
+RP_HEAT_02,indoorOutdoor,실외,야외 장시간 체류지
+RP_HEAT_03,indoorOutdoor,실외,실외 전반
+RP_ICE_01,categoryMid,산·오름;트레일·산책로,진입로·도로 결빙
+RP_COLD_01,indoorOutdoor,실외,산지·전반
+RP_WAVE_01,categorySub,갯바위;방파제;항구;부두;선착장,갯바위·방파제
+RP_WAVE_02,categoryMid,해양,해안 전반
+RP_WAVE_03,categoryMid,해양,해안 통제
+RP_SNOW_01,categoryMid,산·오름,산간도로·진입
+RP_SNOW_02,categoryMid,산·오름,산간 전반
+RP_AIR_01,indoorOutdoor,실외,실외 관광지
+RP_AIR_02,indoorOutdoor,실외,실외 관광지
+RP_CROWD_01,placeRank,CENTRAL·POPULAR,인기 관광지
+RP_CROWD_02,placeRank,CENTRAL·POPULAR,인기 관광지
+RP_NIGHT_01,categoryMid,산·오름;해양;트레일·산책로,야간 위험 구간
+RP_LOST_01,categoryMid,산·오름;숲·공원;트레일·산책로,중산간·오름
+RP_DROWN_01,categorySub,해수욕장;항구;부두;선착장;갯바위;방파제,수난 위험 수역
+RP_FALL_CLIFF,categorySub,전망대;갯바위;오름,절벽·노출지형
+RP_SLIP_TERRAIN,categoryMid,트레일·산책로;시장;산·오름,보행 미끄럼 구간
+RP_MOUNTAIN_01,categoryMid,산·오름;트레일·산책로,산행 구간
+RP_TYPHOON_01,ALL,,태풍 시 전역

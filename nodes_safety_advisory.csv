@@ -1,0 +1,21 @@
+﻿advisory_id,advisory_name,issue_months,season,regular_or_adhoc,target_activity,target_region,risk_pattern,hazard_summary,verification,evidence_note,evidence_url
+SA_01,고사리철 길 잃음 안전사고 주의보,"3,4,5",봄,정기,Foraging(고사리 채취),중산간·동부 읍면,LostRisk,길잃음,CONFIRMED,"최근 5년 길잃음 558건 중 60.5%가 3~5월 집중, 고사리 채취가 41.6%(232건) 최다. 4월에 72.8% 집중, 12~14시 최다, 동부 읍면 66%",https://www.khan.co.kr/article/202604201600031
+SA_02,농번기 파쇄기 안전사고 주의보,"2,3,4",봄,정기,Farming(간벌·전정·파쇄),감귤 농가 전역,MachineInjuryRisk,농기계 사고,CONFIRMED,"3년간 파쇄기 사고 46건 중 54.3%(25건)가 3~4월 집중, 열상·절단·골절 순, 사망 2건",https://www.nongmin.com/article/20230224500082
+SA_03,전동가위·전정 안전사고 주의보,"2,3,4",봄,정기,Farming(가지치기·전정),감귤 농가 전역,MachineInjuryRisk,농기계 사고,CONFIRMED,"전동가위 사용 급증으로 손가락 사고 65.2%, 하루 119 접수 7건에 달하는 날도 존재",https://www.jejunews.com/news/articleView.html?idxno=2216961
+SA_04,농기구 안전사고 주의보,"5,6",봄·초여름,정기,Farming(과수 전정·방풍림 정비),농촌 전역,MachineInjuryRisk,농기계 사고,CONFIRMED,올해 4개월간 농기구 안전사고 81건 — 전정 기간 이후에도 지속 발생,https://www.jejudomin.co.kr/news/articleView.html?idxno=311259
+SA_05,여름철 수난사고 주의보,"6,7,8",여름,정기,Swimming·WaterPlay·Diving(물놀이·다이빙),물놀이 관리지역 53곳·지정해수욕장 12곳,DrowningRisk,익수위험,CONFIRMED,"3년간 수난 구조 245건·189명, 7월 최다(18.4%), 물놀이 39.6%·실족 28.6%. 항포구 다이빙·테트라포드 출입 자제 당부",https://www.jnuri.net/news/article.html?no=68855
+SA_06,휴가철 야외활동 안전사고 주의보,"7,8,9",여름,정기,OutdoorActivity(물놀이·등산·야외활동 전반),도 전역,OutdoorCompositeRisk,수난·교통·동물 복합,CONFIRMED,"5년간 야외활동 인명피해 37,624명 중 28.6%가 7~9월 집중. 구명조끼 착용·음주 입수 금지·긴옷 착용(벌·뱀) 당부",https://www.jnuri.net/news/article.html?no=69073
+SA_07,벌초시기 안전사고 주의보,"8,9",초가을,정기,Mowing(벌초·예초),도 전역(묘지·목장),MachineInjuryRisk,예초기·벌쏘임·온열,CONFIRMED,"5년간 벌초 사고 부상 170명, 87.7%가 8~9월 집중. 예초기 41.2% 최다, 오전(07~11시) 63.5%, 킥백 현상 주의",https://www.jejusori.net/news/articleView.html?idxno=439604
+SA_08,벌 쏘임 사고 주의보·경보,"7,8,9",여름·초가을,정기(소방청 전국 발령체계),Mowing·Trekking(벌초·성묘·산행),중산간·묘지 일대,AnimalEncounterRisk,벌쏘임,INFERRED,소방청 벌쏘임 사고 예보제(주의보·경보 2단계) 전국 운영 — 제주 발령 개별 확인 필요,
+SA_09,추석 연휴 안전사고 주의보,"9,10",가을,정기,HolidayActivity(귀성·성묘·이동),도 전역,TrafficCompositeRisk,교통·화재·구급 복합,INFERRED,명절 연휴 주의보 발령은 전국 소방 관행 — 제주 발령 이력 소방 원자료 확인 필요,
+SA_10,가을철 산행 안전사고 주의보,"10,11",가을,정기,Trekking(오름·한라산 단풍 산행),한라산·오름 전역,MountainAccidentRisk,실족·조난·심혈관,INFERRED,길잃음 사고 중 등산·오름 탐방 30.6%(171건) — 가을철 발령 여부 확인 필요,https://www.khan.co.kr/article/202604201600031
+SA_11,감귤 수확철 안전사고 주의보,"10,11,12",가을·초겨울,정기,Harvesting(감귤 수확),감귤 농가 전역,FallRisk,사다리 낙상·농기계,INFERRED,제주 특화 시기성 위험(수확철 사다리·운반) — 발령 명칭·이력 확인 필요,
+SA_12,겨울철 미끄러짐(빙판길) 안전사고 주의보,"12,1,2",겨울,정기,Walking(보행),도심·산간도로·오름 진입로,IceSlipRisk,결빙·낙상,INFERRED,기온 0℃ 이하+강수 결빙 규칙과 대응 — 발령 이력 확인 필요,
+SA_13,겨울철 난방기기 화재 주의보,"11,12,1,2",겨울,정기,IndoorHeating(난방기기 사용),주거·숙박시설,FireRisk,화재,INFERRED,전국 소방 겨울철 소방안전대책 기간(11~2월) 관행 — 제주 개별 발령 확인 필요,
+SA_14,일산화탄소 중독 안전사고 주의보,"10,11,12,1,2",가을·겨울,정기,Camping(캠핑·차박·낚시 텐트),캠핑장·해안 낚시터,COPoisoningRisk,일산화탄소 중독,INFERRED,소방청 낚시·캠핑 CO 중독 주의 당부(전국) — 제주 발령 확인 필요,https://www.korea.kr/news/policyNewsView.do?newsId=148935488
+SA_15,설 연휴 안전사고 주의보,"1,2",겨울,정기,HolidayActivity(귀성·이동·조리),도 전역,TrafficCompositeRisk,교통·화재 복합,INFERRED,명절 연휴 주의보 발령은 전국 소방 관행 — 제주 발령 이력 확인 필요,
+SA_16,해빙기 안전사고 주의보,"2,3",늦겨울·초봄,정기,Trekking·Walking(산행·보행),절개지·낙석 우려 구간,RockfallRisk,낙석·붕괴,INFERRED,행안부 해빙기 안전점검 기간(2~3월) 제도와 대응 — 제주 발령 확인 필요,
+SA_17,봄철 산행 안전사고 주의보,"3,4,5",봄,정기,Trekking(오름·올레·한라산),한라산·오름·올레길,MountainAccidentRisk,실족·조난,INFERRED,길잃음 통계상 3~5월 야외활동 급증 확인 — 별도 발령 여부 확인 필요,https://www.khan.co.kr/article/202504181342001
+SA_18,폭염(온열질환) 안전사고 주의보,"7,8",여름,정기,OutdoorActivity(야외활동 전반),그늘 없는 야외 관광지,HeatIllnessRisk,온열질환,INFERRED,질병관리청 온열질환 응급실감시체계(5~9월) 연동 — 소방 자체 발령 확인 필요,
+SA_19,갯바위·테트라포드 낚시 안전사고 주의보,"9,10,11",가을,정기,Fishing(갯바위·방파제 낚시),해안 낚시터·항포구,DrowningRisk,실족·익수,INFERRED,"소방청 낚시 사고 653건/년, 심정지 43건 중 익수 60.5% — 제주 발령 확인 필요",https://www.korea.kr/news/policyNewsView.do?newsId=148935488
+SA_20,태풍 내습 대비 안전사고 주의보,"7,8,9",여름·초가을,수시,OutdoorActivity(전 야외활동),해안·하천·전역,TyphoonRisk,강풍·침수·파고 복합,INFERRED,태풍 북상 시 수시 발령(재난안전대책본부 비상단계 연동) — 발령 체계 확인 필요,

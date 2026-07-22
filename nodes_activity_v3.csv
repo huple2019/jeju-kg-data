@@ -1,0 +1,16 @@
+﻿activity_id,activity_name_en,activity_name_kr
+ACTV_01,Trekking,오름·올레·한라산 산행
+ACTV_02,Swimming,물놀이·수영
+ACTV_03,Diving,항포구 다이빙
+ACTV_04,Foraging,고사리 채취
+ACTV_05,Fishing,갯바위·방파제 낚시
+ACTV_06,Driving,렌터카 운전
+ACTV_07,PhotoTaking,갯바위·절벽 촬영
+ACTV_08,Farming,간벌·전정·파쇄
+ACTV_09,Mowing,벌초·예초
+ACTV_10,Harvesting,감귤 수확
+ACTV_11,Camping,캠핑·차박
+ACTV_12,Walking,일반 보행·산책
+ACTV_13,OutdoorActivity,야외활동 전반
+ACTV_14,HolidayActivity,연휴 이동·성묘
+ACTV_15,IndoorHeating,난방기기 사용

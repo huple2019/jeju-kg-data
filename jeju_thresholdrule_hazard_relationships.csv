@@ -1,0 +1,45 @@
+﻿start_rule_code,end_hazard_name,relationship,note
+TR_WIND_02,강풍·파고영향,ACTIVATES_HAZARD,강풍 시 해안/오름/노출구간 위험 증가
+TR_WIND_02,추락위험,ACTIVATES_HAZARD,노출지형·전망대·절벽구간 추락 위험 증가
+TR_WIND_03,강풍·파고영향,ACTIVATES_HAZARD,강풍 시 해안/오름/노출구간 위험 증가
+TR_WIND_03,추락위험,ACTIVATES_HAZARD,노출지형·전망대·절벽구간 추락 위험 증가
+TR_WIND_04,강풍·파고영향,ACTIVATES_HAZARD,강풍 시 해안/오름/노출구간 위험 증가
+TR_WIND_04,추락위험,ACTIVATES_HAZARD,노출지형·전망대·절벽구간 추락 위험 증가
+TR_WIND_05,강풍·파고영향,ACTIVATES_HAZARD,강풍 시 해안/오름/노출구간 위험 증가
+TR_WIND_05,추락위험,ACTIVATES_HAZARD,노출지형·전망대·절벽구간 추락 위험 증가
+TR_RAIN_02,미끄럼/낙상,ACTIVATES_HAZARD,우천 시 야자매트·판석·데크 미끄럼 위험
+TR_RAIN_03,미끄럼/낙상,ACTIVATES_HAZARD,우천 시 야자매트·판석·데크 미끄럼 위험
+TR_RAIN_04,미끄럼/낙상,ACTIVATES_HAZARD,우천 시 야자매트·판석·데크 미끄럼 위험
+TR_RAIN_03,급류/하천범람,ACTIVATES_HAZARD,상류(한라산권) 강수 시 하류 계곡·세월교 범람 위험(AFFECTS_DOWNSTREAM)
+TR_RAIN_04,급류/하천범람,ACTIVATES_HAZARD,상류(한라산권) 강수 시 하류 계곡·세월교 범람 위험(AFFECTS_DOWNSTREAM)
+TR_TEMP_02,온열질환,ACTIVATES_HAZARD,야외 장시간 체류·그늘 없는 구간 온열질환 위험
+TR_TEMP_03,온열질환,ACTIVATES_HAZARD,야외 장시간 체류·그늘 없는 구간 온열질환 위험
+TR_TEMP_04,온열질환,ACTIVATES_HAZARD,야외 장시간 체류·그늘 없는 구간 온열질환 위험
+TR_COLD_02,결빙·미끄럼,ACTIVATES_HAZARD,기온 0℃ 이하+강수 시 도로·진입 동선 결빙
+TR_COLD_03,결빙·미끄럼,ACTIVATES_HAZARD,기온 0℃ 이하+강수 시 도로·진입 동선 결빙
+TR_COLD_04,결빙·미끄럼,ACTIVATES_HAZARD,기온 0℃ 이하+강수 시 도로·진입 동선 결빙
+TR_COLD_03,저체온증,ACTIVATES_HAZARD,산지·새벽 저체온 위험
+TR_COLD_04,저체온증,ACTIVATES_HAZARD,산지·새벽 저체온 위험
+TR_WAVE_02,너울/이안류,ACTIVATES_HAZARD,너울성 파도 비가시적 급습 위험(갯바위·방파제)
+TR_WAVE_02,익수위험,ACTIVATES_HAZARD,해안 접근 시 익수 위험
+TR_WAVE_03,너울/이안류,ACTIVATES_HAZARD,너울성 파도 비가시적 급습 위험(갯바위·방파제)
+TR_WAVE_03,익수위험,ACTIVATES_HAZARD,해안 접근 시 익수 위험
+TR_WAVE_04,너울/이안류,ACTIVATES_HAZARD,너울성 파도 비가시적 급습 위험(갯바위·방파제)
+TR_WAVE_04,익수위험,ACTIVATES_HAZARD,해안 접근 시 익수 위험
+TR_SNOW_02,결빙·미끄럼,ACTIVATES_HAZARD,적설·결빙 보행/차량 미끄럼
+TR_SNOW_02,차량사고,ACTIVATES_HAZARD,산간도로(1100도로 등) 차량 이동 위험
+TR_SNOW_03,결빙·미끄럼,ACTIVATES_HAZARD,적설·결빙 보행/차량 미끄럼
+TR_SNOW_03,차량사고,ACTIVATES_HAZARD,산간도로(1100도로 등) 차량 이동 위험
+TR_SNOW_04,결빙·미끄럼,ACTIVATES_HAZARD,적설·결빙 보행/차량 미끄럼
+TR_SNOW_04,차량사고,ACTIVATES_HAZARD,산간도로(1100도로 등) 차량 이동 위험
+TR_AIR_02,호흡기위험,ACTIVATES_HAZARD,대기질 나쁨 — 민감군 야외 자제
+TR_AIR_03,호흡기위험,ACTIVATES_HAZARD,대기질 매우나쁨 — 실외관광 회피
+TR_SLOPE_02,보행약자 낙상,ACTIVATES_HAZARD,경사 구간 보행약자 낙상 위험
+TR_SLOPE_03,보행약자 낙상,ACTIVATES_HAZARD,경사 구간 보행약자 낙상 위험
+TR_CROWD_02,인파밀집사고,ACTIVATES_HAZARD,다중운집 압박·낙상 위험
+TR_CROWD_03,인파밀집사고,ACTIVATES_HAZARD,다중운집 압박·낙상 위험
+TR_TIME_02,길잃음,ACTIVATES_HAZARD,일몰 이후 중산간·오름 길잃음 위험(소방 조기귀가 유도 시간대)
+TR_TIME_02,야간위험,ACTIVATES_HAZARD,저조도 보행·추락 위험
+TR_TIME_03,길잃음,ACTIVATES_HAZARD,일몰 이후 중산간·오름 길잃음 위험(소방 조기귀가 유도 시간대)
+TR_TIME_03,야간위험,ACTIVATES_HAZARD,저조도 보행·추락 위험
+TR_TIME_04,저체온증,ACTIVATES_HAZARD,일출 대기 중 저체온 위험

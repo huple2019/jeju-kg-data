@@ -1,0 +1,24 @@
+﻿from_id,to_id,relationship_type,condition_expr
+ENV_WIND_SPEED,RP_WIND_01,TRIGGERS,"wind_speed >= 7 AND wind_speed < 10 AND zone IN [해안,오름,전망대]"
+ENV_WIND_SPEED,RP_WIND_02,TRIGGERS,wind_speed >= 10 AND wind_speed < 14
+ENV_WIND_SPEED,RP_WIND_03,TRIGGERS,wind_speed >= 14
+ENV_RAIN_AMOUNT,RP_RAIN_01,TRIGGERS,rain_mm_h >= 3 AND rain_mm_h < 10
+ENV_RAIN_AMOUNT,RP_RAIN_02,TRIGGERS,rain_mm_h >= 10 AND rain_mm_h < 20
+ENV_RAIN_AMOUNT,RP_RAIN_03,TRIGGERS,rain_mm_h >= 20
+ENV_UPSTREAM_RAIN,RP_FLASHFLOOD_01,TRIGGERS,upstream_region = 한라산권 AND rain_mm_h >= 10 AND target = 세월교·계곡구간
+ENV_APPARENT_TEMP,RP_HEAT_01,TRIGGERS,apparent_temp >= 32 AND apparent_temp < 33
+ENV_APPARENT_TEMP,RP_HEAT_02,TRIGGERS,apparent_temp >= 33 AND apparent_temp < 35
+ENV_APPARENT_TEMP,RP_HEAT_03,TRIGGERS,apparent_temp >= 35
+ENV_MIN_TEMP,RP_ICE_01,TRIGGERS,min_temp <= 0 AND precipitation = true
+ENV_MIN_TEMP,RP_COLD_01,TRIGGERS,min_temp <= -12
+ENV_WAVE_HEIGHT,RP_WAVE_01,TRIGGERS,"wave_height >= 1.0 AND wave_height < 2.0 AND zone IN [갯바위,방파제]"
+ENV_WAVE_HEIGHT,RP_WAVE_02,TRIGGERS,wave_height >= 2.0 AND wave_height < 3.0
+ENV_WAVE_HEIGHT,RP_WAVE_03,TRIGGERS,wave_height >= 3.0
+ENV_SNOW_DEPTH,RP_SNOW_01,TRIGGERS,snow_24h >= 1 AND snow_24h < 5
+ENV_SNOW_DEPTH,RP_SNOW_02,TRIGGERS,snow_24h >= 5
+ENV_AIR_CAI,RP_AIR_01,TRIGGERS,cai >= 101 AND cai <= 250 AND place_isOutdoor = true
+ENV_AIR_CAI,RP_AIR_02,TRIGGERS,cai >= 251 AND place_isOutdoor = true
+ENV_CROWD_RATIO,RP_CROWD_01,TRIGGERS,occupancy >= 60 AND occupancy < 80
+ENV_CROWD_RATIO,RP_CROWD_02,TRIGGERS,occupancy >= 80
+ENV_TIME_SUNSET,RP_NIGHT_01,TRIGGERS,"minutes_to_sunset <= 60 AND zone IN [오름,중산간,해안]"
+ENV_TIME_SUNSET,RP_LOST_01,TRIGGERS,"after_sunset = true AND zone IN [오름,중산간]"

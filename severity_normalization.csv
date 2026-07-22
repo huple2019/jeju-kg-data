@@ -1,0 +1,9 @@
+﻿severity_kr,severity_code
+사망,FATAL
+중상,SEVERE
+경상,MINOR
+구조됨,RESCUED
+재산피해,PROPERTY
+재산 피해,PROPERTY
+피해없음,NONE
+이송,TRANSPORTED

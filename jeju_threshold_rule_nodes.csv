@@ -1,0 +1,39 @@
+﻿rule_code,factor_code,factor_name,unit,level,min_value,max_value,min_offset_minutes,max_offset_minutes,action,context_type,target_scope,description,official_standard
+TR_WIND_01,WIND,풍속,m/s,NORMAL,0.0,7.0,,,ALLOW,all,전반,0~7 m/s: 정상,
+TR_WIND_02,WIND,풍속,m/s,CAUTION,7.0,10.0,,,CAUTION_ACT,all,해안·오름·노출구간,7~10 m/s: 노출구간 사전주의,
+TR_WIND_03,WIND,풍속,m/s,DANGER,10.0,14.0,,,AVOID,all,해안·오름·노출구간,10~14 m/s: 회피 후보,
+TR_WIND_04,WIND,풍속,m/s,ALERT_ADVISORY,14.0,21.0,,,CONTROL,all,전반,강풍주의보 발효 구간,강풍주의보: 풍속 14m/s 이상 또는 순간풍속 20m/s 이상
+TR_WIND_05,WIND,풍속,m/s,ALERT_WARNING,21.0,,,,CONTROL,all,전반,강풍경보 발효 구간,강풍경보: 풍속 21m/s 이상 또는 순간풍속 26m/s 이상
+TR_RAIN_01,RAIN,시간당 강수량,mm/h,NORMAL,0.0,3.0,,,ALLOW,all,전반,0~3 mm/h: 정상,
+TR_RAIN_02,RAIN,시간당 강수량,mm/h,CAUTION,3.0,10.0,,,CAUTION_ACT,all,트레킹·오름·계곡,3~10 mm/h: 준비물 안내,
+TR_RAIN_03,RAIN,시간당 강수량,mm/h,DANGER,10.0,20.0,,,AVOID,all,트레킹·오름·계곡,10~20 mm/h: 회피 권고,
+TR_RAIN_04,RAIN,시간당 강수량,mm/h,DANGER,20.0,,,,CONTROL,all,전반·계곡·세월교,20 mm/h 이상: 이동 자제·즉시 회피,"호우특보는 누적기준(주의보 3h 60mm/12h 110mm, 경보 3h 90mm/12h 180mm)"
+TR_TEMP_01,TEMP,체감온도,C,NORMAL,,32.0,,,ALLOW,all,전반,32℃ 미만: 정상,
+TR_TEMP_02,TEMP,체감온도,C,CAUTION,32.0,33.0,,,CAUTION_ACT,all,야외 장시간 체류지,32~33℃: 건강위험 증가(질병관리청),
+TR_TEMP_03,TEMP,체감온도,C,ALERT_ADVISORY,33.0,35.0,,,AVOID,all,야외 장시간 체류지,폭염주의보 구간,폭염주의보: 최고체감온도 33℃ 이상 2일 지속 예상
+TR_TEMP_04,TEMP,체감온도,C,ALERT_WARNING,35.0,,,,CONTROL,all,전반,폭염경보 구간,폭염경보: 최고체감온도 35℃ 이상 2일 지속 예상
+TR_COLD_01,COLD,아침 최저기온,C,NORMAL,0.0,,,,ALLOW,all,전반,0℃ 초과: 정상,
+TR_COLD_02,COLD,아침 최저기온,C,CAUTION,-5.0,0.0,,,CAUTION_ACT,all,도로·오름 진입 동선,-5~0℃: 결빙·보행주의(강수 동반 시),
+TR_COLD_03,COLD,아침 최저기온,C,DANGER,-12.0,-5.0,,,AVOID,all,산지·새벽 산행,-12~-5℃: 산행 회피 권고,
+TR_COLD_04,COLD,아침 최저기온,C,ALERT_ADVISORY,,-12.0,,,CONTROL,all,전반,한파특보 구간,한파주의보 -12℃ 이하 2일 이상 등·경보 -15℃
+TR_WAVE_01,WAVE,파고,m,NORMAL,0.0,1.0,,,ALLOW,all,해안 전반,1.0m 미만: 정상,
+TR_WAVE_02,WAVE,파고,m,CAUTION,1.0,2.0,,,CAUTION_ACT,all,갯바위·방파제,1.0~2.0m: 접근 주의,
+TR_WAVE_03,WAVE,파고,m,DANGER,2.0,3.0,,,AVOID,all,해안산책로·갯바위,2.0~3.0m: 회피 권고,
+TR_WAVE_04,WAVE,파고,m,ALERT_ADVISORY,3.0,,,,CONTROL,all,해안 전반,풍랑주의보 구간,풍랑주의보: 유의파고 3m 초과 / 경보: 5m 초과
+TR_SNOW_01,SNOW,24시간 신적설,cm,NORMAL,0.0,1.0,,,ALLOW,all,전반,1cm 미만: 정상,
+TR_SNOW_02,SNOW,24시간 신적설,cm,CAUTION,1.0,5.0,,,CAUTION_ACT,all,산간도로·오름 진입,1~5cm: 차량·보행 주의,
+TR_SNOW_03,SNOW,24시간 신적설,cm,ALERT_ADVISORY,5.0,20.0,,,AVOID,all,산간 전반,대설주의보 구간,대설주의보: 24시간 신적설 5cm 이상
+TR_SNOW_04,SNOW,24시간 신적설,cm,ALERT_WARNING,20.0,,,,CONTROL,all,전반,대설경보 구간,대설경보: 24시간 신적설 20cm 이상
+TR_AIR_01,AIR,통합대기환경지수,CAI,NORMAL,0.0,100.0,,,ALLOW,all,전반,좋음·보통(0~100),
+TR_AIR_02,AIR,통합대기환경지수,CAI,CAUTION,101.0,250.0,,,CAUTION_ACT,all,실외 관광지,나쁨(101~250): 민감군 자제,CAI 나쁨 101~250(환경부)
+TR_AIR_03,AIR,통합대기환경지수,CAI,DANGER,251.0,,,,AVOID,all,실외 관광지,매우나쁨(251~): 실내 대체,CAI 매우나쁨 251 이상(환경부)
+TR_SLOPE_01,SLOPE,경사도,degree,NORMAL,0.0,5.0,,,ALLOW,all,전반,5° 미만: 정상,경사로 1/12(≈4.8°) 이하 원칙(장애인등편의법)
+TR_SLOPE_02,SLOPE,경사도,degree,CAUTION,5.0,10.0,,,CAUTION_ACT,all,보행약자,5~10°: 보행약자 주의,
+TR_SLOPE_03,SLOPE,경사도,degree,DANGER,10.0,,,,AVOID,all,보행약자,10° 이상: 후보 제외·무장애 대체,
+TR_CROWD_01,CROWD,혼잡도,percent,NORMAL,0.0,60.0,,,ALLOW,all,전반,0~60%: 정상,
+TR_CROWD_02,CROWD,혼잡도,percent,CAUTION,60.0,80.0,,,CAUTION_ACT,all,인기 관광지,60~80%: 분산 권고,
+TR_CROWD_03,CROWD,혼잡도,percent,DANGER,80.0,,,,AVOID,all,인기 관광지,80% 이상: 대체 추천·부분통제 안내,행안부 지침은 밀집도(명/㎡) 기준 — %는 서비스 환산
+TR_TIME_01,TIME,시간대,minute_offset,NORMAL,,,,-60.0,ALLOW,SUNSET,전반,일몰 60분 전 이전: 정상,
+TR_TIME_02,TIME,시간대,minute_offset,CAUTION,,,-60.0,60.0,CAUTION_ACT,SUNSET,오름·중산간·해안,일몰 전후 60분: 복귀 유도,
+TR_TIME_03,TIME,시간대,minute_offset,DANGER,,,60.0,,AVOID,SUNSET,오름·중산간·해안,일몰 60분 후~일출 전: 야간 회피,
+TR_TIME_04,TIME,시간대,minute_offset,CAUTION,,,-60.0,30.0,CAUTION_ACT,SUNRISE,일출 명소,일출 전 60분~후 30분: 저조도·저체온 주의,

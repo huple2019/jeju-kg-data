@@ -1,0 +1,10 @@
+﻿action_id,action_type,action_kr,decision_level
+ACT_GO,Recommend,추천,GO
+ACT_CAUTION,Caution,주의 안내,주의
+ACT_TIMESHIFT,TimeShiftRecommend,시간 조정 권고,시간조정
+ACT_AVOID,Avoid,회피 권고,회피
+ACT_ALT,AlternativeRecommend,대체 관광지 추천,주의
+ACT_DETOUR,DetourGuide,우회 경로 안내,시간조정
+ACT_PREPARE,PrepareEquipment,준비물 안내,주의
+ACT_WARN,WarningMessage,경고 메시지,회피
+ACT_PROHIBIT,ProhibitMessage,통제/금지 안내,회피

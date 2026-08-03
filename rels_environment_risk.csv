@@ -22,3 +22,6 @@ ENV_CROWD_RATIO,RP_CROWD_01,TRIGGERS,occupancy >= 60 AND occupancy < 80
 ENV_CROWD_RATIO,RP_CROWD_02,TRIGGERS,occupancy >= 80
 ENV_TIME_SUNSET,RP_NIGHT_01,TRIGGERS,"minutes_to_sunset <= 60 AND zone IN [오름,중산간,해안]"
 ENV_TIME_SUNSET,RP_LOST_01,TRIGGERS,"after_sunset = true AND zone IN [오름,중산간]"
+ENV_VISIBILITY,RP_FOG_01,TRIGGERS,visibility_m < 1000 AND visibility_m >= 200
+ENV_VISIBILITY,RP_FOG_02,TRIGGERS,visibility_m < 200 AND visibility_m >= 100
+ENV_VISIBILITY,RP_FOG_03,TRIGGERS,visibility_m < 100

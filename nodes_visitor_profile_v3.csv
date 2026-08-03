@@ -7,3 +7,6 @@ VP_SOLO,SoloTraveler,혼행
 VP_RENTAL,RentalCarVisitor,렌터카 이용
 VP_WHEEL,WheelchairUser,휠체어 이용
 VP_MOBILITY,MobilityImpaired,보행약자
+VP_VISUAL,VisuallyImpairedVisitor,시각장애 관광객
+VP_HEARING,HearingImpairedVisitor,청각장애 관광객
+VP_DEVELOP,DevelopmentalDisabilityVisitor,발달장애 관광객

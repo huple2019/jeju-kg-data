@@ -1,0 +1,12 @@
+﻿envId,type,name,unit,source
+ENV_AIR_CAI,threshold_axis,통합대기환경지수,CAI,에어코리아
+ENV_APPARENT_TEMP,threshold_axis,체감온도,℃,기상청 체감온도
+ENV_CROWD_RATIO,threshold_axis,혼잡도,비율,방문객 밀집 추정
+ENV_MIN_TEMP,threshold_axis,최저기온,℃,기상청 일 최저기온
+ENV_RAIN_AMOUNT,threshold_axis,시간당 강수량,mm/h,기상청 AWS 강수
+ENV_SNOW_DEPTH,threshold_axis,적설,cm,기상청 적설
+ENV_TIME_SUNSET,threshold_axis,일몰까지 잔여시간,분,일몰시각 기준
+ENV_UPSTREAM_RAIN,threshold_axis,상류 누적강수,mm,상류 관측소 누적강수 — 하류 계곡·폭포 범람 판단
+ENV_WAVE_HEIGHT,threshold_axis,유의파고,m,해양기상부이 파고
+ENV_WIND_SPEED,threshold_axis,풍속,m/s,기상청 AWS 풍속
+ENV_VISIBILITY,threshold_axis,시정,m,기상청 시정 관측 — 안개 판단

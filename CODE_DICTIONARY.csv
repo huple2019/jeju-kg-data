@@ -1,0 +1,42 @@
+﻿도메인,코드,의미,비고
+"접근성 등급(mobility/visual/hearing/cognitive, wheelchair/stroller/elderly/disabledToilet)",FULL,완전 접근 가능,판정 근거상 제약 없음
+"접근성 등급(mobility/visual/hearing/cognitive, wheelchair/stroller/elderly/disabledToilet)",PARTIAL,부분 접근 가능,제약 존재 — partialReason/mobilityCaveat 참조
+"접근성 등급(mobility/visual/hearing/cognitive, wheelchair/stroller/elderly/disabledToilet)",NONE,접근 불가,경로·시설상 진입 불가 명시
+"접근성 등급(mobility/visual/hearing/cognitive, wheelchair/stroller/elderly/disabledToilet)",UNKNOWN,미확인,조사 미실시 또는 근거 부족
+가부(facilityAccess/activityAccess),AVAILABLE,가능,
+가부(facilityAccess/activityAccess),CONDITIONAL,조건부,보조·동행·사전확인 필요
+가부(facilityAccess/activityAccess),UNAVAILABLE,불가,
+가부(facilityAccess/activityAccess),UNKNOWN,미확인,
+placeKind,SPOT,관람 중심 관광지,placeType=Place
+placeKind,VENUE,체험 가능 장소,placeType=Activity
+placeKind,AREA,구역·지역,placeType=Area — 등급은 대표 접근지점 기준
+placeKind,EVENT,단기 행사,placeType=Event — 개최시기 필터 필수
+indoorOutdoorCode,INDOOR,실내,
+indoorOutdoorCode,OUTDOOR,실외,
+indoorOutdoorCode,MIXED,실내+실외,
+indoorOutdoorCode,UNKNOWN,미확인,
+verifyStatus,VERIFIED,검증완료,외부 원문 대조 완료
+verifyStatus,PARTIAL,부분검증,일부 항목만 확인
+verifyStatus,PENDING,검증대기,원문 미대조
+verifyStatus,EXCLUDED,검증제외,추천 대상 아님
+evidenceType,FIELD_SURVEY,현장 접근성 조사,이지제주 등 실측 원문
+evidenceType,OFFICIAL_DOC,공식 문서,공항공사·인권위·해수부 등
+evidenceType,PUBLICATION,간행물,"오감으로 즐기는 제주, 이지제주올레 등"
+evidenceType,LEGAL_PRESUMPTION,법정 의무시설 추정,실지조사 미확인
+evidenceType,CROSS_REFERENCE,교차 대조,복수 출처 대조
+evidenceType,INFERRED,추정,"기본 출처 기반, 개별 검증 미실시"
+evidenceType,NONE,근거 없음,4축 전부 UNKNOWN
+evidenceType,NOT_APPLICABLE,해당 없음,
+eventScheduleConfidence,CONFIRMED,2026 일정 확정,공식 공표
+eventScheduleConfidence,SEASONAL_ONLY,개최시기만 추정,당해 일정 미공표
+eventScheduleConfidence,NOT_HELD,미개최,
+eventScheduleConfidence,UNKNOWN,미확인,
+wheelchairDifficulty,LOW,하,
+wheelchairDifficulty,MEDIUM,중,
+wheelchairDifficulty,HIGH,상,
+"Y/N 필드(isIsland, transitAccess500m, companionRequired, vehicleAccessible, recommendable)",Y,예,
+"Y/N 필드(isIsland, transitAccess500m, companionRequired, vehicleAccessible, recommendable)",N,아니오,
+"Y/N 필드(isIsland, transitAccess500m, companionRequired, vehicleAccessible, recommendable)",UNKNOWN,미확인,
+riskBasis,nearby_1km,반경 1km 사고 이력 기반,
+riskBasis,region_only,읍면동 통계만 사용,
+riskBasis,no_data,산출 근거 없음,신규 등재분 등

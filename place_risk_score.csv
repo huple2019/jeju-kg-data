@@ -1,1026 +1,1030 @@
-﻿placeId,riskScore,riskBasis,nearbyAnnualAvg,regionAnnualAvg
-P001,0.6858,nearby_1km,15.5,24.0
-P002,0.5947,nearby_1km,11.0,55.33
-P003,0.2157,region_only,0.0,6.0
-P004,0.1982,nearby_1km,2.0,114.0
-P005,0.8883,nearby_1km,32.5,120.33
-P006,0.5279,nearby_1km,8.5,101.33
-P007,0.1461,nearby_1km,1.5,117.0
-P008,0.4194,nearby_1km,5.5,11.0
-P009,0.3443,nearby_1km,4.0,120.33
-P010,0.2805,nearby_1km,3.0,120.33
-P011,0.0,nearby_1km,0.5,103.67
-P012,0.1982,nearby_1km,2.0,134.0
-P013,0.5792,region_only,0.0,114.0
-P014,0.4788,nearby_1km,7.0,120.33
-P015,0.5825,region_only,0.0,117.0
-P016,0.4194,nearby_1km,5.5,103.67
-P017,0.3142,nearby_1km,3.5,117.0
-P018,0.5124,nearby_1km,8.0,117.0
-P019,0.8926,nearby_1km,33.0,66.33
-P020,0.4406,nearby_1km,6.0,27.0
-P021,0.0,nearby_1km,0.5,27.67
-P022,0.6,region_only,0.0,134.0
-P023,0.6943,nearby_1km,16.0,66.33
-P024,0.0,no_data,0.0,0.0
-P025,0.4603,nearby_1km,6.5,66.33
-P026,0.0,nearby_1km,0.5,101.33
-P027,0.4603,nearby_1km,6.5,65.67
-P028,0.1461,nearby_1km,1.5,65.67
-P029,0.4788,nearby_1km,7.0,114.0
-P030,0.1461,nearby_1km,1.5,101.33
-P031,0.2423,nearby_1km,2.5,20.33
-P032,0.8968,nearby_1km,33.5,114.0
-P033,0.8926,nearby_1km,33.0,79.33
-P034,0.3443,nearby_1km,4.0,66.33
-P035,0.1982,nearby_1km,2.0,32.0
-P036,0.1461,nearby_1km,1.5,11.33
-P037,0.0823,nearby_1km,1.0,11.33
-P038,0.1461,nearby_1km,1.5,117.0
-P039,0.0823,nearby_1km,1.0,120.33
-P040,0.7479,nearby_1km,19.5,117.0
-P041,0.1982,nearby_1km,2.0,134.0
-P042,0.0823,nearby_1km,1.0,103.67
-P043,0.6,region_only,0.0,134.0
-P044,0.7185,nearby_1km,17.5,65.67
-P045,0.2805,nearby_1km,3.0,103.67
-P046,0.1461,nearby_1km,1.5,24.0
-P047,0.8752,nearby_1km,31.0,40.33
-P048,0.5426,nearby_1km,9.0,27.0
-P049,0.3965,nearby_1km,5.0,134.0
-P050,0.2805,nearby_1km,3.0,57.0
-P051,0.1461,nearby_1km,1.5,2.0
-P052,0.2805,nearby_1km,3.0,4.0
-P053,0.5565,nearby_1km,9.5,103.67
-P054,0.0823,nearby_1km,1.0,101.33
-P055,0.2805,nearby_1km,3.0,20.33
-P056,0.2805,nearby_1km,3.0,27.0
-P057,0.2423,nearby_1km,2.5,117.0
-P058,0.2423,nearby_1km,2.5,117.0
-P059,0.6679,nearby_1km,14.5,7.33
-P060,0.4603,nearby_1km,6.5,32.0
-P061,0.0,nearby_1km,0.5,103.67
-P062,0.4406,nearby_1km,6.0,114.0
-P063,0.2423,nearby_1km,2.5,79.33
-P064,0.6,region_only,0.0,134.0
-P065,0.2423,nearby_1km,2.5,117.0
-P066,0.0,nearby_1km,0.5,117.0
-P067,0.2782,region_only,0.0,10.33
-P068,0.2805,nearby_1km,3.0,15.67
-P069,0.1461,nearby_1km,1.5,57.0
-P070,0.8266,nearby_1km,26.0,120.33
-P071,0.0823,nearby_1km,1.0,14.33
-P072,0.2805,nearby_1km,3.0,27.67
-P073,0.0823,nearby_1km,1.0,3.0
-P074,0.0823,nearby_1km,1.0,114.0
-P075,0.4171,region_only,0.0,32.0
-P076,0.1982,nearby_1km,2.0,5.67
-P077,0.4406,nearby_1km,6.0,27.67
-P078,0.0823,nearby_1km,1.0,117.0
-P079,0.4603,nearby_1km,6.5,12.67
-P080,0.3988,region_only,0.0,27.67
-P081,0.3142,nearby_1km,3.5,54.67
-P082,0.5096,region_only,0.0,66.33
-P083,0.4603,nearby_1km,6.5,66.33
-P084,0.0,nearby_1km,0.5,101.33
-P085,0.5669,region_only,0.0,103.67
-P086,0.0,nearby_1km,0.5,8.33
-P087,0.0,nearby_1km,0.5,11.67
-P088,0.5792,region_only,0.0,114.0
-P089,0.1461,nearby_1km,1.5,65.67
-P090,0.3142,nearby_1km,3.5,134.0
-P091,0.2805,nearby_1km,3.0,117.0
-P092,0.6679,nearby_1km,14.5,26.67
-P093,0.6,region_only,0.0,134.0
-P094,0.0,nearby_1km,0.5,103.67
-P095,0.2423,nearby_1km,2.5,117.0
-P096,0.3716,nearby_1km,4.5,16.67
-P097,0.4903,region_only,0.0,57.0
-P098,0.2423,nearby_1km,2.5,117.0
-P099,0.2423,nearby_1km,2.5,120.33
-P100,0.0,nearby_1km,0.5,103.67
-P101,0.1982,nearby_1km,2.0,65.67
-P102,0.3957,region_only,0.0,27.0
-P103,0.1982,nearby_1km,2.0,27.0
-P104,0.1982,nearby_1km,2.0,134.0
-P105,0.0,nearby_1km,0.5,15.67
-P106,0.0,nearby_1km,0.5,65.67
-P107,0.3142,nearby_1km,3.5,101.33
-P108,0.2423,nearby_1km,2.5,27.0
-P109,0.3965,nearby_1km,5.0,65.67
-P110,0.1461,nearby_1km,1.5,117.0
-P111,0.1461,nearby_1km,1.5,11.67
-P112,0.2805,nearby_1km,3.0,120.33
-P113,0.6284,nearby_1km,12.5,55.33
-P114,0.5861,region_only,0.0,120.33
-P115,0.4903,region_only,0.0,57.0
-P116,0.1461,nearby_1km,1.5,117.0
-P117,0.0,nearby_1km,0.5,27.0
-P118,0.0,nearby_1km,0.5,27.0
-P119,0.0,nearby_1km,0.5,15.67
-P120,0.1461,nearby_1km,1.5,27.0
-P121,0.1461,nearby_1km,1.5,66.33
-P122,1.0,nearby_1km,48.5,79.33
-P123,0.2423,nearby_1km,2.5,15.67
-P124,0.5947,nearby_1km,11.0,55.33
-P125,0.3965,nearby_1km,5.0,66.33
-P126,0.3957,region_only,0.0,27.0
-P127,0.6064,nearby_1km,11.5,117.0
-P128,0.0,nearby_1km,0.5,5.67
-P129,0.5792,region_only,0.0,114.0
-P130,0.5825,region_only,0.0,117.0
-P131,0.7808,nearby_1km,22.0,15.67
-P132,0.2423,nearby_1km,2.5,66.33
-P133,0.5861,region_only,0.0,120.33
-P134,0.0823,nearby_1km,1.0,55.33
-P135,0.1982,nearby_1km,2.0,55.33
-P136,0.6488,nearby_1km,13.5,55.33
-P137,0.2805,nearby_1km,3.0,55.33
-P138,0.4865,region_only,0.0,55.33
-P139,0.5124,nearby_1km,8.0,12.0
-P140,0.5698,nearby_1km,10.0,6.0
-P141,0.0,nearby_1km,0.5,57.0
-P142,0.2805,nearby_1km,3.0,66.33
-P143,0.5279,nearby_1km,8.5,55.33
-P144,0.5565,nearby_1km,9.5,55.33
-P145,0.4865,region_only,0.0,55.33
-P146,0.5792,region_only,0.0,114.0
-P147,0.7681,nearby_1km,21.0,114.0
-P148,0.5426,nearby_1km,9.0,27.67
-P149,0.253,region_only,0.0,8.33
-P150,0.6176,nearby_1km,12.0,101.33
-P151,0.4194,nearby_1km,5.5,66.33
-P152,0.2216,region_only,0.0,6.33
-P153,0.2805,nearby_1km,3.0,117.0
-P154,0.0823,nearby_1km,1.0,55.33
-P155,0.7336,nearby_1km,18.5,22.0
-P156,0.3716,nearby_1km,4.5,22.0
-P157,0.0,nearby_1km,0.5,117.0
-P158,0.0,nearby_1km,0.5,22.0
-P159,0.2423,nearby_1km,2.5,6.33
-P160,0.3443,nearby_1km,4.0,22.0
-P161,0.4406,nearby_1km,6.0,22.0
-P162,0.7107,nearby_1km,17.0,120.33
-P163,0.0,nearby_1km,0.5,27.67
-P164,0.1982,nearby_1km,2.0,66.33
-P165,0.8568,nearby_1km,29.0,65.67
-P166,0.3443,nearby_1km,4.0,55.33
-P167,0.7989,nearby_1km,23.5,120.33
-P168,0.1982,nearby_1km,2.0,22.0
-P169,0.3965,nearby_1km,5.0,27.0
-P170,0.0,nearby_1km,0.5,22.0
-P171,0.8662,nearby_1km,30.0,101.33
-P172,0.3443,nearby_1km,4.0,101.33
-P173,0.4603,nearby_1km,6.5,65.67
-P174,0.5084,region_only,0.0,65.67
-P175,0.5084,region_only,0.0,65.67
-P176,0.3957,region_only,0.0,27.0
-P177,0.0,nearby_1km,0.5,22.0
-P178,0.8103,nearby_1km,24.5,27.67
-P179,0.837,nearby_1km,27.0,120.33
-P180,0.0823,nearby_1km,1.0,66.33
-P181,0.3988,region_only,0.0,27.67
-P182,0.296,region_only,0.0,12.0
-P183,0.4406,nearby_1km,6.0,114.0
-P184,0.5669,region_only,0.0,103.67
-P185,0.1982,nearby_1km,2.0,27.0
-P186,0.2423,nearby_1km,2.5,66.33
-P187,0.0,nearby_1km,0.5,8.0
-P188,0.884,nearby_1km,32.0,120.33
-P189,0.2423,nearby_1km,2.5,5.0
-P190,0.0823,nearby_1km,1.0,24.0
-P191,0.6388,nearby_1km,13.0,120.33
-P192,0.5861,region_only,0.0,120.33
-P193,0.3716,nearby_1km,4.5,22.0
-P194,0.2483,region_only,0.0,8.0
-P195,0.4194,nearby_1km,5.5,134.0
-P196,0.4603,nearby_1km,6.5,24.0
-P197,0.8103,nearby_1km,24.5,0.0
-P198,0.7026,nearby_1km,16.5,27.67
-P199,0.564,region_only,0.0,101.33
-P200,0.564,region_only,0.0,101.33
-P201,0.1461,nearby_1km,1.5,114.0
-P202,0.0823,nearby_1km,1.0,55.33
-P203,0.3142,nearby_1km,3.5,55.33
-P204,0.0,nearby_1km,0.5,4.67
-P205,0.2576,region_only,0.0,8.67
-P206,0.1883,region_only,0.0,4.67
-P207,0.4865,region_only,0.0,55.33
-P208,0.5825,region_only,0.0,117.0
-P209,0.4865,region_only,0.0,55.33
-P210,0.2423,nearby_1km,2.5,6.33
-P211,0.0823,nearby_1km,1.0,6.0
-P212,0.1461,nearby_1km,1.5,120.33
-P213,0.1982,nearby_1km,2.0,20.33
-P214,0.2805,nearby_1km,3.0,5.0
-P215,0.2423,nearby_1km,2.5,0.0
-P216,0.3443,nearby_1km,4.0,117.0
-P217,0.1461,nearby_1km,1.5,66.33
-P218,0.3965,nearby_1km,5.0,101.33
-P219,0.5698,nearby_1km,10.0,134.0
-P220,0.4788,nearby_1km,7.0,134.0
-P221,0.0823,nearby_1km,1.0,54.67
-P222,0.1461,nearby_1km,1.5,65.67
-P223,0.0,nearby_1km,0.5,65.67
-P224,0.5825,region_only,0.0,117.0
-P225,0.0,nearby_1km,0.5,6.0
-P226,0.4463,region_only,0.0,40.33
-P227,0.4406,nearby_1km,6.0,27.0
-P228,0.0,nearby_1km,0.5,54.67
-P229,0.2805,nearby_1km,3.0,22.0
-P230,0.0,nearby_1km,0.5,114.0
-P231,0.5124,nearby_1km,8.0,8.0
-P232,0.1982,nearby_1km,2.0,6.33
-P233,0.4961,nearby_1km,7.5,12.0
-P234,0.4865,region_only,0.0,55.33
-P235,0.2423,nearby_1km,2.5,8.0
-P236,0.3443,nearby_1km,4.0,40.33
-P237,0.6679,nearby_1km,14.5,20.33
-P238,0.0,nearby_1km,0.5,20.33
-P239,0.0,nearby_1km,0.5,20.33
-P240,0.0,nearby_1km,0.5,114.0
-P241,0.1461,nearby_1km,1.5,134.0
-P242,0.3443,nearby_1km,4.0,134.0
-P243,0.2805,nearby_1km,3.0,66.33
-P244,0.8213,nearby_1km,25.5,27.0
-P245,0.3142,nearby_1km,3.5,4.67
-P246,0.0823,nearby_1km,1.0,65.67
-P247,0.4961,nearby_1km,7.5,103.67
-P248,0.2805,nearby_1km,3.0,27.0
-P249,0.7261,nearby_1km,18.0,65.67
-P250,0.2857,region_only,0.0,11.0
-P251,0.6679,nearby_1km,14.5,114.0
-P252,0.4194,nearby_1km,5.5,27.0
-P253,0.2576,region_only,0.0,8.67
-P254,0.3443,nearby_1km,4.0,27.67
-P255,0.0823,nearby_1km,1.0,114.0
-P256,0.2423,nearby_1km,2.5,2.33
-P257,0.3957,region_only,0.0,27.0
-P258,0.3175,region_only,0.0,14.33
-P259,0.4788,nearby_1km,7.0,27.0
-P260,0.3175,region_only,0.0,14.33
-P261,0.2423,nearby_1km,2.5,134.0
-P262,0.0823,nearby_1km,1.0,14.33
-P263,0.2805,nearby_1km,3.0,54.67
-P264,0.0823,nearby_1km,1.0,101.33
-P265,0.6388,nearby_1km,13.0,101.33
-P266,0.4961,nearby_1km,7.5,22.0
-P267,0.0,nearby_1km,0.5,134.0
-P268,0.6,region_only,0.0,134.0
-P269,0.2805,nearby_1km,3.0,120.33
-P270,0.4788,nearby_1km,7.0,120.33
-P271,0.6388,nearby_1km,13.0,101.33
-P272,0.2576,region_only,0.0,8.67
-P273,0.3988,region_only,0.0,27.67
-P274,0.0,nearby_1km,0.5,15.67
-P275,0.5279,nearby_1km,8.5,5.67
-P276,0.381,region_only,0.0,24.0
-P277,0.1461,nearby_1km,1.5,0.0
-P278,0.1982,nearby_1km,2.0,103.67
-P279,0.4194,nearby_1km,5.5,103.67
-P280,0.1982,nearby_1km,2.0,27.0
-P281,0.0,nearby_1km,0.5,120.33
-P282,0.3716,nearby_1km,4.5,27.0
-P283,0.3965,nearby_1km,5.0,103.67
-P284,0.3284,region_only,0.0,15.67
-P285,0.3965,nearby_1km,5.0,117.0
-P286,0.0823,nearby_1km,1.0,12.67
-P287,0.1982,nearby_1km,2.0,117.0
-P288,0.5825,region_only,0.0,117.0
-P289,0.0823,nearby_1km,1.0,54.67
-P290,0.6585,nearby_1km,14.0,134.0
-P291,0.5669,region_only,0.0,103.67
-P292,0.5124,nearby_1km,8.0,8.33
-P293,0.253,region_only,0.0,8.33
-P294,0.0,nearby_1km,0.5,11.33
-P295,0.564,region_only,0.0,101.33
-P296,0.564,region_only,0.0,101.33
-P297,0.0,nearby_1km,0.5,101.33
-P298,0.0,nearby_1km,0.5,101.33
-P299,0.1982,nearby_1km,2.0,103.67
-P300,0.1982,nearby_1km,2.0,103.67
-P301,0.4406,nearby_1km,6.0,120.33
-P302,0.4406,nearby_1km,6.0,117.0
-P303,0.564,region_only,0.0,101.33
-P304,0.0823,nearby_1km,1.0,134.0
-P305,0.3142,nearby_1km,3.5,27.67
-P306,0.1461,nearby_1km,1.5,10.33
-P307,0.3443,nearby_1km,4.0,10.33
-P308,0.5084,region_only,0.0,65.67
-P309,0.4603,nearby_1km,6.5,10.33
-P310,0.3965,nearby_1km,5.0,54.67
-P311,0.4406,nearby_1km,6.0,26.67
-P312,0.2423,nearby_1km,2.5,57.0
-P313,0.0823,nearby_1km,1.0,27.0
-P314,0.1461,nearby_1km,1.5,24.0
-P315,0.0,nearby_1km,0.5,54.67
-P316,0.5279,nearby_1km,8.5,134.0
-P317,0.3142,nearby_1km,3.5,10.67
-P318,0.6064,nearby_1km,11.5,101.33
-P319,0.793,nearby_1km,23.0,120.33
-P320,0.0,nearby_1km,0.5,5.33
-P321,0.5825,region_only,0.0,117.0
-P322,0.0,nearby_1km,0.5,12.0
-P323,0.0,nearby_1km,0.5,120.33
-P324,0.2423,nearby_1km,2.5,120.33
-P325,0.3965,nearby_1km,5.0,134.0
-P326,0.5669,region_only,0.0,103.67
-P327,0.1982,nearby_1km,2.0,120.33
-P328,0.2423,nearby_1km,2.5,134.0
-P329,0.2423,nearby_1km,2.5,57.0
-P330,0.1982,nearby_1km,2.0,55.33
-P331,0.5426,nearby_1km,9.0,101.33
-P332,0.3443,nearby_1km,4.0,0.0
-P333,0.4961,nearby_1km,7.5,134.0
-P334,0.3965,nearby_1km,5.0,4.0
-P335,0.2423,nearby_1km,2.5,27.0
-P336,0.4194,nearby_1km,5.5,120.33
-P337,0.0,nearby_1km,0.5,117.0
-P338,0.3716,nearby_1km,4.5,10.67
-P339,0.564,region_only,0.0,101.33
-P340,0.7615,nearby_1km,20.5,101.33
-P341,0.3965,nearby_1km,5.0,54.67
-P342,0.0,nearby_1km,0.5,4.67
-P343,0.0823,nearby_1km,1.0,2.0
-P344,0.5825,nearby_1km,10.5,11.33
-P345,0.4961,nearby_1km,7.5,5.0
-P346,0.2805,nearby_1km,3.0,16.67
-P347,0.0,nearby_1km,0.5,54.67
-P348,0.3965,nearby_1km,5.0,101.33
-P349,0.1982,nearby_1km,2.0,54.67
-P350,0.5124,nearby_1km,8.0,79.33
-P351,0.1461,nearby_1km,1.5,103.67
-P352,0.0,nearby_1km,0.5,5.67
-P353,0.0,nearby_1km,0.5,24.0
-P354,0.3716,nearby_1km,4.5,103.67
-P355,0.0,nearby_1km,0.5,27.67
-P356,0.1883,region_only,0.0,4.67
-P357,0.3716,nearby_1km,4.5,15.67
-P358,0.0,nearby_1km,0.5,12.0
-P359,0.296,region_only,0.0,12.0
-P360,0.3443,nearby_1km,4.0,12.0
-P361,0.5698,nearby_1km,10.0,134.0
-P362,0.2423,nearby_1km,2.5,134.0
-P363,0.0,nearby_1km,0.5,117.0
-P364,0.4961,nearby_1km,7.5,120.33
-P365,0.4865,region_only,0.0,55.33
-P366,0.5825,region_only,0.0,117.0
-P367,0.5426,nearby_1km,9.0,32.0
-P368,0.1461,nearby_1km,1.5,12.0
-P369,0.1461,nearby_1km,1.5,120.33
-P370,0.5279,nearby_1km,8.5,134.0
-P371,0.5825,region_only,0.0,117.0
-P372,0.296,region_only,0.0,12.0
-P373,0.0,nearby_1km,0.5,10.33
-P374,0.2423,nearby_1km,2.5,134.0
-P375,0.5669,region_only,0.0,103.67
-P376,0.0823,nearby_1km,1.0,103.67
-P377,0.1461,nearby_1km,1.5,103.67
-P378,0.4194,nearby_1km,5.5,57.0
-P379,0.4903,region_only,0.0,57.0
-P380,0.0823,nearby_1km,1.0,117.0
-P381,0.2423,nearby_1km,2.5,101.33
-P382,0.2576,region_only,0.0,8.67
-P383,0.485,region_only,0.0,54.67
-P384,0.0823,nearby_1km,1.0,32.0
-P385,0.4406,nearby_1km,6.0,117.0
-P386,0.2094,region_only,0.0,5.67
-P387,0.1461,nearby_1km,1.5,10.67
-P388,0.6284,nearby_1km,12.5,101.33
-P389,0.3142,nearby_1km,3.5,101.33
-P390,0.1982,nearby_1km,2.0,120.33
-P391,0.2423,nearby_1km,2.5,54.67
-P392,0.3443,nearby_1km,4.0,134.0
-P393,0.0,nearby_1km,0.5,32.0
-P394,0.1982,nearby_1km,2.0,54.67
-P395,0.2805,nearby_1km,3.0,5.67
-P396,0.5669,region_only,0.0,103.67
-P397,0.2094,region_only,0.0,5.67
-P398,0.0,nearby_1km,0.5,103.67
-P399,0.485,region_only,0.0,54.67
-P400,0.3142,nearby_1km,3.5,103.67
-P401,0.1461,nearby_1km,1.5,5.67
-P402,0.5792,region_only,0.0,114.0
-P403,0.2805,nearby_1km,3.0,65.67
-P404,0.4903,region_only,0.0,57.0
-P405,0.6388,nearby_1km,13.0,3.0
-P406,0.3142,nearby_1km,3.5,11.0
-P407,0.3716,nearby_1km,4.5,103.67
-P408,0.0823,nearby_1km,1.0,117.0
-P409,0.1982,nearby_1km,2.0,117.0
-P410,0.2423,nearby_1km,2.5,117.0
-P411,0.4406,nearby_1km,6.0,120.33
-P412,0.5825,region_only,0.0,117.0
-P413,0.1982,nearby_1km,2.0,103.67
-P414,0.5124,nearby_1km,8.0,27.0
-P415,0.3443,nearby_1km,4.0,117.0
-P416,0.0823,nearby_1km,1.0,54.67
-P417,0.4961,nearby_1km,7.5,15.67
-P418,0.7261,nearby_1km,18.0,134.0
-P419,0.0823,nearby_1km,1.0,57.0
-P420,0.564,region_only,0.0,101.33
-P421,0.0,nearby_1km,0.5,114.0
-P422,0.0823,nearby_1km,1.0,114.0
-P423,0.2805,nearby_1km,3.0,117.0
-P424,0.0,nearby_1km,0.5,120.33
-P425,0.0,nearby_1km,0.5,66.33
-P426,0.1461,nearby_1km,1.5,79.33
-P427,0.0,nearby_1km,0.5,134.0
-P428,0.1982,nearby_1km,2.0,79.33
-P429,0.0823,nearby_1km,1.0,114.0
-P430,0.1982,nearby_1km,2.0,101.33
-P431,0.0,nearby_1km,0.5,103.67
-P432,0.5669,region_only,0.0,103.67
-P433,0.1461,nearby_1km,1.5,103.67
-P434,0.4194,nearby_1km,5.5,8.33
-P435,0.3284,region_only,0.0,15.67
-P436,0.5669,region_only,0.0,103.67
-P437,0.1461,nearby_1km,1.5,4.0
-P438,0.2423,nearby_1km,2.5,15.67
-P439,0.3965,nearby_1km,5.0,5.33
-P440,0.4194,nearby_1km,5.5,4.0
-P441,0.0823,nearby_1km,1.0,117.0
-P442,0.3965,nearby_1km,5.0,2.33
-P443,0.3957,region_only,0.0,27.0
-P444,0.485,region_only,0.0,54.67
-P445,0.485,region_only,0.0,54.67
-P446,0.0,nearby_1km,0.5,103.67
-P447,0.1982,nearby_1km,2.0,40.33
-P448,0.1982,nearby_1km,2.0,117.0
-P449,0.4961,nearby_1km,7.5,103.67
-P450,0.0,nearby_1km,0.5,54.67
-P451,0.0823,nearby_1km,1.0,14.33
-P452,0.5825,region_only,0.0,117.0
-P453,0.5825,region_only,0.0,117.0
-P454,0.1461,nearby_1km,1.5,9.0
-P455,0.0823,nearby_1km,1.0,2.67
-P456,0.262,region_only,0.0,9.0
-P457,0.262,region_only,0.0,9.0
-P458,0.5669,region_only,0.0,103.67
-P459,0.3142,nearby_1km,3.5,5.67
-P460,0.2576,region_only,0.0,8.67
-P461,0.0,nearby_1km,0.5,117.0
-P462,0.6,region_only,0.0,134.0
-P463,0.0823,nearby_1km,1.0,54.67
-P464,0.1982,nearby_1km,2.0,40.33
-P465,0.3965,nearby_1km,5.0,134.0
-P466,0.0,nearby_1km,0.5,117.0
-P467,0.3142,nearby_1km,3.5,114.0
-P468,0.2423,nearby_1km,2.5,9.0
-P469,0.485,region_only,0.0,54.67
-P470,0.485,region_only,0.0,54.67
-P471,0.0,nearby_1km,0.5,12.67
-P472,0.0823,nearby_1km,1.0,114.0
-P473,0.2805,nearby_1km,3.0,134.0
-P474,0.5825,region_only,0.0,117.0
-P475,0.4194,nearby_1km,5.5,26.67
-P476,0.2576,region_only,0.0,8.67
-P477,0.1461,nearby_1km,1.5,134.0
-P478,0.6,region_only,0.0,134.0
-P479,0.3965,nearby_1km,5.0,117.0
-P480,0.4865,region_only,0.0,55.33
-P481,0.296,region_only,0.0,12.0
-P482,0.2892,region_only,0.0,11.33
-P483,0.3957,region_only,0.0,27.0
-P484,0.0823,nearby_1km,1.0,4.67
-P485,0.4171,region_only,0.0,32.0
-P486,0.3957,region_only,0.0,27.0
-P487,0.1192,region_only,0.0,2.33
-P488,0.2423,nearby_1km,2.5,4.67
-P489,0.6,region_only,0.0,134.0
-P490,0.3142,nearby_1km,3.5,54.67
-P491,0.3988,region_only,0.0,27.67
-P492,0.0,nearby_1km,0.5,114.0
-P493,0.1461,nearby_1km,1.5,32.0
-P494,0.0,nearby_1km,0.5,32.0
-P495,0.4406,nearby_1km,6.0,57.0
-P496,0.1461,nearby_1km,1.5,12.67
-P497,0.0823,nearby_1km,1.0,103.67
-P498,0.564,region_only,0.0,101.33
-P499,0.3716,nearby_1km,4.5,101.33
-P500,0.296,region_only,0.0,12.0
-P501,0.4171,region_only,0.0,32.0
-P502,0.0823,nearby_1km,1.0,114.0
-P503,0.0823,nearby_1km,1.0,117.0
-P504,0.485,region_only,0.0,54.67
-P505,0.1883,region_only,0.0,4.67
-P506,0.0823,nearby_1km,1.0,117.0
-P507,0.5792,region_only,0.0,114.0
-P508,0.1982,nearby_1km,2.0,32.0
-P509,0.4903,region_only,0.0,57.0
-P510,0.1461,nearby_1km,1.5,103.67
-P511,0.4406,nearby_1km,6.0,114.0
-P512,0.0,nearby_1km,0.5,12.0
-P513,0.0,nearby_1km,0.5,27.0
-P514,0.1461,nearby_1km,1.5,120.33
-P515,0.0,nearby_1km,0.5,32.0
-P516,0.3965,nearby_1km,5.0,134.0
-P517,0.3965,nearby_1km,5.0,114.0
-P518,0.3443,nearby_1km,4.0,117.0
-P519,0.0823,nearby_1km,1.0,114.0
-P520,0.2423,nearby_1km,2.5,12.67
-P521,0.1982,nearby_1km,2.0,101.33
-P522,0.1982,nearby_1km,2.0,103.67
-P523,0.2026,region_only,0.0,5.33
-P524,0.3965,nearby_1km,5.0,57.0
-P525,0.0,nearby_1km,0.5,134.0
-P526,0.0,nearby_1km,0.5,65.67
-P527,0.3142,nearby_1km,3.5,5.0
-P528,0.0,nearby_1km,0.5,79.33
-P529,0.1982,nearby_1km,2.0,65.67
-P530,0.1982,nearby_1km,2.0,114.0
-P531,0.2805,nearby_1km,3.0,57.0
-P532,0.2576,region_only,0.0,8.67
-P533,0.3443,nearby_1km,4.0,114.0
-P534,0.296,region_only,0.0,12.0
-P535,0.5825,region_only,0.0,117.0
-P536,0.1982,nearby_1km,2.0,7.0
-P537,0.3965,nearby_1km,5.0,0.0
-P538,0.6,region_only,0.0,134.0
-P539,0.0,nearby_1km,0.5,32.0
-P540,0.0,nearby_1km,0.5,5.67
-P541,0.0,nearby_1km,0.5,8.67
-P542,0.1982,nearby_1km,2.0,65.67
-P543,0.5792,region_only,0.0,114.0
-P544,0.1461,nearby_1km,1.5,101.33
-P545,0.172,region_only,0.0,4.0
-P546,0.4171,region_only,0.0,32.0
-P547,0.4171,region_only,0.0,32.0
-P548,0.0823,nearby_1km,1.0,57.0
-P549,0.5084,region_only,0.0,65.67
-P550,0.2805,nearby_1km,3.0,2.67
-P551,0.2805,nearby_1km,3.0,26.67
-P552,0.5084,region_only,0.0,65.67
-P553,0.0823,nearby_1km,1.0,0.33
-P554,0.5792,region_only,0.0,114.0
-P555,0.5669,region_only,0.0,103.67
-P556,0.1957,region_only,0.0,5.0
-P557,0.2782,region_only,0.0,10.33
-P558,0.2805,nearby_1km,3.0,4.0
-P559,0.2805,nearby_1km,3.0,8.0
-P560,0.1982,nearby_1km,2.0,54.67
-P561,0.4903,region_only,0.0,57.0
-P562,0.4603,nearby_1km,6.5,120.33
-P563,0.5861,region_only,0.0,120.33
-P564,0.3965,nearby_1km,5.0,5.0
-P565,0.1957,region_only,0.0,5.0
-P566,0.1461,nearby_1km,1.5,117.0
-P567,0.0823,nearby_1km,1.0,103.67
-P568,0.5861,region_only,0.0,120.33
-P569,0.1982,nearby_1km,2.0,103.67
-P570,0.0823,nearby_1km,1.0,103.67
-P571,0.0823,nearby_1km,1.0,32.0
-P572,0.5669,region_only,0.0,103.67
-P573,0.0,nearby_1km,0.5,103.67
-P574,0.1461,nearby_1km,1.5,103.67
-P575,0.0,nearby_1km,0.5,120.33
-P576,0.1461,nearby_1km,1.5,114.0
-P577,0.0,nearby_1km,0.5,79.33
-P578,0.0823,nearby_1km,1.0,57.0
-P579,0.1461,nearby_1km,1.5,134.0
-P580,0.0823,nearby_1km,1.0,57.0
-P581,0.1461,nearby_1km,1.5,54.67
-P582,0.2576,region_only,0.0,8.67
-P583,0.1982,nearby_1km,2.0,120.33
-P584,0.0,nearby_1km,0.5,101.33
-P585,0.5825,region_only,0.0,117.0
-P586,0.5792,region_only,0.0,114.0
-P587,0.5825,region_only,0.0,117.0
-P588,0.1982,nearby_1km,2.0,1.33
-P589,0.1461,nearby_1km,1.5,54.67
-P590,0.0823,nearby_1km,1.0,54.67
-P591,0.0296,region_only,0.0,0.67
-P592,0.4194,nearby_1km,5.5,9.0
-P593,0.3965,nearby_1km,5.0,103.67
-P594,0.0,nearby_1km,0.5,114.0
-P595,0.4903,region_only,0.0,57.0
-P596,0.4903,region_only,0.0,57.0
-P597,0.485,region_only,0.0,54.67
-P598,0.5426,nearby_1km,9.0,26.67
-P599,0.5669,region_only,0.0,103.67
-P600,0.5825,region_only,0.0,117.0
-P601,0.5792,region_only,0.0,114.0
-P602,0.6,region_only,0.0,134.0
-P603,0.0,nearby_1km,0.5,3.0
-P604,0.1461,nearby_1km,1.5,2.67
-P605,0.0,nearby_1km,0.5,0.33
-P606,0.6,region_only,0.0,134.0
-P607,0.5861,region_only,0.0,120.33
-P608,0.5861,region_only,0.0,120.33
-P609,0.5861,region_only,0.0,120.33
-P610,0.0,nearby_1km,0.5,57.0
-P611,0.0823,nearby_1km,1.0,57.0
-P612,0.4171,region_only,0.0,32.0
-P613,0.2782,region_only,0.0,10.33
-P614,0.1461,nearby_1km,1.5,32.0
-P615,0.564,region_only,0.0,101.33
-P616,0.564,region_only,0.0,101.33
-P617,0.5084,region_only,0.0,65.67
-P618,0.3142,nearby_1km,3.5,66.33
-P619,0.485,region_only,0.0,54.67
-P620,0.4171,region_only,0.0,32.0
-P621,0.564,region_only,0.0,101.33
-P622,0.5861,region_only,0.0,120.33
-P623,0.2423,nearby_1km,2.5,65.67
-P624,0.1461,nearby_1km,1.5,57.0
-P625,0.3142,nearby_1km,3.5,79.33
-P626,0.0,nearby_1km,0.5,103.67
-P627,0.5669,region_only,0.0,103.67
-P628,0.6,region_only,0.0,134.0
-P629,0.4171,region_only,0.0,32.0
-P630,0.2576,region_only,0.0,8.67
-P631,0.2576,region_only,0.0,8.67
-P632,0.0,nearby_1km,0.5,134.0
-P633,0.2423,nearby_1km,2.5,134.0
-P634,0.5084,region_only,0.0,65.67
-P635,0.564,region_only,0.0,101.33
-P636,0.3716,nearby_1km,4.5,103.67
-P637,0.2805,nearby_1km,3.0,114.0
-P638,0.0,nearby_1km,0.5,101.33
-P639,0.2805,nearby_1km,3.0,134.0
-P640,0.3716,nearby_1km,4.5,57.0
-P641,0.3716,nearby_1km,4.5,120.33
-P642,0.1461,nearby_1km,1.5,32.0
-P643,0.1982,nearby_1km,2.0,117.0
-P644,0.3716,nearby_1km,4.5,101.33
-P645,0.0823,nearby_1km,1.0,11.67
-P646,0.5084,region_only,0.0,65.67
-P647,0.0,nearby_1km,0.5,4.0
-P648,0.2805,nearby_1km,3.0,120.33
-P649,0.0,nearby_1km,0.5,101.33
-P650,0.0,nearby_1km,0.5,103.67
-P651,0.485,region_only,0.0,54.67
-P652,0.0,nearby_1km,0.5,11.33
-P653,0.1461,nearby_1km,1.5,32.0
-P654,0.3716,nearby_1km,4.5,10.33
-P655,0.2423,nearby_1km,2.5,54.67
-P656,0.5669,region_only,0.0,103.67
-P657,0.564,region_only,0.0,101.33
-P658,0.0,nearby_1km,0.5,54.67
-P659,0.0,nearby_1km,0.5,103.67
-P660,0.485,region_only,0.0,54.67
-P661,0.0,nearby_1km,0.5,32.0
-P662,0.0,nearby_1km,0.5,5.33
-P663,0.2423,nearby_1km,2.5,114.0
-P664,0.5825,region_only,0.0,117.0
-P665,0.0823,nearby_1km,1.0,54.67
-P666,0.5669,region_only,0.0,103.67
-P667,0.2423,nearby_1km,2.5,0.0
-P668,0.5084,region_only,0.0,65.67
-P669,0.0,nearby_1km,0.5,117.0
-P670,0.3716,nearby_1km,4.5,114.0
-P671,0.0823,nearby_1km,1.0,54.67
-P672,0.0823,nearby_1km,1.0,114.0
-P673,0.0728,region_only,0.0,1.33
-P674,0.5825,region_only,0.0,117.0
-P675,0.4194,nearby_1km,5.5,134.0
-P676,0.0823,nearby_1km,1.0,65.67
-P677,0.5825,nearby_1km,10.5,40.33
-P678,0.3988,region_only,0.0,27.67
-P679,0.0823,nearby_1km,1.0,54.67
-P680,0.5825,region_only,0.0,117.0
-P681,0.3142,nearby_1km,3.5,120.33
-P682,0.1982,nearby_1km,2.0,120.33
-P683,0.0,nearby_1km,0.5,5.67
-P684,0.3443,nearby_1km,4.0,65.67
-P685,0.3957,region_only,0.0,27.0
-P686,0.1318,region_only,0.0,2.67
-P687,0.253,region_only,0.0,8.33
-P688,0.3957,region_only,0.0,27.0
-P689,0.0,nearby_1km,0.5,103.67
-P690,0.4171,region_only,0.0,32.0
-P691,0.485,region_only,0.0,54.67
-P692,0.0823,nearby_1km,1.0,66.33
-P693,0.0,nearby_1km,0.5,117.0
-P694,0.1461,nearby_1km,1.5,32.0
-P695,0.0,nearby_1km,0.5,114.0
-P696,0.1461,nearby_1km,1.5,65.67
-P697,0.1982,nearby_1km,2.0,103.67
-P698,0.3716,nearby_1km,4.5,16.67
-P699,0.6585,nearby_1km,14.0,6.33
-P700,0.2423,nearby_1km,2.5,117.0
-P701,0.7336,nearby_1km,18.5,40.33
-P702,0.0823,nearby_1km,1.0,57.0
-P703,0.1461,nearby_1km,1.5,8.33
-P704,0.1982,nearby_1km,2.0,66.33
-P705,0.0,nearby_1km,0.5,11.67
-P706,0.3142,nearby_1km,3.5,101.33
-P707,0.0823,nearby_1km,1.0,79.33
-P708,0.3965,nearby_1km,5.0,10.33
-P709,0.3142,nearby_1km,3.5,8.67
-P710,0.0,nearby_1km,0.5,134.0
-P711,0.0823,nearby_1km,1.0,4.0
-P712,0.2423,nearby_1km,2.5,117.0
-P713,0.0,nearby_1km,0.5,117.0
-P714,0.1982,nearby_1km,2.0,6.33
-P715,0.1461,nearby_1km,1.5,117.0
-P716,0.0,nearby_1km,0.5,32.0
-P717,0.3443,nearby_1km,4.0,114.0
-P718,0.0823,nearby_1km,1.0,32.0
-P719,0.0,nearby_1km,0.5,40.33
-P720,0.4903,region_only,0.0,57.0
-P721,0.0823,nearby_1km,1.0,4.67
-P722,0.0,nearby_1km,0.5,114.0
-P723,0.485,region_only,0.0,54.67
-P724,0.485,region_only,0.0,54.67
-P725,0.564,region_only,0.0,101.33
-P726,0.0,nearby_1km,0.5,103.67
-P727,0.0823,nearby_1km,1.0,103.67
-P728,0.0823,nearby_1km,1.0,101.33
-P729,0.5947,nearby_1km,11.0,54.67
-P730,0.5279,nearby_1km,8.5,134.0
-P731,0.2805,nearby_1km,3.0,103.67
-P732,0.3443,nearby_1km,4.0,11.33
-P733,0.1982,nearby_1km,2.0,6.0
-P734,0.9318,nearby_1km,38.0,101.33
-P735,0.5426,nearby_1km,9.0,54.67
-P736,0.1982,nearby_1km,2.0,7.0
-P737,0.1803,region_only,0.0,4.33
-P738,0.1461,nearby_1km,1.5,114.0
-P739,0.1461,nearby_1km,1.5,14.33
-P740,0.0,nearby_1km,0.5,66.33
-P741,0.5825,region_only,0.0,117.0
-P742,0.2576,region_only,0.0,8.67
-P743,0.5096,region_only,0.0,66.33
-P744,0.0823,nearby_1km,1.0,103.67
-P745,0.4171,region_only,0.0,32.0
-P746,0.0,nearby_1km,0.5,103.67
-P747,0.3175,region_only,0.0,14.33
-P748,0.0,nearby_1km,0.5,57.0
-P749,0.5084,region_only,0.0,65.67
-P750,0.1982,nearby_1km,2.0,103.67
-P751,0.5669,region_only,0.0,103.67
-P752,0.6,region_only,0.0,134.0
-P753,0.485,region_only,0.0,54.67
-P754,0.5084,region_only,0.0,65.67
-P755,0.0,nearby_1km,0.5,57.0
-P756,0.1982,nearby_1km,2.0,114.0
-P757,0.3443,nearby_1km,4.0,32.0
-P758,0.0,nearby_1km,0.5,101.33
-P759,0.0823,nearby_1km,1.0,5.33
-P760,0.0823,nearby_1km,1.0,4.67
-P761,0.5861,region_only,0.0,120.33
-P762,0.5669,region_only,0.0,103.67
-P763,0.1982,nearby_1km,2.0,120.33
-P764,0.6,region_only,0.0,134.0
-P765,0.5669,region_only,0.0,103.67
-P766,0.0823,nearby_1km,1.0,103.67
-P767,0.2805,nearby_1km,3.0,120.33
-P768,0.1982,nearby_1km,2.0,65.67
-P769,0.2892,region_only,0.0,11.33
-P770,0.0,nearby_1km,0.5,65.67
-P771,0.1982,nearby_1km,2.0,103.67
-P772,0.5792,region_only,0.0,114.0
-P773,0.253,region_only,0.0,8.33
-P774,0.5825,region_only,0.0,117.0
-P775,0.1461,nearby_1km,1.5,7.0
-P776,0.5792,region_only,0.0,114.0
-P777,0.0,nearby_1km,0.5,103.67
-P778,0.5669,region_only,0.0,103.67
-P779,0.5084,region_only,0.0,65.67
-P780,0.5669,region_only,0.0,103.67
-P781,0.2805,nearby_1km,3.0,101.33
-P782,0.6,region_only,0.0,134.0
-P783,0.0,nearby_1km,0.5,134.0
-P784,0.0,nearby_1km,0.5,120.33
-P785,0.5669,region_only,0.0,103.67
-P786,0.5792,region_only,0.0,114.0
-P787,0.6,region_only,0.0,134.0
-P788,0.6,region_only,0.0,134.0
-P789,0.0,nearby_1km,0.5,65.67
-P790,0.5084,region_only,0.0,65.67
-P791,0.4903,region_only,0.0,57.0
-P792,0.5861,region_only,0.0,120.33
-P793,0.5825,region_only,0.0,117.0
-P794,0.3026,region_only,0.0,12.67
-P795,0.0,nearby_1km,0.5,114.0
-P796,0.0823,nearby_1km,1.0,134.0
-P797,0.0823,nearby_1km,1.0,65.67
-P798,0.5669,region_only,0.0,103.67
-P799,0.5825,region_only,0.0,117.0
-P800,0.485,region_only,0.0,54.67
-P801,0.5825,region_only,0.0,117.0
-P802,0.5669,region_only,0.0,103.67
-P803,0.1982,nearby_1km,2.0,65.67
-P804,0.5084,region_only,0.0,65.67
-P805,0.0823,nearby_1km,1.0,7.33
-P806,0.0,nearby_1km,0.5,103.67
-P807,0.3716,nearby_1km,4.5,5.33
-P808,0.1461,nearby_1km,1.5,134.0
-P809,0.5792,region_only,0.0,114.0
-P810,0.0823,nearby_1km,1.0,114.0
-P811,0.1461,nearby_1km,1.5,114.0
-P812,0.4903,region_only,0.0,57.0
-P813,0.0,nearby_1km,0.5,57.0
-P814,0.4903,region_only,0.0,57.0
-P815,0.564,region_only,0.0,101.33
-P816,0.2782,region_only,0.0,10.33
-P817,0.5669,region_only,0.0,103.67
-P818,0.5861,region_only,0.0,120.33
-P819,0.1461,nearby_1km,1.5,7.0
-P820,0.4171,region_only,0.0,32.0
-P821,0.5084,region_only,0.0,65.67
-P822,0.6,region_only,0.0,134.0
-P823,0.0,nearby_1km,0.5,120.33
-P824,0.0823,nearby_1km,1.0,114.0
-P825,0.1982,nearby_1km,2.0,12.0
-P826,0.3957,region_only,0.0,27.0
-P827,0.0,nearby_1km,0.5,12.0
-P828,0.2423,nearby_1km,2.5,54.67
-P829,0.3716,nearby_1km,4.5,8.0
-P830,0.9496,nearby_1km,40.5,79.33
-P831,0.253,region_only,0.0,8.33
-P832,0.5084,region_only,0.0,65.67
-P833,0.0,nearby_1km,0.5,1.33
-P834,0.3443,nearby_1km,4.0,32.0
-P835,0.2805,nearby_1km,3.0,65.67
-P836,0.2423,nearby_1km,2.5,54.67
-P837,0.0,nearby_1km,0.5,66.33
-P838,0.3965,nearby_1km,5.0,0.67
-P839,0.233,region_only,0.0,7.0
-P840,0.0823,nearby_1km,1.0,57.0
-P841,0.0,nearby_1km,0.5,120.33
-P842,0.1461,nearby_1km,1.5,66.33
-P843,0.1982,nearby_1km,2.0,117.0
-P844,0.4171,region_only,0.0,32.0
-P845,0.262,region_only,0.0,9.0
-P846,0.5279,nearby_1km,8.5,27.0
-P847,0.0,nearby_1km,0.5,65.67
-P848,0.3284,region_only,0.0,15.67
-P849,0.0,nearby_1km,0.5,12.0
-P850,0.0823,nearby_1km,1.0,7.0
-P851,0.0,nearby_1km,0.5,7.0
-P852,0.1461,nearby_1km,1.5,27.0
-P853,0.2423,nearby_1km,2.5,4.0
-P854,0.1982,nearby_1km,2.0,134.0
-P855,0.6,region_only,0.0,134.0
-P856,0.0823,nearby_1km,1.0,12.0
-P857,0.0,nearby_1km,0.5,103.67
-P858,0.2805,nearby_1km,3.0,54.67
-P859,0.262,region_only,0.0,9.0
-P860,0.1461,nearby_1km,1.5,57.0
-P861,0.0,nearby_1km,0.5,101.33
-P862,0.0,nearby_1km,0.5,114.0
-P863,0.0728,region_only,0.0,1.33
-P864,0.5792,region_only,0.0,114.0
-P865,0.0,nearby_1km,0.5,12.0
-P866,0.4903,region_only,0.0,57.0
-P867,0.4903,region_only,0.0,57.0
-P868,0.0,nearby_1km,0.5,114.0
-P869,0.0,nearby_1km,0.5,11.67
-P870,0.0,nearby_1km,0.5,57.0
-P871,0.5669,region_only,0.0,103.67
-P872,0.0,nearby_1km,0.5,54.67
-P873,0.3284,region_only,0.0,15.67
-P874,0.1982,nearby_1km,2.0,120.33
-P875,0.2094,region_only,0.0,5.67
-P876,0.2805,nearby_1km,3.0,24.0
-P877,0.4171,region_only,0.0,32.0
-P878,0.4961,nearby_1km,7.5,117.0
-P879,0.0823,nearby_1km,1.0,0.33
-P880,0.0823,nearby_1km,1.0,6.33
-P881,0.0823,nearby_1km,1.0,114.0
-P882,0.2423,nearby_1km,2.5,15.67
-P883,0.2576,region_only,0.0,8.67
-P884,0.485,region_only,0.0,54.67
-P885,0.4171,region_only,0.0,32.0
-P886,0.4171,region_only,0.0,32.0
-P887,0.485,region_only,0.0,54.67
-P888,0.5792,region_only,0.0,114.0
-P889,0.233,region_only,0.0,7.0
-P890,0.485,region_only,0.0,54.67
-P891,0.4171,region_only,0.0,32.0
-P892,0.1461,nearby_1km,1.5,114.0
-P893,0.4171,region_only,0.0,32.0
-P894,0.3443,nearby_1km,4.0,8.67
-P895,0.0,nearby_1km,0.5,103.67
-P896,0.1461,nearby_1km,1.5,54.67
-P897,0.0,nearby_1km,0.5,4.67
-P898,0.3965,nearby_1km,5.0,57.0
-P899,0.4194,nearby_1km,5.5,114.0
-P900,0.1982,nearby_1km,2.0,8.67
-P901,0.2576,region_only,0.0,8.67
-P902,0.0823,nearby_1km,1.0,57.0
-P903,0.0,nearby_1km,0.5,20.33
-P904,0.6858,nearby_1km,15.5,103.67
-P905,0.5669,region_only,0.0,103.67
-P906,0.6176,nearby_1km,12.0,57.0
-P907,0.4788,nearby_1km,7.0,134.0
-P908,0.1982,nearby_1km,2.0,65.67
-P909,0.0,nearby_1km,0.5,12.67
-P910,0.0823,nearby_1km,1.0,103.67
-P911,0.0,nearby_1km,0.5,103.67
-P912,0.5426,nearby_1km,9.0,114.0
-P913,0.0,nearby_1km,0.5,101.33
-P914,0.485,region_only,0.0,54.67
-P915,0.0,nearby_1km,0.5,54.67
-P916,0.4171,region_only,0.0,32.0
-P917,0.2576,region_only,0.0,8.67
-P918,0.0,nearby_1km,0.5,117.0
-P919,0.5825,region_only,0.0,117.0
-P920,0.5096,region_only,0.0,66.33
-P921,0.4194,nearby_1km,5.5,26.67
-P922,0.1883,region_only,0.0,4.67
-P923,0.0823,nearby_1km,1.0,32.0
-P924,0.485,region_only,0.0,54.67
-P925,0.0,nearby_1km,0.5,114.0
-P926,0.564,region_only,0.0,101.33
-P927,0.3716,nearby_1km,4.5,117.0
-P928,0.2423,nearby_1km,2.5,134.0
-P929,0.2805,nearby_1km,3.0,134.0
-P930,0.4603,nearby_1km,6.5,134.0
-P931,0.0,nearby_1km,0.5,120.33
-P932,0.5825,region_only,0.0,117.0
-P933,0.0,nearby_1km,0.5,40.33
-P934,0.1461,nearby_1km,1.5,134.0
-P935,0.0,nearby_1km,0.5,0.33
-P936,0.0,nearby_1km,0.5,1.33
-P937,0.1982,nearby_1km,2.0,32.0
-P938,0.0,nearby_1km,0.5,57.0
-P939,0.5084,region_only,0.0,65.67
-P940,0.0,nearby_1km,0.5,27.0
-P941,0.3142,nearby_1km,3.5,5.67
-P942,0.3142,nearby_1km,3.5,4.33
-P943,0.296,region_only,0.0,12.0
-P944,0.0,nearby_1km,0.5,103.67
-P945,0.2423,nearby_1km,2.5,114.0
-P946,0.0823,nearby_1km,1.0,103.67
-P947,0.4171,region_only,0.0,32.0
-P948,0.0,nearby_1km,0.5,103.67
-P949,0.296,region_only,0.0,12.0
-P950,0.0823,nearby_1km,1.0,117.0
-P951,0.3965,nearby_1km,5.0,15.67
-P952,0.5698,nearby_1km,10.0,134.0
-P953,0.7261,nearby_1km,18.0,79.33
-P954,0.3716,nearby_1km,4.5,101.33
-P955,0.1461,nearby_1km,1.5,103.67
-P956,0.0,nearby_1km,0.5,54.67
-P957,0.3716,nearby_1km,4.5,12.67
-P958,0.2423,nearby_1km,2.5,101.33
-P959,0.0,nearby_1km,0.5,32.0
-P960,0.2423,nearby_1km,2.5,27.0
-P961,0.5792,region_only,0.0,114.0
-P962,0.1982,nearby_1km,2.0,20.33
-P963,0.0823,nearby_1km,1.0,15.67
-P964,0.5792,region_only,0.0,114.0
-P965,0.3443,nearby_1km,4.0,26.67
-P966,0.5825,nearby_1km,10.5,101.33
-P967,0.3988,region_only,0.0,27.67
-P968,0.4961,nearby_1km,7.5,114.0
-P969,0.6943,nearby_1km,16.0,5.0
-P970,0.5669,region_only,0.0,103.67
-P971,0.3965,nearby_1km,5.0,120.33
-P972,0.3142,nearby_1km,3.5,134.0
-P973,0.3716,nearby_1km,4.5,15.67
-P974,0.4603,nearby_1km,6.5,54.67
-P975,0.6388,nearby_1km,13.0,134.0
-P976,0.1982,nearby_1km,2.0,54.67
-P977,0.485,region_only,0.0,54.67
-P978,0.4406,nearby_1km,6.0,65.67
-P979,0.2805,nearby_1km,3.0,134.0
-P980,0.5084,region_only,0.0,65.67
-P981,0.5825,region_only,0.0,117.0
-P982,0.0823,nearby_1km,1.0,103.67
-P983,0.0,nearby_1km,0.5,27.0
-P984,0.5792,region_only,0.0,114.0
-P985,0.4903,region_only,0.0,57.0
-P986,0.1982,nearby_1km,2.0,114.0
-P987,0.5825,region_only,0.0,117.0
-P988,0.5084,region_only,0.0,65.67
-P989,0.0,nearby_1km,0.5,114.0
-P990,0.0823,nearby_1km,1.0,101.33
-P991,0.0823,nearby_1km,1.0,15.67
-P992,0.1461,nearby_1km,1.5,5.67
-P993,0.2805,nearby_1km,3.0,54.67
-P994,0.5096,region_only,0.0,66.33
-P995,0.1461,nearby_1km,1.5,65.67
-P996,0.4406,nearby_1km,6.0,15.67
-P997,0.4961,nearby_1km,7.5,5.0
-P998,0.4788,nearby_1km,7.0,20.33
-P999,0.6176,nearby_1km,12.0,10.67
-P1000,0.4788,nearby_1km,7.0,120.33
-P1001,0.5825,region_only,0.0,117.0
-P1002,0.3142,nearby_1km,3.5,117.0
-P1003,0.5326,region_only,0.0,79.33
-P1004,0.0823,nearby_1km,1.0,117.0
-P1005,0.1982,nearby_1km,2.0,114.0
-P1006,0.0,nearby_1km,0.5,32.0
-P1007,0.5792,region_only,0.0,114.0
-P1008,0.5426,nearby_1km,9.0,134.0
-P1009,0.1982,nearby_1km,2.0,103.67
-P1010,0.0,nearby_1km,0.5,103.67
-P1011,0.5792,region_only,0.0,114.0
-P1012,0.0823,nearby_1km,1.0,120.33
-P1013,0.5084,region_only,0.0,65.67
-P1014,0.6,region_only,0.0,134.0
-P1015,0.1461,nearby_1km,1.5,101.33
-P1016,0.1982,nearby_1km,2.0,114.0
-P1017,0.5096,region_only,0.0,66.33
-P1018,0.2423,nearby_1km,2.5,134.0
-P1019,0.5825,region_only,0.0,117.0
-P1020,0.5698,nearby_1km,10.0,117.0
-P1021,0.9426,nearby_1km,39.5,134.0
-P1022,0.0823,nearby_1km,1.0,114.0
-P1023,0.5096,region_only,0.0,66.33
-P1024,0.0,nearby_1km,0.5,134.0
-P1025,0.5825,region_only,0.0,117.0
+﻿placeId,directAccidentCount,directAccidentTypes,directRiskScore,directEvidence,ambientRiskLevel,ambientBasis,ambientAnnualAvg,ambientPeriod,ambientScope,ambientNote
+P001,8,"강풍, 폭우:2, 대설경보:1, 강풍, 폭설:1, 급변풍:1",0.4946,NEWS_CONFIRMED,HIGH,NEARBY_1KM,16.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P002,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,41.5,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P003,2,"시설노후:1, 배선합선:1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,44.0,2020-2021,반경 1km,주변 1km 내 연평균 44건
+P004,8,"익수위험:6, 야간위험:1, 안전시설부족:1",0.4946,NEWS_CONFIRMED,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P005,5,"낙석:1, 익수위험:1, 낙상:1, 해양:1",0.4033,NEWS_CONFIRMED,HIGH,NEARBY_1KM,17.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P006,4,"익수위험:1, 해파리:1, 화재위험:1, 기상/강풍:1",0.3623,NEWS_CONFIRMED,HIGH,NEARBY_1KM,23.0,2020-2021,반경 1km,주변 1km 내 연평균 23건
+P007,1,교통위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P008,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P009,0,,0.0,NONE,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P010,1,화재위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P011,4,익수위험:4,0.3623,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P012,1,익수위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P013,2,"말벌:1, 경로이탈:1",0.2473,NEWS_CONFIRMED,HIGH,REGION,166.33,"2022-2023,2025",제주시 조천읍,조천읍 전체 연평균 166건 (정확한 발생 지점 미상)
+P014,1,"안전시설부족, 야간위험:1",0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,78.5,2020-2021,반경 1km,주변 1km 내 연평균 78건
+P015,1,낙상:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P016,2,"교통위험:1, 화재위험:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P017,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P018,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P019,0,,0.0,NONE,HIGH,NEARBY_1KM,34.5,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P020,1,안전시설부족:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,29.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P021,2,"환경오염, 미관훼손:1, 익수위험:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P022,4,"짙은 안개:1, 호우:1, 대설:1, 교통위험:1",0.3623,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P023,0,,0.0,NONE,HIGH,NEARBY_1KM,39.0,2020-2021,반경 1km,주변 1km 내 연평균 39건
+P024,0,,0.0,NONE,HIGH,NEARBY_1KM,31.0,2020-2021,반경 1km,주변 1km 내 연평균 31건
+P025,0,,0.0,NONE,HIGH,NEARBY_1KM,31.5,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P026,1,익수위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P027,0,,0.0,NONE,HIGH,NEARBY_1KM,13.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P028,3,"푸른우산관해파리:1, 교통위험:1, 지형/노면(미끄럼, 낙상):1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,17.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P029,1,"시설/인프라(안전시설부족, 조명부족, 난간없음, 주차혼잡, 교통위험):1",0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P030,2,"지면/노면:1, 화재위험:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P031,3,"교통사고:2, 시설/인프라(교통위험):1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,13.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P032,0,,0.0,NONE,HIGH,NEARBY_1KM,33.5,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P033,2,"화재위험:1, 교통위험:1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,69.5,2020-2021,반경 1km,주변 1km 내 연평균 70건
+P034,0,,0.0,NONE,HIGH,NEARBY_1KM,42.0,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P035,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P036,1,익수위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,34.0,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P037,1,미끄럼:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,34.0,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P038,3,"경로이탈:1, 야간위험:1, 야간위험, 교통위험:1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P039,0,,0.0,NONE,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P040,0,,0.0,NONE,HIGH,NEARBY_1KM,35.5,2020-2021,반경 1km,주변 1km 내 연평균 36건
+P041,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P042,1,교통위험:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P043,2,"안전시설부족:1, 교통위험:1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P044,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P045,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P046,2,"교통위험:1, 출입통제:1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,28.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P047,1,화재:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,56.5,2020-2021,반경 1km,주변 1km 내 연평균 56건
+P048,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P049,1,교통위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P050,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P051,2,익수위험:2,0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P052,1,익수위험:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P053,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P054,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P055,3,"교통위험:2, 교통위험, 안전시설부족:1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P056,4,"해양사고:2, 기상(강풍):1, 해양추락:1",0.3623,NEWS_CONFIRMED,HIGH,NEARBY_1KM,13.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P057,0,,0.0,NONE,HIGH,NEARBY_1KM,34.5,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P058,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P059,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P060,4,"난간없음:1, 익수위험:1, 미끄럼:1, 해양위험:1",0.3623,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P061,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P062,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P063,1,무리산행:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P064,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P065,1,화재위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P066,2,"해양(파도, 이안류, 익수위험):1, 해양생물 피해:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P067,1,"교통위험, 야생동물(노루):1",0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P068,1,해양:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P069,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P070,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,78.5,2020-2021,반경 1km,주변 1km 내 연평균 78건
+P071,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P072,0,,0.0,NONE,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P073,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P074,1,경로이탈:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P075,0,,0.0,NONE,HIGH,REGION,58.33,"2022-2023,2025",제주시 한경면,한경면 전체 연평균 58건 (정확한 발생 지점 미상)
+P076,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P077,1,야간위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,45.0,2020-2021,반경 1km,주변 1km 내 연평균 45건
+P078,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P079,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P080,0,,0.0,NONE,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P081,5,"추락:2, 가스폭발:1, 야간위험, 익수위험:1, 엔진고장:1",0.4033,NEWS_CONFIRMED,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P082,0,,0.0,NONE,HIGH,NEARBY_1KM,44.5,2020-2021,반경 1km,주변 1km 내 연평균 44건
+P083,0,,0.0,NONE,HIGH,NEARBY_1KM,23.5,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P084,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P085,2,"시설점검부족:1, 참진드기(중증열성혈소판감소증후군):1",0.2473,NEWS_CONFIRMED,HIGH,REGION,176.33,"2022-2023,2025",제주시 구좌읍,구좌읍 전체 연평균 176건 (정확한 발생 지점 미상)
+P086,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P087,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P088,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P089,1,안전시설부족:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P090,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P091,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P092,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P093,4,"교통위험:3, 강한 비바람:1",0.3623,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P094,2,"익수위험:1, 해파리:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P095,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P096,0,,0.0,NONE,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P097,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P098,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P099,1,상어:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P100,1,화재위험:1,0.156,NEWS_CONFIRMED,HIGH,REGION,176.33,"2022-2023,2025",제주시 구좌읍,구좌읍 전체 연평균 176건 (정확한 발생 지점 미상)
+P101,1,시설:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P102,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P103,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P104,1,낙석:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,29.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P105,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P106,1,야생동물(노루):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P107,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P108,2,교통위험:2,0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P109,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P110,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P111,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P112,1,:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,78.5,2020-2021,반경 1km,주변 1km 내 연평균 78건
+P113,0,,0.0,NONE,HIGH,NEARBY_1KM,48.0,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P114,0,,0.0,NONE,HIGH,NEARBY_1KM,78.5,2020-2021,반경 1km,주변 1km 내 연평균 78건
+P115,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P116,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P117,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P118,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P119,0,,0.0,NONE,HIGH,NEARBY_1KM,19.5,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P120,0,,0.0,NONE,HIGH,NEARBY_1KM,17.0,2020-2021,반경 1km,주변 1km 내 연평균 17건
+P121,0,,0.0,NONE,HIGH,NEARBY_1KM,25.5,2020-2021,반경 1km,주변 1km 내 연평균 26건
+P122,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,70.0,2020-2021,반경 1km,주변 1km 내 연평균 70건
+P123,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P124,0,,0.0,NONE,HIGH,NEARBY_1KM,45.5,2020-2021,반경 1km,주변 1km 내 연평균 46건
+P125,7,"익수위험:3, 해파리:1, 안전위험:1, 해양(파도):1",0.4681,NEWS_CONFIRMED,HIGH,NEARBY_1KM,32.0,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P126,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P127,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P128,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P129,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P130,1,환경오염:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P131,0,,0.0,NONE,HIGH,NEARBY_1KM,24.5,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P132,0,,0.0,NONE,HIGH,NEARBY_1KM,35.5,2020-2021,반경 1km,주변 1km 내 연평균 36건
+P133,6,"해양(익수위험):2, 해양(파고):2, 화재위험:1, 해양:1",0.438,NEWS_CONFIRMED,HIGH,NEARBY_1KM,78.5,2020-2021,반경 1km,주변 1km 내 연평균 78건
+P134,0,,0.0,NONE,HIGH,NEARBY_1KM,52.0,2020-2021,반경 1km,주변 1km 내 연평균 52건
+P135,0,,0.0,NONE,HIGH,NEARBY_1KM,49.0,2020-2021,반경 1km,주변 1km 내 연평균 49건
+P136,0,,0.0,NONE,HIGH,NEARBY_1KM,51.0,2020-2021,반경 1km,주변 1km 내 연평균 51건
+P137,0,,0.0,NONE,HIGH,NEARBY_1KM,36.5,2020-2021,반경 1km,주변 1km 내 연평균 36건
+P138,0,,0.0,NONE,HIGH,NEARBY_1KM,52.0,2020-2021,반경 1km,주변 1km 내 연평균 52건
+P139,3,"미끄럼:1, 자연환경(벌/야생동물):1, 해양(파고):1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,31.5,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P140,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,28.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P141,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P142,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P143,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,31.5,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P144,0,,0.0,NONE,HIGH,NEARBY_1KM,50.5,2020-2021,반경 1km,주변 1km 내 연평균 50건
+P145,3,"익수위험:1, 해양(익수위험):1, 해양:1",0.312,NEWS_CONFIRMED,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P146,0,,0.0,NONE,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P147,1,음주운전:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P148,0,,0.0,NONE,HIGH,NEARBY_1KM,40.0,2020-2021,반경 1km,주변 1km 내 연평균 40건
+P149,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P150,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P151,0,,0.0,NONE,HIGH,NEARBY_1KM,40.0,2020-2021,반경 1km,주변 1km 내 연평균 40건
+P152,0,,0.0,NONE,HIGH,NEARBY_1KM,46.0,2020-2021,반경 1km,주변 1km 내 연평균 46건
+P153,2,"기상(강풍):1, 시설/인프라(교통위험):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P154,0,,0.0,NONE,HIGH,NEARBY_1KM,48.0,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P155,0,,0.0,NONE,HIGH,NEARBY_1KM,46.0,2020-2021,반경 1km,주변 1km 내 연평균 46건
+P156,0,,0.0,NONE,HIGH,NEARBY_1KM,48.0,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P157,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P158,0,,0.0,NONE,HIGH,NEARBY_1KM,48.5,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P159,0,,0.0,NONE,HIGH,NEARBY_1KM,47.0,2020-2021,반경 1km,주변 1km 내 연평균 47건
+P160,2,"미끄럼:1, 무질서위험:1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,43.5,2020-2021,반경 1km,주변 1km 내 연평균 44건
+P161,1,익수위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,44.0,2020-2021,반경 1km,주변 1km 내 연평균 44건
+P162,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,15.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P163,0,,0.0,NONE,HIGH,NEARBY_1KM,42.0,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P164,0,,0.0,NONE,HIGH,NEARBY_1KM,43.5,2020-2021,반경 1km,주변 1km 내 연평균 44건
+P165,1,강풍:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P166,0,,0.0,NONE,HIGH,NEARBY_1KM,43.0,2020-2021,반경 1km,주변 1km 내 연평균 43건
+P167,0,,0.0,NONE,HIGH,NEARBY_1KM,17.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P168,0,,0.0,NONE,HIGH,NEARBY_1KM,50.0,2020-2021,반경 1km,주변 1km 내 연평균 50건
+P169,0,,0.0,NONE,HIGH,NEARBY_1KM,40.5,2020-2021,반경 1km,주변 1km 내 연평균 40건
+P170,0,,0.0,NONE,HIGH,NEARBY_1KM,48.5,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P171,0,,0.0,NONE,HIGH,NEARBY_1KM,23.0,2020-2021,반경 1km,주변 1km 내 연평균 23건
+P172,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P173,0,,0.0,NONE,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P174,0,,0.0,NONE,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P175,0,,0.0,NONE,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P176,0,,0.0,NONE,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P177,0,,0.0,NONE,HIGH,NEARBY_1KM,50.0,2020-2021,반경 1km,주변 1km 내 연평균 50건
+P178,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,21.0,2020-2021,반경 1km,주변 1km 내 연평균 21건
+P179,0,,0.0,NONE,HIGH,NEARBY_1KM,82.0,2020-2021,반경 1km,주변 1km 내 연평균 82건
+P180,0,,0.0,NONE,HIGH,NEARBY_1KM,31.0,2020-2021,반경 1km,주변 1km 내 연평균 31건
+P181,0,,0.0,NONE,HIGH,NEARBY_1KM,40.0,2020-2021,반경 1km,주변 1km 내 연평균 40건
+P182,0,,0.0,NONE,HIGH,NEARBY_1KM,35.5,2020-2021,반경 1km,주변 1km 내 연평균 36건
+P183,0,,0.0,NONE,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P184,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P185,0,,0.0,NONE,HIGH,NEARBY_1KM,36.5,2020-2021,반경 1km,주변 1km 내 연평균 36건
+P186,0,,0.0,NONE,HIGH,NEARBY_1KM,34.5,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P187,0,,0.0,NONE,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P188,0,,0.0,NONE,HIGH,NEARBY_1KM,26.0,2020-2021,반경 1km,주변 1km 내 연평균 26건
+P189,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P190,0,,0.0,NONE,HIGH,NEARBY_1KM,31.5,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P191,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P192,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P193,0,,0.0,NONE,HIGH,NEARBY_1KM,51.5,2020-2021,반경 1km,주변 1km 내 연평균 52건
+P194,0,,0.0,NONE,HIGH,NEARBY_1KM,34.0,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P195,3,"해양(익수위험):1, 자연환경(낙석):1, 해양(이안류):1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P196,3,"음주/해양(익수위험):1, 지형/노면(급경사):1, 음주/해양 (익수위험):1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,32.0,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P197,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P198,0,,0.0,NONE,HIGH,NEARBY_1KM,22.0,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P199,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P200,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P201,3,길잃음:3,0.312,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P202,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,48.0,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P203,0,,0.0,NONE,HIGH,NEARBY_1KM,49.0,2020-2021,반경 1km,주변 1km 내 연평균 49건
+P204,3,"해양(익수위험):2, 지형/노면(낙상):1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P205,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P206,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P207,0,,0.0,NONE,HIGH,NEARBY_1KM,47.0,2020-2021,반경 1km,주변 1km 내 연평균 47건
+P208,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P209,0,,0.0,NONE,HIGH,NEARBY_1KM,47.0,2020-2021,반경 1km,주변 1km 내 연평균 47건
+P210,0,,0.0,NONE,HIGH,NEARBY_1KM,42.5,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P211,0,,0.0,NONE,HIGH,NEARBY_1KM,42.0,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P212,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P213,0,,0.0,NONE,HIGH,NEARBY_1KM,16.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P214,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P215,0,,0.0,NONE,HIGH,NEARBY_1KM,17.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P216,1,안전시설:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P217,0,,0.0,NONE,HIGH,REGION,84.0,"2022-2023,2025",서귀포시 색달동,색달동 전체 연평균 84건 (정확한 발생 지점 미상)
+P218,2,"낙상:1, 시설/인프라(교통위험):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P219,0,,0.0,NONE,HIGH,NEARBY_1KM,23.5,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P220,2,"낙석:1, 자연환경(낙석):1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,29.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P221,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P222,1,파고:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,11.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P223,2,길잃음:2,0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P224,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P225,1,시설/인프라(안전시설부족):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,41.0,2020-2021,반경 1km,주변 1km 내 연평균 41건
+P226,84,"기상(강풍):66, 기상(폭염):12, 기상(침수):5, 해양(파고):1",1.0,NEWS_CONFIRMED,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P227,0,,0.0,NONE,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P228,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P229,0,,0.0,NONE,HIGH,NEARBY_1KM,52.0,2020-2021,반경 1km,주변 1km 내 연평균 52건
+P230,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P231,0,,0.0,NONE,HIGH,NEARBY_1KM,21.0,2020-2021,반경 1km,주변 1km 내 연평균 21건
+P232,2,해양(익수위험):2,0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,47.5,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P233,1,자연환경(낙석):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,27.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P234,1,익수위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,47.5,2020-2021,반경 1km,주변 1km 내 연평균 48건
+P235,0,,0.0,NONE,HIGH,NEARBY_1KM,41.5,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P236,0,,0.0,NONE,HIGH,NEARBY_1KM,17.0,2020-2021,반경 1km,주변 1km 내 연평균 17건
+P237,0,,0.0,NONE,HIGH,NEARBY_1KM,16.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P238,1,화재위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,17.0,2020-2021,반경 1km,주변 1km 내 연평균 17건
+P239,2,"시설/인프라(교통위험):1, 노무라입깃해파리:1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,16.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P240,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P241,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P242,0,,0.0,NONE,HIGH,NEARBY_1KM,26.0,2020-2021,반경 1km,주변 1km 내 연평균 26건
+P243,0,,0.0,NONE,HIGH,NEARBY_1KM,28.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P244,0,,0.0,NONE,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P245,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P246,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P247,1,시설노후:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,19.5,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P248,0,,0.0,NONE,HIGH,NEARBY_1KM,30.0,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P249,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P250,2,"음주/해양(익수위험):1, 시설/인프라(교통위험):1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P251,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,27.0,2020-2021,반경 1km,주변 1km 내 연평균 27건
+P252,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P253,2,"해양:1, 지형/노면(낙상):1",0.2473,NEWS_CONFIRMED,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P254,1,화재위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,24.5,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P255,1,시설/인프라(안전시설부족):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P256,0,,0.0,NONE,HIGH,NEARBY_1KM,15.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P257,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P258,1,미끄럼:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P259,0,,0.0,NONE,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P260,3,"내리막길:1, 산불위험, 야간위험:1, 기상:1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P261,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P262,2,무리산행:2,0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P263,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P264,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P265,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P266,2,교통위험:2,0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,34.0,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P267,0,,0.0,NONE,HIGH,NEARBY_1KM,18.0,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P268,0,,0.0,NONE,HIGH,NEARBY_1KM,18.0,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P269,0,,0.0,NONE,HIGH,NEARBY_1KM,20.5,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P270,0,,0.0,NONE,HIGH,NEARBY_1KM,20.5,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P271,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P272,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P273,0,,0.0,NONE,HIGH,NEARBY_1KM,31.5,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P274,0,,0.0,NONE,HIGH,NEARBY_1KM,20.0,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P275,0,,0.0,NONE,HIGH,NEARBY_1KM,32.5,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P276,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P277,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P278,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P279,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P280,1,강풍:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P281,1,기상(강풍):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P282,2,"난간없음, 교통위험:1, 교통위험:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P283,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P284,5,"기상/해양(익수위험):1, 해양:1, 기상/해양:1, 시설/인프라:1",0.4033,NEWS_CONFIRMED,HIGH,REGION,24.33,"2022-2023,2025",서귀포시 법환동,법환동 전체 연평균 24건 (정확한 발생 지점 미상)
+P285,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P286,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P287,2,"미끄럼:1, 지형/노면(미끄럼):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P288,2,"해양(익수위험):1, 미끄럼:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P289,0,,0.0,NONE,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P290,1,지형/노면(미끄럼):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,16.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P291,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P292,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P293,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P294,0,,0.0,NONE,HIGH,NEARBY_1KM,28.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P295,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P296,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P297,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P298,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P299,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P300,2,"시설/인프라(안전시설부족):1, 음주/시설/인프라(교통위험):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P301,0,,0.0,NONE,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P302,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P303,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P304,7,"해양:3, 시설/인프라(교통위험):2, 야간위험:1, 음주/시설/인프라(교통위험):1",0.4681,NEWS_CONFIRMED,HIGH,NEARBY_1KM,21.0,2020-2021,반경 1km,주변 1km 내 연평균 21건
+P305,1,시설/인프라:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P306,2,"대설:1, 기상(강수/침수):1",0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P307,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P308,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P309,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P310,2,"낙상:1, 지형/노면(낙상):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P311,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P312,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P313,3,"익수위험:1, 자연환경(암초), 야간위험:1, 해양(익수위험):1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P314,2,시설/인프라(교통위험):2,0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,35.0,2020-2021,반경 1km,주변 1km 내 연평균 35건
+P315,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P316,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,13.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P317,1,야간위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P318,6,"익수위험:2, 안전시설부족:2, 낙상:1, 해양(익수위험):1",0.438,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P319,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P320,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P321,1,교통위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P322,2,"너울성 파도:1, 익수위험:1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P323,1,화재위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P324,0,,0.0,NONE,HIGH,NEARBY_1KM,70.5,2020-2021,반경 1km,주변 1km 내 연평균 70건
+P325,0,,0.0,NONE,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P326,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P327,0,,0.0,NONE,HIGH,NEARBY_1KM,15.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P328,0,,0.0,NONE,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P329,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P330,0,,0.0,NONE,HIGH,NEARBY_1KM,31.0,2020-2021,반경 1km,주변 1km 내 연평균 31건
+P331,9,"교통위험:2, 익수위험:1, 야간위험, 익수위험:1, :1",0.5183,NEWS_CONFIRMED,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P332,2,"원인불명확:1, 해양(익수위험):1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P333,0,,0.0,NONE,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P334,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P335,0,,0.0,NONE,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P336,0,,0.0,NONE,HIGH,NEARBY_1KM,32.0,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P337,1,미끄럼:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P338,2,"익수위험:1, 야간위험:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P339,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P340,5,"바람:1, 익수위험:1, 교통위험:1, 해양/강풍:1",0.4033,NEWS_CONFIRMED,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P341,2,"장마:1, 해양(익수위험):1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P342,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P343,1,안전시설부족:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P344,0,,0.0,NONE,HIGH,NEARBY_1KM,42.5,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P345,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P346,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P347,1,혼잡위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P348,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P349,3,"낙석:1, 해양(파고):1, 해양(익수위험):1",0.312,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P350,0,,0.0,NONE,HIGH,NEARBY_1KM,18.0,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P351,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P352,0,,0.0,NONE,HIGH,NEARBY_1KM,29.0,2020-2021,반경 1km,주변 1km 내 연평균 29건
+P353,3,"익수위험, 야간위험:1, 해양(파고):1, 해양(익수위험):1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,29.0,2020-2021,반경 1km,주변 1km 내 연평균 29건
+P354,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P355,3,"야간위험:1, 화재위험:1, 해양(익수위험):1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,37.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P356,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P357,1,파고:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P358,1,낙상:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P359,3,"해양(익수위험):2, 높은 파도:1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P360,0,,0.0,NONE,HIGH,NEARBY_1KM,17.0,2020-2021,반경 1km,주변 1km 내 연평균 17건
+P361,0,,0.0,NONE,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P362,5,"해양(익수위험):2, 낙상:1, 교통위험:1, 해양:1",0.4033,NEWS_CONFIRMED,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P363,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P364,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P365,0,,0.0,NONE,HIGH,NEARBY_1KM,47.0,2020-2021,반경 1km,주변 1km 내 연평균 47건
+P366,0,,0.0,NONE,HIGH,REGION,197.33,"2022-2023,2025",서귀포시 안덕면,안덕면 전체 연평균 197건 (정확한 발생 지점 미상)
+P367,2,"해양(익수위험):1, 해양:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P368,5,"해양안전:1, 미끄럼:1, 안전시설부족:1, 낙상:1",0.4033,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P369,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P370,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P371,0,,0.0,NONE,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P372,1,"해양(파고, 이안류, 익수위험):1",0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P373,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P374,2,"해양(파고, 이안류, 익수위험):1, 해양(익수위험):1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P375,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P376,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P377,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P378,1,화재위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P379,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P380,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P381,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P382,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P383,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P384,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P385,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P386,0,,0.0,NONE,HIGH,NEARBY_1KM,29.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P387,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P388,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P389,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P390,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P391,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P392,2,"교통위험, 야간위험:1, 야간위험, 교통위험:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P393,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P394,0,,0.0,NONE,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P395,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P396,1,혼잡위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P397,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P398,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P399,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P400,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P401,1,화재위험:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,28.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P402,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P403,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P404,1,무리산행:1,0.156,NEWS_CONFIRMED,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P405,1,해양:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P406,2,교통위험:2,0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,20.0,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P407,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P408,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P409,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P410,1,너울:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P411,0,,0.0,NONE,HIGH,NEARBY_1KM,25.5,2020-2021,반경 1km,주변 1km 내 연평균 26건
+P412,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P413,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P414,5,"미끄럼:1, 안전시설부족:1, 교통위험:1, 폭우:1",0.4033,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P415,1,안전시설부족:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P416,4,"침수위험:1, 익수위험:1, 안전시설부족:1, 푸른우산관해파리:1",0.3623,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P417,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P418,1,낙상:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,21.0,2020-2021,반경 1km,주변 1km 내 연평균 21건
+P419,1,야생동물:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P420,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P421,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P422,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P423,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P424,1,뱀(야생동물):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P425,2,"교통위험:1, 기상:1",0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P426,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P427,2,"교통위험:1, 음주/시설/인프라(교통위험):1",0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P428,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P429,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P430,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P431,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P432,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P433,1,해양사고:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P434,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P435,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P436,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P437,1,길 잃음:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P438,6,"해양(익수위험):2, 강한바람:1, 노무라입깃해파리:1, 태풍:1",0.438,NEWS_CONFIRMED,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P439,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P440,3,"익수위험:2, 시설/인프라(안전시설부족):1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P441,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P442,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P443,3,"화재위험:1, 교통위험:1, 기상(강풍):1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P444,1,기상(침수):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P445,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P446,3,"폭염:1, 시설/인프라(교통위험):1, 지형/노면(낙상):1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P447,1,교통위험:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P448,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P449,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P450,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P451,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P452,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P453,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P454,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P455,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P456,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P457,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P458,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P459,1,음주운전:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P460,5,"야간위험:1, 고립:1, 복어:1, :1",0.4033,NEWS_CONFIRMED,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P461,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P462,0,,0.0,NONE,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P463,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P464,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P465,1,음주/해양(익수위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P466,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P467,1,폭우:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P468,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P469,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P470,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P471,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P472,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P473,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P474,1,교통위험:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P475,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P476,1,침수:1,0.156,NEWS_CONFIRMED,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P477,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P478,0,,0.0,NONE,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P479,2,"파고:1, 해양(익수·조업 사고):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P480,5,"해양(익수위험):2, 야간위험:1, 익수위험:1, 해양사고(선박 좌초):1",0.4033,NEWS_CONFIRMED,HIGH,NEARBY_1KM,31.5,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P481,0,,0.0,NONE,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P482,0,,0.0,NONE,HIGH,NEARBY_1KM,17.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P483,0,,0.0,NONE,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P484,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P485,2,"교통위험:1, 자연환경(낙석):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P486,3,"교통사고:1, 해양(선박 작업 사고):1, 지형/노면:1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P487,2,"차량위험:1, 시설/인프라(교통위험):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P488,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P489,1,해양(고립):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P490,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P491,0,,0.0,NONE,HIGH,NEARBY_1KM,33.0,2020-2021,반경 1km,주변 1km 내 연평균 33건
+P492,2,"산악사고(조난):1, 농기계 사고:1",0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P493,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P494,1,만조:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P495,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P496,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P497,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P498,3,"산악사고:1, 지형/노면(낙상):1, 시설/인프라(교통위험):1",0.312,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P499,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P500,0,,0.0,NONE,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P501,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P502,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P503,1,무더위:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P504,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P505,1,시설/인프라:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P506,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P507,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P508,1,연기:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P509,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P510,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P511,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P512,0,,0.0,NONE,HIGH,NEARBY_1KM,17.0,2020-2021,반경 1km,주변 1km 내 연평균 17건
+P513,1,싱크홀:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P514,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P515,2,"교통사고:1, 기상:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P516,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P517,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P518,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P519,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P520,2,"해양(파도, 이안류, 익수위험):1, 해양(파고):1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P521,1,화재:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P522,5,"자연환경(낙석):2, 교통위험:1, 야간위험:1, 길잃음:1",0.4033,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P523,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P524,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P525,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P526,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P527,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P528,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P529,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P530,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P531,1,"야간위험, 익수위험:1",0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P532,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P533,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P534,2,"추락/익수:1, 교통사고:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P535,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P536,1,기상(호우·강풍):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P537,1,미끄럼:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P538,0,,0.0,NONE,HIGH,NEARBY_1KM,23.0,2020-2021,반경 1km,주변 1km 내 연평균 23건
+P539,1,낙석/붕괴:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P540,1,화재:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P541,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P542,1,안전위험:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P543,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P544,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P545,0,,0.0,NONE,MEDIUM,REGION,9.67,"2022-2023,2025",제주시 오라이동,오라이동 전체 연평균 10건 (정확한 발생 지점 미상)
+P546,0,,0.0,NONE,HIGH,REGION,58.33,"2022-2023,2025",제주시 한경면,한경면 전체 연평균 58건 (정확한 발생 지점 미상)
+P547,0,,0.0,NONE,HIGH,REGION,58.33,"2022-2023,2025",제주시 한경면,한경면 전체 연평균 58건 (정확한 발생 지점 미상)
+P548,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P549,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P550,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P551,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P552,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P553,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P554,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P555,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P556,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P557,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P558,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P559,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P560,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P561,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P562,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,18.0,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P563,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P564,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,11.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P565,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P566,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P567,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P568,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P569,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P570,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P571,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P572,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P573,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P574,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P575,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P576,0,,0.0,NONE,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P577,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P578,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P579,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P580,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P581,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P582,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P583,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P584,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P585,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P586,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P587,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P588,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P589,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P590,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P591,0,,0.0,NONE,LOW,REGION,1.33,"2022-2023,2025",서귀포시 도순동,도순동 전체 연평균 1건 (정확한 발생 지점 미상)
+P592,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P593,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P594,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P595,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P596,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P597,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P598,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P599,0,,0.0,NONE,HIGH,REGION,176.33,"2022-2023,2025",제주시 구좌읍,구좌읍 전체 연평균 176건 (정확한 발생 지점 미상)
+P600,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P601,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P602,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P603,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P604,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P605,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P606,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P607,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P608,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P609,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P610,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P611,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P612,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P613,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P614,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P615,0,,0.0,NONE,HIGH,REGION,158.33,"2022-2023,2025",제주시 한림읍,한림읍 전체 연평균 158건 (정확한 발생 지점 미상)
+P616,0,,0.0,NONE,HIGH,REGION,158.33,"2022-2023,2025",제주시 한림읍,한림읍 전체 연평균 158건 (정확한 발생 지점 미상)
+P617,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P618,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P619,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P620,0,,0.0,NONE,HIGH,REGION,58.33,"2022-2023,2025",제주시 한경면,한경면 전체 연평균 58건 (정확한 발생 지점 미상)
+P621,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P622,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P623,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P624,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P625,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P626,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P627,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P628,0,,0.0,NONE,HIGH,REGION,250.33,"2022-2023,2025",제주시 애월읍,애월읍 전체 연평균 250건 (정확한 발생 지점 미상)
+P629,0,,0.0,NONE,HIGH,REGION,58.33,"2022-2023,2025",제주시 한경면,한경면 전체 연평균 58건 (정확한 발생 지점 미상)
+P630,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P631,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P632,5,"경로이탈:2, 비포장노면:1, 낙상:1, 시설/인프라(교통위험):1",0.4033,NEWS_CONFIRMED,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P633,0,,0.0,NONE,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P634,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P635,0,,0.0,NONE,HIGH,REGION,158.33,"2022-2023,2025",제주시 한림읍,한림읍 전체 연평균 158건 (정확한 발생 지점 미상)
+P636,1,해양/강풍:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P637,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P638,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P639,0,,0.0,NONE,HIGH,REGION,250.33,"2022-2023,2025",제주시 애월읍,애월읍 전체 연평균 250건 (정확한 발생 지점 미상)
+P640,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P641,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P642,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P643,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P644,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P645,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P646,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P647,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P648,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P649,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P650,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P651,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P652,0,,0.0,NONE,HIGH,NEARBY_1KM,46.0,2020-2021,반경 1km,주변 1km 내 연평균 46건
+P653,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P654,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P655,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P656,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P657,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P658,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P659,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P660,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P661,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P662,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P663,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P664,0,,0.0,NONE,HIGH,NEARBY_1KM,27.0,2020-2021,반경 1km,주변 1km 내 연평균 27건
+P665,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P666,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P667,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P668,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P669,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P670,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P671,0,,0.0,NONE,HIGH,REGION,76.67,"2022-2023,2025",서귀포시 대정읍,대정읍 전체 연평균 77건 (정확한 발생 지점 미상)
+P672,0,,0.0,NONE,HIGH,REGION,166.33,"2022-2023,2025",제주시 조천읍,조천읍 전체 연평균 166건 (정확한 발생 지점 미상)
+P673,1,기상(호우):1,0.156,NEWS_CONFIRMED,LOW,REGION,3.0,"2022-2023,2025",제주시 용강동,용강동 전체 연평균 3건 (정확한 발생 지점 미상)
+P674,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P675,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P676,0,,0.0,NONE,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P677,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P678,0,,0.0,NONE,HIGH,NEARBY_1KM,29.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P679,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P680,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P681,0,,0.0,NONE,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P682,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P683,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P684,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P685,0,,0.0,NONE,HIGH,NEARBY_1KM,43.5,2020-2021,반경 1km,주변 1km 내 연평균 44건
+P686,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P687,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P688,0,,0.0,NONE,HIGH,NEARBY_1KM,30.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P689,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P690,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P691,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P692,0,,0.0,NONE,HIGH,NEARBY_1KM,41.5,2020-2021,반경 1km,주변 1km 내 연평균 42건
+P693,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P694,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P695,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P696,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P697,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P698,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P699,0,,0.0,NONE,HIGH,NEARBY_1KM,46.0,2020-2021,반경 1km,주변 1km 내 연평균 46건
+P700,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P701,0,,0.0,NONE,HIGH,NEARBY_1KM,68.5,2020-2021,반경 1km,주변 1km 내 연평균 68건
+P702,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P703,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P704,0,,0.0,NONE,HIGH,NEARBY_1KM,30.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P705,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P706,0,,0.0,NONE,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P707,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P708,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P709,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P710,0,,0.0,NONE,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P711,0,,0.0,NONE,MEDIUM,REGION,9.67,"2022-2023,2025",제주시 오라이동,오라이동 전체 연평균 10건 (정확한 발생 지점 미상)
+P712,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P713,0,,0.0,NONE,HIGH,REGION,197.33,"2022-2023,2025",서귀포시 안덕면,안덕면 전체 연평균 197건 (정확한 발생 지점 미상)
+P714,0,,0.0,NONE,HIGH,NEARBY_1KM,46.5,2020-2021,반경 1km,주변 1km 내 연평균 46건
+P715,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P716,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P717,0,,0.0,NONE,HIGH,NEARBY_1KM,27.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P718,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P719,0,,0.0,NONE,HIGH,REGION,61.33,"2022-2023,2025",제주시 노형동,노형동 전체 연평균 61건 (정확한 발생 지점 미상)
+P720,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P721,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P722,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P723,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P724,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P725,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P726,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P727,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P728,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P729,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P730,0,,0.0,NONE,HIGH,NEARBY_1KM,24.0,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P731,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P732,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P733,0,,0.0,NONE,HIGH,NEARBY_1KM,44.0,2020-2021,반경 1km,주변 1km 내 연평균 44건
+P734,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P735,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P736,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P737,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P738,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P739,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P740,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P741,1,지형/노면(낙상):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P742,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P743,2,교통위험:2,0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P744,1,교통위험:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P745,2,"쇄설층으로 약한 지층으로 인해 자연히 무너짐 추정:1, 해양(고립위험):1",0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P746,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P747,2,"지형/노면(낙상):1, 길잃음:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P748,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P749,2,"교통위험:1, 길잃음:1",0.2473,NEWS_CONFIRMED,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P750,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P751,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P752,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P753,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P754,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P755,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P756,0,,0.0,NONE,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P757,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P758,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P759,1,기상(폭염):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P760,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P761,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P762,0,,0.0,NONE,HIGH,REGION,176.33,"2022-2023,2025",제주시 구좌읍,구좌읍 전체 연평균 176건 (정확한 발생 지점 미상)
+P763,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P764,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P765,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P766,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P767,2,길잃음:2,0.2473,NEWS_CONFIRMED,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P768,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P769,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P770,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P771,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P772,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P773,0,,0.0,NONE,MEDIUM,REGION,8.33,"2022-2023,2025",서귀포시 호근동,호근동 전체 연평균 8건 (정확한 발생 지점 미상)
+P774,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P775,0,,0.0,NONE,MEDIUM,REGION,14.67,"2022-2023,2025",서귀포시 상효동,상효동 전체 연평균 15건 (정확한 발생 지점 미상)
+P776,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P777,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P778,0,,0.0,NONE,HIGH,REGION,176.33,"2022-2023,2025",제주시 구좌읍,구좌읍 전체 연평균 176건 (정확한 발생 지점 미상)
+P779,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P780,0,,0.0,NONE,HIGH,REGION,176.33,"2022-2023,2025",제주시 구좌읍,구좌읍 전체 연평균 176건 (정확한 발생 지점 미상)
+P781,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P782,0,,0.0,NONE,HIGH,REGION,250.33,"2022-2023,2025",제주시 애월읍,애월읍 전체 연평균 250건 (정확한 발생 지점 미상)
+P783,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P784,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P785,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P786,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P787,0,,0.0,NONE,HIGH,REGION,250.33,"2022-2023,2025",제주시 애월읍,애월읍 전체 연평균 250건 (정확한 발생 지점 미상)
+P788,0,,0.0,NONE,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P789,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P790,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P791,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P792,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P793,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P794,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P795,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P796,1,지형/노면(낙상):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P797,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P798,0,,0.0,NONE,HIGH,REGION,176.33,"2022-2023,2025",제주시 구좌읍,구좌읍 전체 연평균 176건 (정확한 발생 지점 미상)
+P799,0,,0.0,NONE,HIGH,REGION,197.33,"2022-2023,2025",서귀포시 안덕면,안덕면 전체 연평균 197건 (정확한 발생 지점 미상)
+P800,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P801,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P802,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P803,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P804,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P805,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P806,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P807,0,,0.0,NONE,HIGH,NEARBY_1KM,27.0,2020-2021,반경 1km,주변 1km 내 연평균 27건
+P808,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P809,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P810,0,,0.0,NONE,HIGH,REGION,166.33,"2022-2023,2025",제주시 조천읍,조천읍 전체 연평균 166건 (정확한 발생 지점 미상)
+P811,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P812,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P813,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P814,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P815,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P816,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P817,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P818,0,,0.0,NONE,HIGH,REGION,200.67,"2022-2023,2025",서귀포시 성산읍,성산읍 전체 연평균 201건 (정확한 발생 지점 미상)
+P819,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P820,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P821,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P822,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P823,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P824,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P825,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P826,0,,0.0,NONE,HIGH,NEARBY_1KM,13.0,2020-2021,반경 1km,주변 1km 내 연평균 13건
+P827,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P828,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P829,0,,0.0,NONE,HIGH,NEARBY_1KM,27.0,2020-2021,반경 1km,주변 1km 내 연평균 27건
+P830,0,,0.0,NONE,HIGH,NEARBY_1KM,54.5,2020-2021,반경 1km,주변 1km 내 연평균 54건
+P831,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P832,1,지형/노면(낙상):1,0.156,NEWS_CONFIRMED,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P833,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P834,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P835,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P836,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P837,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P838,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P839,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P840,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P841,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P842,0,,0.0,NONE,HIGH,REGION,84.0,"2022-2023,2025",서귀포시 색달동,색달동 전체 연평균 84건 (정확한 발생 지점 미상)
+P843,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P844,0,,0.0,NONE,HIGH,REGION,58.33,"2022-2023,2025",제주시 한경면,한경면 전체 연평균 58건 (정확한 발생 지점 미상)
+P845,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P846,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P847,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P848,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P849,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P850,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P851,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P852,0,,0.0,NONE,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P853,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P854,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P855,1,낙상:1,0.156,NEWS_CONFIRMED,HIGH,REGION,250.33,"2022-2023,2025",제주시 애월읍,애월읍 전체 연평균 250건 (정확한 발생 지점 미상)
+P856,0,,0.0,NONE,HIGH,NEARBY_1KM,32.0,2020-2021,반경 1km,주변 1km 내 연평균 32건
+P857,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P858,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P859,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P860,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P861,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P862,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P863,2,"멧돼지(야생동물):1, 경사:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P864,0,,0.0,NONE,HIGH,REGION,166.33,"2022-2023,2025",제주시 조천읍,조천읍 전체 연평균 166건 (정확한 발생 지점 미상)
+P865,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P866,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P867,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P868,3,"무리산행:2, :1",0.312,NEWS_CONFIRMED,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P869,10,"무리산행:4, 빙판 미끄럼 :1, 비포장노면:1, 산악사고:1",0.5397,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,10.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P870,1,호우:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P871,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P872,0,,0.0,NONE,HIGH,REGION,76.67,"2022-2023,2025",서귀포시 대정읍,대정읍 전체 연평균 77건 (정확한 발생 지점 미상)
+P873,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P874,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P875,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P876,0,,0.0,NONE,HIGH,NEARBY_1KM,29.0,2020-2021,반경 1km,주변 1km 내 연평균 29건
+P877,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P878,0,,0.0,NONE,MEDIUM,NEARBY_1KM,12.0,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P879,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P880,0,,0.0,NONE,HIGH,NEARBY_1KM,49.5,2020-2021,반경 1km,주변 1km 내 연평균 50건
+P881,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P882,0,,0.0,NONE,HIGH,NEARBY_1KM,20.0,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P883,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P884,0,,0.0,NONE,HIGH,REGION,76.67,"2022-2023,2025",서귀포시 대정읍,대정읍 전체 연평균 77건 (정확한 발생 지점 미상)
+P885,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P886,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P887,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P888,0,,0.0,NONE,HIGH,NEARBY_1KM,27.5,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P889,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P890,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P891,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P892,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P893,3,"안전시설부족:1, 풍랑경보:1, 해양(파도):1",0.312,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P894,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P895,2,"해상사고:1, :1",0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P896,2,해양(익수위험):2,0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P897,1,해양(갯바위 고립):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,7.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P898,1,해양사고(선박전복):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P899,1,:1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P900,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P901,0,,0.0,NONE,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P902,1,해양(파도):1,0.156,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P903,0,,0.0,NONE,HIGH,NEARBY_1KM,17.0,2020-2021,반경 1km,주변 1km 내 연평균 17건
+P904,2,해양(익수위험):2,0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P905,0,,0.0,NONE,MEDIUM,NEARBY_1KM,10.0,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P906,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P907,0,,0.0,NONE,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P908,1,해양/이안류:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P909,1,해양(익수위험):1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.0,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P910,1,익수:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P911,2,"해양(익수위험):1, 지형/노면(낙상):1",0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P912,2,해양(익수위험):2,0.2473,NEWS_CONFIRMED,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P913,4,"해양사고(선박 좌초):3, 지형/노면(미끄럼):1",0.3623,NEWS_CONFIRMED,HIGH,REGION,158.33,"2022-2023,2025",제주시 한림읍,한림읍 전체 연평균 158건 (정확한 발생 지점 미상)
+P914,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P915,1,낙상사고:1,0.156,NEWS_CONFIRMED,HIGH,REGION,76.67,"2022-2023,2025",서귀포시 대정읍,대정읍 전체 연평균 77건 (정확한 발생 지점 미상)
+P916,2,"해양사고:1, 기상(침수):1",0.2473,NEWS_CONFIRMED,HIGH,REGION,58.33,"2022-2023,2025",제주시 한경면,한경면 전체 연평균 58건 (정확한 발생 지점 미상)
+P917,2,"지형/노면(급경사, 낙상):1, 시설/인프라:1",0.2473,NEWS_CONFIRMED,MEDIUM,REGION,8.67,"2022-2023,2025",제주시 추자면,추자면 전체 연평균 9건 (정확한 발생 지점 미상)
+P918,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P919,0,,0.0,NONE,HIGH,REGION,197.33,"2022-2023,2025",서귀포시 안덕면,안덕면 전체 연평균 197건 (정확한 발생 지점 미상)
+P920,0,,0.0,NONE,HIGH,NEARBY_1KM,35.5,2020-2021,반경 1km,주변 1km 내 연평균 36건
+P921,2,"해양(파고, 익수위험):1, 낙상:1",0.2473,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P922,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P923,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P924,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P925,1,해양사고:1,0.156,NEWS_CONFIRMED,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P926,0,,0.0,NONE,HIGH,REGION,158.33,"2022-2023,2025",제주시 한림읍,한림읍 전체 연평균 158건 (정확한 발생 지점 미상)
+P927,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P928,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P929,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P930,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P931,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P932,0,,0.0,NONE,HIGH,NEARBY_1KM,27.0,2020-2021,반경 1km,주변 1km 내 연평균 27건
+P933,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.0,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P934,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P935,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P936,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P937,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P938,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P939,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P940,0,,0.0,NONE,HIGH,NEARBY_1KM,16.0,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P941,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P942,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P943,0,,0.0,NONE,HIGH,NEARBY_1KM,29.0,2020-2021,반경 1km,주변 1km 내 연평균 29건
+P944,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P945,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P946,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P947,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P948,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P949,0,,0.0,NONE,HIGH,NEARBY_1KM,29.0,2020-2021,반경 1km,주변 1km 내 연평균 29건
+P950,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P951,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P952,0,,0.0,NONE,HIGH,NEARBY_1KM,26.0,2020-2021,반경 1km,주변 1km 내 연평균 26건
+P953,0,,0.0,NONE,HIGH,NEARBY_1KM,71.5,2020-2021,반경 1km,주변 1km 내 연평균 72건
+P954,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P955,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P956,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P957,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P958,0,,0.0,NONE,HIGH,NEARBY_1KM,22.5,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P959,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P960,0,,0.0,NONE,HIGH,NEARBY_1KM,22.0,2020-2021,반경 1km,주변 1km 내 연평균 22건
+P961,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P962,0,,0.0,NONE,HIGH,NEARBY_1KM,17.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P963,0,,0.0,NONE,HIGH,NEARBY_1KM,12.5,2020-2021,반경 1km,주변 1km 내 연평균 12건
+P964,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P965,0,,0.0,NONE,LOW,NEARBY_1KM,3.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P966,0,,0.0,NONE,HIGH,NEARBY_1KM,24.5,2020-2021,반경 1km,주변 1km 내 연평균 24건
+P967,0,,0.0,NONE,HIGH,NEARBY_1KM,28.0,2020-2021,반경 1km,주변 1km 내 연평균 28건
+P968,0,,0.0,NONE,HIGH,NEARBY_1KM,38.5,2020-2021,반경 1km,주변 1km 내 연평균 38건
+P969,0,,0.0,NONE,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P970,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P971,0,,0.0,NONE,HIGH,NEARBY_1KM,14.0,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P972,0,,0.0,NONE,HIGH,NEARBY_1KM,19.0,2020-2021,반경 1km,주변 1km 내 연평균 19건
+P973,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.0,2020-2021,반경 1km,주변 1km 내 연평균 9건
+P974,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P975,0,,0.0,NONE,MEDIUM,NEARBY_1KM,8.5,2020-2021,반경 1km,주변 1km 내 연평균 8건
+P976,0,,0.0,NONE,MEDIUM,NEARBY_1KM,9.5,2020-2021,반경 1km,주변 1km 내 연평균 10건
+P977,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P978,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P979,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P980,0,,0.0,NONE,HIGH,REGION,89.33,"2022-2023,2025",서귀포시 표선면,표선면 전체 연평균 89건 (정확한 발생 지점 미상)
+P981,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P982,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P983,0,,0.0,NONE,HIGH,NEARBY_1KM,18.5,2020-2021,반경 1km,주변 1km 내 연평균 18건
+P984,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P985,0,,0.0,NONE,HIGH,REGION,108.33,"2022-2023,2025",서귀포시 남원읍,남원읍 전체 연평균 108건 (정확한 발생 지점 미상)
+P986,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P987,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P988,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P989,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P990,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P991,0,,0.0,NONE,MEDIUM,NEARBY_1KM,11.0,2020-2021,반경 1km,주변 1km 내 연평균 11건
+P992,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P993,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P994,0,,0.0,NONE,HIGH,NEARBY_1KM,30.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P995,2,안전시설부족:2,0.2473,NEWS_CONFIRMED,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P996,1,:1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,19.5,2020-2021,반경 1km,주변 1km 내 연평균 20건
+P997,1,시설/인프라(교통위험):1,0.156,NEWS_CONFIRMED,HIGH,NEARBY_1KM,15.5,2020-2021,반경 1km,주변 1km 내 연평균 16건
+P998,0,,0.0,NONE,HIGH,NEARBY_1KM,14.5,2020-2021,반경 1km,주변 1km 내 연평균 14건
+P999,0,,0.0,NONE,HIGH,NEARBY_1KM,15.0,2020-2021,반경 1km,주변 1km 내 연평균 15건
+P1000,0,,0.0,NONE,LOW,NEARBY_1KM,1.0,2020-2021,반경 1km,주변 1km 내 연평균 1건
+P1001,0,,0.0,NONE,HIGH,NEARBY_1KM,27.0,2020-2021,반경 1km,주변 1km 내 연평균 27건
+P1002,0,,0.0,NONE,HIGH,NEARBY_1KM,34.5,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P1003,0,,0.0,NONE,MEDIUM,NEARBY_1KM,6.5,2020-2021,반경 1km,주변 1km 내 연평균 6건
+P1004,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P1005,0,,0.0,NONE,LOW,NEARBY_1KM,1.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1006,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P1007,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1008,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.0,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P1009,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1010,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1011,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P1012,0,,0.0,NONE,LOW,NEARBY_1KM,0.5,2020-2021,반경 1km,주변 1km 내 연평균 0건
+P1013,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P1014,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P1015,0,,0.0,NONE,HIGH,REGION,158.33,"2022-2023,2025",제주시 한림읍,한림읍 전체 연평균 158건 (정확한 발생 지점 미상)
+P1016,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1017,0,,0.0,NONE,HIGH,NEARBY_1KM,30.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P1018,0,,0.0,NONE,LOW,NEARBY_1KM,3.0,2020-2021,반경 1km,주변 1km 내 연평균 3건
+P1019,0,,0.0,NONE,MEDIUM,NEARBY_1KM,7.0,2020-2021,반경 1km,주변 1km 내 연평균 7건
+P1020,0,,0.0,NONE,HIGH,NEARBY_1KM,33.5,2020-2021,반경 1km,주변 1km 내 연평균 34건
+P1021,0,,0.0,NONE,HIGH,NEARBY_1KM,25.0,2020-2021,반경 1km,주변 1km 내 연평균 25건
+P1022,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1023,0,,0.0,NONE,HIGH,NEARBY_1KM,30.5,2020-2021,반경 1km,주변 1km 내 연평균 30건
+P1024,0,,0.0,NONE,MEDIUM,NEARBY_1KM,4.5,2020-2021,반경 1km,주변 1km 내 연평균 4건
+P1025,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1026,0,,0.0,NONE,LOW,NEARBY_1KM,2.0,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1027,0,,0.0,NONE,MEDIUM,NEARBY_1KM,5.0,2020-2021,반경 1km,주변 1km 내 연평균 5건
+P1028,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건
+P1029,0,,0.0,NONE,LOW,NEARBY_1KM,2.5,2020-2021,반경 1km,주변 1km 내 연평균 2건

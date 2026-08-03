@@ -15,18 +15,6 @@ indoorOutdoorCode,INDOOR,실내,
 indoorOutdoorCode,OUTDOOR,실외,
 indoorOutdoorCode,MIXED,실내+실외,
 indoorOutdoorCode,UNKNOWN,미확인,
-verifyStatus,VERIFIED,검증완료,외부 원문 대조 완료
-verifyStatus,PARTIAL,부분검증,일부 항목만 확인
-verifyStatus,PENDING,검증대기,원문 미대조
-verifyStatus,EXCLUDED,검증제외,추천 대상 아님
-evidenceType,FIELD_SURVEY,현장 접근성 조사,이지제주 등 실측 원문
-evidenceType,OFFICIAL_DOC,공식 문서,공항공사·인권위·해수부 등
-evidenceType,PUBLICATION,간행물,"오감으로 즐기는 제주, 이지제주올레 등"
-evidenceType,LEGAL_PRESUMPTION,법정 의무시설 추정,실지조사 미확인
-evidenceType,CROSS_REFERENCE,교차 대조,복수 출처 대조
-evidenceType,INFERRED,추정,"기본 출처 기반, 개별 검증 미실시"
-evidenceType,NONE,근거 없음,4축 전부 UNKNOWN
-evidenceType,NOT_APPLICABLE,해당 없음,
 eventScheduleConfidence,CONFIRMED,2026 일정 확정,공식 공표
 eventScheduleConfidence,SEASONAL_ONLY,개최시기만 추정,당해 일정 미공표
 eventScheduleConfidence,NOT_HELD,미개최,
@@ -40,3 +28,15 @@ wheelchairDifficulty,HIGH,상,
 riskBasis,nearby_1km,반경 1km 사고 이력 기반,
 riskBasis,region_only,읍면동 통계만 사용,
 riskBasis,no_data,산출 근거 없음,신규 등재분 등
+verifyStatus,VERIFIED,검증완료,현장조사 또는 공식문서로 확인
+verifyStatus,SURVEYED,조사기록 보유,"경로 상태·편의시설 조사 결과 존재, 개별 재확인은 미실시"
+verifyStatus,PARTIAL,부분검증,일부 축만 확인
+verifyStatus,PENDING,검증대기,법정 추정 등 조사 근거 없음
+verifyStatus,EXCLUDED,검증제외,추천 대상 아님
+evidenceType,FIELD_SURVEY,현장조사,㈜휴플 자체 현장조사 또는 도움정도 판정 기재
+evidenceType,OFFICIAL_DOC,공식문서,"시설 운영자 직접 회신, 공공기관 공식 안내"
+evidenceType,ROUTE_SURVEY,경로조사,경사도·단차·데크 등 이동 경로 상태가 구체적으로 기록됨
+evidenceType,FACILITY_SURVEY,편의시설조사,장애인화장실·주차장 등 시설 보유 목록만 기록됨
+evidenceType,PUBLICATION,간행물,"오감으로 즐기는 제주, 이지제주올레 등"
+evidenceType,LEGAL_PRESUMPTION,법정추정,"장애인등편의법 의무시설 추정, 조사 미실시"
+evidenceType,NOT_APPLICABLE,해당없음,

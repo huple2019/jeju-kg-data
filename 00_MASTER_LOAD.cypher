@@ -205,11 +205,8 @@ LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-
 MERGE (v:EnvironmentAxis {envId: row.envId})
 SET v.type=row.type, v.name=row.name, v.unit=row.unit, v.source=row.source;
 
-// ③ 임계축 → 위험패턴 발동 규칙 (condition_expr 에 임계식 보관)
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rels_environment_risk.csv' AS row
-MATCH (e:EnvironmentAxis {envId: row.from_id}), (r:RiskPattern {risk_id: row.to_id})
-MERGE (e)-[t:TRIGGERS]->(r)
-SET t.conditionExpr = row.condition_expr;
+// ③ 임계축 → 위험패턴 발동 규칙은 STAGE 4(관계)로 이동했습니다.
+//    RiskPattern 노드가 먼저 적재되어야 MATCH 가 성립합니다.
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/nodes_visitor_profile.csv' AS row
 MERGE (v:VisitorProfile {profile_id: row.profileId}) SET v.name=row.name, v.kind='accident_victim';
@@ -316,6 +313,12 @@ MERGE (e)-[:INVOLVED_PROFILE]->(v);
 // STAGE 5. 관계 — 위험 판단 축 (핵심 경로)
 // ─────────────────────────────────────────────
 // 사고 → 위험패턴 (뉴스)
+// ③ 임계축 → 위험패턴 발동 규칙 (condition_expr 에 임계식 보관)
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rels_environment_risk.csv' AS row
+MATCH (e:EnvironmentAxis {envId: row.from_id}), (r:RiskPattern {risk_id: row.to_id})
+MERGE (e)-[t:TRIGGERS]->(r)
+SET t.conditionExpr = row.condition_expr;
+
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rel_accident_EVIDENCES_riskpattern.csv' AS row
 MATCH (e:AccidentEvent {accidentId:row.accidentId}),(r:RiskPattern {risk_id:row.risk_id})
 MERGE (e)-[rel:EVIDENCES]->(r) SET rel.attribution=coalesce(row.attribution,'PLACE_CONFIRMED_NEWS');
@@ -500,16 +503,16 @@ MATCH (p:Place) WHERE p.swimmingRestriction IS NOT NULL SET p:WaterRestrictedPla
 // 물놀이 활동 추천 시 하드 필터
 //   어항구역 확정분은 물놀이·다이빙 목적 추천에서 제외합니다.
 // ─────────────────────────────────────────────
-// MATCH (p:Place)-[:HAS_ACTIVITY]->(a:TourActivity)
-// WHERE a.name IN ['해수욕','물놀이','스노클링','다이빙']
-//   AND NOT (p.swimmingRestriction='PROHIBITED_PENDING_ENFORCEMENT'
+// MATCH (p:Place)-[:HAS_TOUR_ACTIVITY]->(a:TourActivity)
+// WHERE a.name IN ['해수욕','물놀이','해양체험','해양레저','스쿠버다이빙','수상레저체험']
+//   AND NOT (p.swimmingRestriction='PROHIBITED_FROM_2027'
 //            AND p.designationConfidence='CONFIRMED')
 // RETURN p;
 
 // 검증 1 — 제한 대상 분포
 MATCH (p:WaterRestrictedPlace)
 RETURN p.swimmingRestriction AS 상태, p.designationConfidence AS 확정도, count(*) AS 건수;
-// 기대: PROHIBITED_PENDING_ENFORCEMENT/CONFIRMED 3 · UNDER_REVIEW/PENDING 44
+// 기대: PROHIBITED_FROM_2027/CONFIRMED 23 · NOT_DESIGNATED/NOT_LISTED 24 (합 47)
 
 // 검증 2 — 시행 전인데 '금지되어 있습니다'로 단정한 문구가 없는지
 MATCH (p:Place)-[:HAS_ADVISORY]->(a:PlaceAdvisory)

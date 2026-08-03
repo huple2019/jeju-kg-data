@@ -205,11 +205,8 @@ LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-
 MERGE (v:EnvironmentAxis {envId: row.envId})
 SET v.type=row.type, v.name=row.name, v.unit=row.unit, v.source=row.source;
 
-// ③ 임계축 → 위험패턴 발동 규칙 (condition_expr 에 임계식 보관)
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rels_environment_risk.csv' AS row
-MATCH (e:EnvironmentAxis {envId: row.from_id}), (r:RiskPattern {risk_id: row.to_id})
-MERGE (e)-[t:TRIGGERS]->(r)
-SET t.conditionExpr = row.condition_expr;
+// ③ 임계축 → 위험패턴 발동 규칙은 STAGE 4(관계)로 이동했습니다.
+//    RiskPattern 노드가 먼저 적재되어야 MATCH 가 성립합니다.
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/nodes_visitor_profile.csv' AS row
 MERGE (v:VisitorProfile {profile_id: row.profileId}) SET v.name=row.name, v.kind='accident_victim';
@@ -316,6 +313,12 @@ MERGE (e)-[:INVOLVED_PROFILE]->(v);
 // STAGE 5. 관계 — 위험 판단 축 (핵심 경로)
 // ─────────────────────────────────────────────
 // 사고 → 위험패턴 (뉴스)
+// ③ 임계축 → 위험패턴 발동 규칙 (condition_expr 에 임계식 보관)
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rels_environment_risk.csv' AS row
+MATCH (e:EnvironmentAxis {envId: row.from_id}), (r:RiskPattern {risk_id: row.to_id})
+MERGE (e)-[t:TRIGGERS]->(r)
+SET t.conditionExpr = row.condition_expr;
+
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rel_accident_EVIDENCES_riskpattern.csv' AS row
 MATCH (e:AccidentEvent {accidentId:row.accidentId}),(r:RiskPattern {risk_id:row.risk_id})
 MERGE (e)-[rel:EVIDENCES]->(r) SET rel.attribution=coalesce(row.attribution,'PLACE_CONFIRMED_NEWS');
@@ -608,7 +611,7 @@ RETURN count(*) AS 임계규칙수;
 
 MATCH (r:RiskPattern) WHERE r.risk_id STARTS WITH 'RP_FOG'
 MATCH (r)-[:APPLIES_TO]->(p:Place)
-RETURN r.risk_name, count(p) AS 적용장소;
+RETURN r.name AS 위험, count(p) AS 적용장소;
 // 기대: 각 29곳 (뉴스 확인 3 + 대표 다발지역 26)
 
 // 산방산 계열 — 상류 강수 시 하류 범람 위험

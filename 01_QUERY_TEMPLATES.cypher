@@ -112,7 +112,7 @@ WHERE grade IN CASE WHEN $strict THEN ['FULL'] ELSE ['FULL','PARTIAL'] END
 // 시설은 되나 활동참여가 불가한 곳은 명시 (등산·수상레저 등)
 WITH p, ac, grade
 OPTIONAL MATCH (p)<-[:APPLIES_TO]-(r:RiskPattern)
-WITH p, ac, grade, collect(DISTINCT r.risk_name) AS risks,
+WITH p, ac, grade, collect(DISTINCT r.name) AS risks,
      coalesce(p.directRiskScore,0) AS risk
 RETURN p.name, p.categorySub, grade AS 접근등급,
        ac.disabledToilet AS 장애인화장실, ac.slopeInfo AS 경사정보,

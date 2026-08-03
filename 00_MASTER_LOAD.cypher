@@ -155,7 +155,7 @@ SET ac.placeId=row.placeId,
     ac.openTourismSite=row.openTourismSite,
     ac.source=row.source, ac.sourceDate=row.sourceDate, ac.sourceCheckUrl=row.sourceCheckUrl,
     ac.multiTypeSource=row.multiTypeSource, ac.multiTypeNote=row.multiTypeNote,
-    ac.verifyStatus=row.verifyStatus,          // VERIFIED/PARTIAL/PENDING/EXCLUDED
+    ac.verifyStatus=row.verifyStatus,          // VERIFIED/SURVEYED/PARTIAL/PENDING/EXCLUDED
     ac.verifyNote=row.verifyNote,
     ac.evidenceType=row.evidenceType,          // FIELD_SURVEY/OFFICIAL_DOC/PUBLICATION/...
     ac.correctionHistory=row.correctionHistory,

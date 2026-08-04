@@ -1,0 +1,27 @@
+﻿placeId,field,before,after
+P169,hearingEvidence,탐나는수어 앱 수어해설 21곳(3.김만덕기념관). 현장 QR·AR 수어영,탐나는수어 앱 수어해설 21곳(3.김만덕기념관). 현장 QR·AR 수어영상
+P169,hearingAccess,PARTIAL,PARTIAL
+P169,mobilityCaveat,,이동 접근성은 현장 확인된 등급이 아닙니다. 방문 전 확인을 권합니다
+P169,verifyNote,,"부분검증(2026-08) — 오감 청각 목록 확인, 이동축 미확인"
+P169,verifyStatus,PENDING,PARTIAL
+P291,hearingEvidence,수어해설 영상 — 「탐나는수어」 앱(제주수어통역센터 2023.1) QR·,탐나는수어 앱 수어해설 21곳(10.제주해녀박물관). 현장 QR·AR 수어영상
+P291,hearingAccess,PARTIAL,PARTIAL
+P291,mobilityCaveat,,이동 접근성은 현장 확인된 등급이 아닙니다. 방문 전 확인을 권합니다
+P291,verifyNote,,"부분검증(2026-08) — 오감 청각 목록 확인, 이동축 미확인"
+P291,verifyStatus,PENDING,PARTIAL
+P352,hearingEvidence,수어해설 영상 — 「탐나는수어」 앱(제주수어통역센터 2023.1) QR·,탐나는수어 앱 수어해설 21곳(2.제주민속자연사박물관). 현장 QR·AR 수어영상
+P352,hearingAccess,PARTIAL,PARTIAL
+P352,mobilityCaveat,,이동 접근성은 현장 확인된 등급이 아닙니다. 방문 전 확인을 권합니다
+P352,verifyNote,,"부분검증(2026-08) — 오감 청각 목록 확인, 이동축 미확인"
+P352,verifyStatus,PENDING,PARTIAL
+P444,hearingEvidence,탐나는수어 앱 수어해설 21곳(18.제주추사관). 현장 QR·AR 수어영,탐나는수어 앱 수어해설 21곳(18.제주추사관). 현장 QR·AR 수어영상
+P444,hearingAccess,PARTIAL,PARTIAL
+P444,mobilityCaveat,,이동 접근성은 현장 확인된 등급이 아닙니다. 방문 전 확인을 권합니다
+P444,verifyNote,,"부분검증(2026-08) — 오감 청각 목록 확인, 이동축 미확인"
+P444,verifyStatus,PENDING,PARTIAL
+P985,activityEvidence,체험승마 600m(말과 걷고 교감 중심)·강습승마 1시간·외승승마 10.,오감 p.24: 체험승마 600m·강습승마 1시간·외승승마 10.5km 단계별 운영
+P985,evidenceType,INFERRED,PUBLICATION
+P985,verifyNote,,"부분검증(2026-08) — 오감 액티비티 수록, 휠체어 탑승 가부 미확인"
+P985,verifyStatus,PENDING,PARTIAL
+P913,mobilityCaveat,,"올레 14코스에서는 비양도를 바라보는 전망만 가능하며, 섬 내부 접근성은 확인되지 않았습니다"
+P913,verifyNote,,검증시도(2026-08) — 올레·오감 모두 섬 내부 접근성 정보 없음

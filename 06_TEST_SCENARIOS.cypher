@@ -10,29 +10,65 @@
 
 
 // ════════════════════════════════════════════════════════════════
-// [T1] 휠체어 + 여름 오후 + 바다
-//      질문: "휠체어 타는 어머니와 8월 오후에 갈 만한 제주 바다 있어?"
+// [T1] 휠체어 + 여름 오후 + 바다 — 방문 목적에 따라 판정이 갈린다
+//      질문A: "휠체어로 물놀이할 수 있는 바다 알려줘"   → $purpose='SWIM'
+//      질문B: "휠체어로 바다 구경하기 좋은 곳 알려줘"     → $purpose='SIGHTSEE'
 //
-//      검증: ① 어항구역(물놀이 금지)이 무비판적으로 추천되지 않는가
-//            ② 해수욕장 안전 안내가 함께 나가는가
-//            ③ 호텔·공항이 '관광지'로 섞여 나오지 않는가
-//      오답: 포구를 "물놀이 명소"로 추천 / 안전 안내 누락
+//      핵심: 어촌·어항법이 금지하는 것은 물놀이·다이빙·취사·야영뿐입니다.
+//            산책·경관 감상은 제한 대상이 아니므로 포구도 추천 가능합니다.
+//            목적을 구분하지 않으면 포구를 무조건 배제하거나(과잉),
+//            물놀이 장소로 추천하는(위험) 오류가 납니다.
+//
+//      검증: ① SWIM 이면 어항구역이 결과에서 제외되는가
+//            ② SIGHTSEE 이면 포구도 나오되 물놀이 금지가 함께 고지되는가
+//            ③ 안전요원 배치 여부(해수욕장)가 안내되는가
+//      오답: 목적과 무관하게 포구를 "물놀이 명소"로 추천 / 산책 목적인데 포구를 전부 배제
 // ════════════════════════════════════════════════════════════════
+:param purpose => 'SWIM';     // 'SWIM' 또는 'SIGHTSEE'
+:param season  => '여름';
+
+// ⚠ 아래는 :param 없이 실행해도 동작합니다(기본 SWIM/여름).
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
+WITH p, ac, coalesce($purpose,'SWIM') AS purpose, coalesce($season,'여름') AS season
 WHERE p.recommendable='Y'
   AND NOT p.categoryMain IN ['숙박시설','교통시설']
   AND (p.categoryMid IN ['해양','해변'] OR p.name =~ '.*(해수욕장|해변|포구|해안).*')
   AND ac.wheelchairAccess IN ['FULL','PARTIAL']
+  // 물놀이 목적이면 어항구역을 아예 제외한다 (법적 금지)
+  AND ( purpose <> 'SWIM'
+        OR coalesce(p.swimmingRestriction,'') <> 'PROHIBITED_FROM_2027' )
+WITH p, ac, purpose, season,
+     CASE WHEN p.name =~ '.*(해수욕장|해변).*' THEN '해수욕장'
+          WHEN p.name =~ '.*(포구|항).*'      THEN '포구·항'
+          ELSE '해안' END AS 장소유형
+// 물놀이 목적이면 지정 해수욕장을 우선한다
+WHERE purpose <> 'SWIM' OR 장소유형 = '해수욕장'
 OPTIONAL MATCH (p)-[:HAS_ADVISORY]->(adv:PlaceAdvisory)
-WHERE adv.peakSeason='' OR adv.peakSeason='여름'
-RETURN p.name AS 관광지, ac.wheelchairAccess AS 접근등급,
-       ac.mobilityCaveat AS 주의, adv.advisoryMessage AS 안전안내,
-       p.swimmingRestriction AS 물놀이제한, p.harborType AS 어항종류,
-       CASE WHEN p.swimmingRestriction='PROHIBITED_FROM_2027'
-            THEN '※ 물놀이 목적 추천 불가 — 어항구역'
-            WHEN adv.advisoryMessage IS NOT NULL THEN '조건부 — 안전 안내 필수'
-            ELSE '추천' END AS 판정
-ORDER BY (p.swimmingRestriction='PROHIBITED_FROM_2027'), 접근등급 LIMIT 12;
+WHERE coalesce(adv.peakSeason,'') IN ['', season]
+RETURN p.name AS 관광지, 장소유형,
+       ac.wheelchairAccess AS 접근등급,
+       ac.mobilityCaveat AS 주의,
+       adv.advisoryMessage AS 안전안내,
+       p.harborType AS 어항종류,
+       CASE
+         WHEN purpose='SIGHTSEE' AND coalesce(p.swimmingRestriction,'')='PROHIBITED_FROM_2027'
+           THEN '추천 — 다만 이곳에서 물놀이·다이빙은 2027-04-22부터 금지됩니다'
+         WHEN coalesce(adv.advisoryLevel,'') IN ['ATTENTION','CAUTION']
+           THEN '조건부 — 안전 안내 필수'
+         WHEN ac.wheelchairAccess='FULL' THEN '추천'
+         ELSE '조건부 추천 — 부분 접근' END AS 판정
+// 등급은 사전순이 아니라 명시적 순서로 정렬한다
+ORDER BY CASE ac.wheelchairAccess WHEN 'FULL' THEN 0 WHEN 'PARTIAL' THEN 1 ELSE 2 END,
+         // 경관 감상 목적이면 유형을 가리지 않는다 (해수욕장·해안·포구를 고루 제시)
+         CASE WHEN purpose='SWIM'
+              THEN CASE 장소유형 WHEN '해수욕장' THEN 0 WHEN '해안' THEN 1 ELSE 2 END
+              ELSE 0 END,
+         // 안전 안내가 있는 곳을 먼저 보여 주의사항이 누락되지 않게 한다
+         CASE WHEN coalesce(adv.advisoryLevel,'') IN ['ATTENTION','CAUTION'] THEN 0 ELSE 1 END,
+         p.name
+LIMIT 12;
+// 기대(SWIM):     해수욕장만 33곳 중 상위 12. 어항 제외
+// 기대(SIGHTSEE): 해수욕장·해안·포구 94곳 중 상위 12. 포구는 물놀이 금지 고지 포함
 
 
 // ════════════════════════════════════════════════════════════════
@@ -60,7 +96,7 @@ ORDER BY p.name;
 //      오답: "이용 가능합니다"만 답변 → 혼자 갔다가 위험
 // ════════════════════════════════════════════════════════════════
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
-WHERE ac.companionRequired='Y' OR ac.assistLevel <> ''
+WHERE coalesce(ac.companionRequired,'')='Y' OR coalesce(ac.assistLevel,'') <> ''
 RETURN p.name AS 관광지, ac.mobilityAccess AS 이동등급,
        ac.activityAccess AS 활동참여, ac.assistLevel AS 도움정도,
        ac.mobilityCaveat AS 주의사항, ac.evidenceType AS 근거유형,
@@ -117,7 +153,7 @@ WHERE ac.cognitiveAccess <> 'UNKNOWN' AND p.recommendable='Y'
 RETURN p.name AS 관광지, p.indoorOutdoor AS 실내외,
        ac.cognitiveAccess AS 발달등급, ac.sensoryLoad AS 감각부하,
        ac.activityEvidence AS 근거
-ORDER BY (ac.sensoryLoad='LOW') DESC;
+ORDER BY (coalesce(ac.sensoryLoad,'')='LOW') DESC;
 // 기대: 9곳. 아쿠아플라넷·서프라이즈테마파크 등 "감각 자극이 강하지 않다" 근거
 
 
@@ -130,7 +166,7 @@ ORDER BY (ac.sensoryLoad='LOW') DESC;
 //      오답: "올레 5코스 완주 가능"처럼 전 구간 가능한 것으로 안내
 // ════════════════════════════════════════════════════════════════
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
-WHERE ac.wheelchairSection <> ''
+WHERE coalesce(ac.wheelchairSection,'') <> ''
 RETURN p.name AS 코스, ac.wheelchairSection AS 이용가능구간,
        ac.wheelchairSectionDist AS 구간거리,
        ac.wheelchairDifficulty AS 난이도,
@@ -173,7 +209,7 @@ ORDER BY (p.indoorOutdoorCode='INDOOR') DESC, size(발동위험) ASC LIMIT 12;
 //      오답: 섬 내부 접근성만 보고 "가능합니다"
 // ════════════════════════════════════════════════════════════════
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
-WHERE p.isIsland='Y'
+WHERE coalesce(p.isIsland,'')='Y'
 RETURN p.name AS 섬, p.ferryPort AS 출발항, p.ferryMinutes AS 소요분,
        p.halfDayRequired AS 반나절소요,
        ac.mobilityAccess AS 이동등급, ac.facilityAccess AS 시설접근,
@@ -213,7 +249,7 @@ CALL () { MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
           RETURN 'T2 시설≠활동' AS 항목, count(*) AS 건수 }
 RETURN 항목, 건수
 UNION
-CALL () { MATCH (ac:Accessibility) WHERE ac.companionRequired='Y'
+CALL () { MATCH (ac:Accessibility) WHERE coalesce(ac.companionRequired,'')='Y'
           RETURN 'T3 동반필요' AS 항목, count(*) AS 건수 }
 RETURN 항목, 건수
 UNION
@@ -225,7 +261,7 @@ CALL () { MATCH (ac:Accessibility) WHERE ac.cognitiveAccess<>'UNKNOWN'
           RETURN 'T6 발달확보' AS 항목, count(*) AS 건수 }
 RETURN 항목, 건수
 UNION
-CALL () { MATCH (ac:Accessibility) WHERE ac.wheelchairSection<>''
+CALL () { MATCH (ac:Accessibility) WHERE coalesce(ac.wheelchairSection,'')<>''
           RETURN 'T7 올레구간' AS 항목, count(*) AS 건수 }
 RETURN 항목, 건수
 UNION

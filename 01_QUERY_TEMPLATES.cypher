@@ -28,7 +28,7 @@ ORDER BY pop DESC, risk ASC
 WITH p.categoryMid AS cat, collect(p)[0..2] AS picks
 UNWIND picks AS place
 RETURN place.name, place.categoryMid, place.placeRank, place.directRiskScore,
-       CASE WHEN place.ambientRiskLevel='HIGH' THEN place.ambientNote ELSE '' END AS 주변사고
+       CASE WHEN coalesce(place.ambientRiskLevel,'')='HIGH' THEN place.ambientNote ELSE '' END AS 주변사고
 LIMIT 12;
 
 // ─────────────────────────────────────────────────────────────
@@ -60,7 +60,7 @@ WITH anchor, anchorRisk, cand, dist, risk,
           WHEN '주의' IN decisions OR profileSensitive>0 THEN '주의'
           ELSE 'GO' END AS decision
 RETURN cand.name, round(dist) AS 거리m, decision, cand.directRiskScore,
-       CASE WHEN cand.ambientRiskLevel='HIGH' THEN cand.ambientNote ELSE '' END AS 주변사고
+       CASE WHEN coalesce(cand.ambientRiskLevel,'')='HIGH' THEN cand.ambientNote ELSE '' END AS 주변사고
 ORDER BY (decision='GO') DESC, risk ASC, dist ASC
 LIMIT 8;
 
@@ -119,7 +119,7 @@ RETURN p.name, p.categorySub, grade AS 접근등급,
        ac.facilityAccess AS 시설접근, ac.activityAccess AS 활동참여,
        ac.mobilityCaveat AS 주의사항, ac.verifyStatus AS 검증상태,
        // 주변 사고 경고 — 랭킹이 아닌 안내 문구
-       CASE WHEN p.ambientRiskLevel='HIGH' THEN '⚠ '+p.ambientNote ELSE '' END AS 주변사고경고,
+       CASE WHEN coalesce(p.ambientRiskLevel,'')='HIGH' THEN '⚠ '+p.ambientNote ELSE '' END AS 주변사고경고,
        CASE
          WHEN ac.activityAccess='UNAVAILABLE' THEN '시설만 이용 가능 (활동 참여 불가)'
          WHEN size(risks)>0 THEN '주의: '+risks[0]

@@ -47,18 +47,18 @@ WITH p, ac, 접근등급, collect(DISTINCT sr.name) AS 민감위험
 
 // ── 축 4. 법적 제한 (어항구역 물놀이 금지) ────────────────
 WITH p, ac, 접근등급, 민감위험,
-     CASE WHEN p.swimmingRestriction = 'PROHIBITED_FROM_2027'
-               AND p.designationConfidence = 'CONFIRMED'
+     CASE WHEN coalesce(p.swimmingRestriction,'') = 'PROHIBITED_FROM_2027'
+               AND coalesce(p.designationConfidence,'') = 'CONFIRMED'
           THEN p.harborType + ' — ' + toString(p.restrictionEffectiveDate) + '부터 물놀이 금지'
           ELSE '' END AS 법적제한
 
 // ── 축 5. 안전 안내 (계절·시간 조건이 맞을 때만) ──────────
 OPTIONAL MATCH (p)-[:HAS_ADVISORY]->(adv:PlaceAdvisory)
-WHERE (adv.peakSeason = '' OR adv.peakSeason = CASE
+WHERE (coalesce(adv.peakSeason,'') = '' OR coalesce(adv.peakSeason,'') = CASE
           WHEN $month IN [3,4,5]   THEN '봄'
           WHEN $month IN [6,7,8]   THEN '여름'
           WHEN $month IN [9,10,11] THEN '가을' ELSE '겨울' END)
-  AND (adv.peakTime = '' OR adv.peakTime = $timeSlot)
+  AND (coalesce(adv.peakTime,'') = '' OR coalesce(adv.peakTime,'') = $timeSlot)
 
 RETURN p.name AS 관광지,
        p.categoryMid AS 유형,
@@ -77,7 +77,7 @@ RETURN p.name AS 관광지,
        CASE
          WHEN 법적제한 <> ''              THEN '조건부 — 법적 제한 있음'
          WHEN ac.activityAccess = 'UNAVAILABLE' THEN '조건부 — 시설만 이용 가능'
-         WHEN adv.advisoryLevel = 'ATTENTION'   THEN '주의 필요'
+         WHEN coalesce(adv.advisoryLevel,'') = 'ATTENTION'   THEN '주의 필요'
          WHEN size(민감위험) > 0           THEN '주의 — 해당 유형 민감 위험'
          WHEN 접근등급 = 'FULL' AND ac.verifyStatus = 'VERIFIED' THEN '추천 (검증완료)'
          WHEN 접근등급 = 'FULL'            THEN '추천'

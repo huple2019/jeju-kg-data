@@ -155,7 +155,7 @@ SET ac.placeId=row.placeId,
     ac.openTourismSite=row.openTourismSite,
     ac.source=row.source, ac.sourceDate=row.sourceDate, ac.sourceCheckUrl=row.sourceCheckUrl,
     ac.multiTypeSource=row.multiTypeSource, ac.multiTypeNote=row.multiTypeNote,
-    ac.verifyStatus=row.verifyStatus,          // VERIFIED/PARTIAL/PENDING/EXCLUDED
+    ac.verifyStatus=row.verifyStatus,          // VERIFIED/SURVEYED/PARTIAL/PENDING/EXCLUDED
     ac.verifyNote=row.verifyNote,
     ac.evidenceType=row.evidenceType,          // FIELD_SURVEY/OFFICIAL_DOC/PUBLICATION/...
     ac.correctionHistory=row.correctionHistory,
@@ -452,7 +452,7 @@ MERGE (p)-[:HAS_ADVISORY]->(a);
 
 // 검증 — 안내 문구에 수치 표현이 섞이지 않았는지
 MATCH (a:SafetyAdvisory)
-WHERE a.advisoryMessage =~ '.*(사망|숨진|사상자|[0-9]+명).*'
+WHERE coalesce(a.advisoryMessage,'') =~ '.*(사망|숨진|사상자|[0-9]+명).*'
 RETURN a.advisory_id, a.advisoryMessage;
 // 기대: 0건
 
@@ -516,8 +516,8 @@ RETURN p.swimmingRestriction AS 상태, p.designationConfidence AS 확정도, co
 
 // 검증 2 — 시행 전인데 '금지되어 있습니다'로 단정한 문구가 없는지
 MATCH (p:Place)-[:HAS_ADVISORY]->(a:PlaceAdvisory)
-WHERE a.advisoryMessage CONTAINS '금지되어 있습니다'
-   OR a.advisoryMessage CONTAINS '금지됩니다.'
+WHERE coalesce(a.advisoryMessage,'') CONTAINS '금지되어 있습니다'
+   OR coalesce(a.advisoryMessage,'') CONTAINS '금지됩니다.'
 RETURN p.placeId, a.advisoryMessage;
 // 기대: 0건 (시행일 명시 형태만 허용)
 

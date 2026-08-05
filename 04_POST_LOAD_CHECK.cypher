@@ -97,17 +97,17 @@ RETURN count(*) AS 잘못된_접근등급;
 
 // 안내 문구에 수치·사망 표현이 섞이면 안 됨
 MATCH (a:PlaceAdvisory)
-WHERE a.advisoryMessage =~ '.*(사망|숨진|사상자|[0-9]+명).*'
+WHERE coalesce(a.advisoryMessage,'') =~ '.*(사망|숨진|사상자|[0-9]+명).*'
 RETURN a.advisory_id, a.advisoryMessage;
 // 기대: 0건
 
 // 시행 전인데 '금지되어 있습니다'로 단정하면 안 됨
-MATCH (a:PlaceAdvisory) WHERE a.advisoryMessage CONTAINS '금지되어 있습니다'
+MATCH (a:PlaceAdvisory) WHERE coalesce(a.advisoryMessage,'') CONTAINS '금지되어 있습니다'
 RETURN count(*) AS 단정표현;
 // 기대: 0
 
 // 개최 일정 없이 추천 가능한 행사가 있으면 안 됨
-MATCH (e:Event) WHERE e.recommendable='Y' AND e.eventDate2026=''
+MATCH (e:Event) WHERE e.recommendable='Y' AND coalesce(e.eventDate2026,'')=''
 RETURN count(*) AS 일정없이_추천가능;
 // 기대: 0
 

@@ -64,6 +64,9 @@ SET ac.placeId=row.placeId,
     ac.multiTypeSource=row.multiTypeSource, ac.multiTypeNote=row.multiTypeNote,
     ac.verifyStatus=row.verifyStatus,          // VERIFIED/SURVEYED/PARTIAL/PENDING/EXCLUDED
     ac.verifyNote=row.verifyNote,
+    ac.beachAccessRoute=row.beachAccessRoute,   // 있음/미확인 — 백사장 진입로
+    ac.beachEntryNote=row.beachEntryNote,       // 모래사장 이동 안내
+    ac.waterEntryNote=row.waterEntryNote,       // 입수 시 동행 안내
     ac.evidenceType=row.evidenceType,          // FIELD_SURVEY/OFFICIAL_DOC/PUBLICATION/...
     ac.correctionHistory=row.correctionHistory,
     ac.schemaVersion=row.schemaVersion;

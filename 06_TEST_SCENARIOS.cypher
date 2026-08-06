@@ -10,65 +10,108 @@
 
 
 // ════════════════════════════════════════════════════════════════
-// [T1] 휠체어 + 여름 오후 + 바다 — 방문 목적에 따라 판정이 갈린다
-//      질문A: "휠체어로 물놀이할 수 있는 바다 알려줘"   → $purpose='SWIM'
-//      질문B: "휠체어로 바다 구경하기 좋은 곳 알려줘"     → $purpose='SIGHTSEE'
+// [T1] 휠체어 + 바다 — 방문 목적과 계절에 따라 판정이 갈린다
 //
-//      핵심: 어촌·어항법이 금지하는 것은 물놀이·다이빙·취사·야영뿐입니다.
-//            산책·경관 감상은 제한 대상이 아니므로 포구도 추천 가능합니다.
-//            목적을 구분하지 않으면 포구를 무조건 배제하거나(과잉),
-//            물놀이 장소로 추천하는(위험) 오류가 납니다.
+//      슬롯: $month(1~12), $purpose('SWIM'|'SIGHTSEE')
+//      질문 예:
+//        "8월에 휠체어로 물놀이할 수 있는 바다"   → month=8,  purpose='SWIM'
+//        "1월에 휠체어로 바다 보러 갈 곳"          → month=1,  purpose='SIGHTSEE'
+//        "10월에 휠체어로 해안 산책"               → month=10, purpose='SIGHTSEE'
 //
-//      검증: ① SWIM 이면 어항구역이 결과에서 제외되는가
-//            ② SIGHTSEE 이면 포구도 나오되 물놀이 금지가 함께 고지되는가
-//            ③ 안전요원 배치 여부(해수욕장)가 안내되는가
-//      오답: 목적과 무관하게 포구를 "물놀이 명소"로 추천 / 산책 목적인데 포구를 전부 배제
+//      계절이 판정을 바꾸는 지점
+//        · 해수욕장 안전요원은 성수기(7~8월)에만 배치됩니다.
+//          그 외 기간의 입수는 안전요원 없이 하는 것이므로 별도 경고가 필요합니다.
+//        · 가을(9~11)에는 갯바위·테트라포드 낚시 사고 주의보가 발령됩니다.
+//        · 겨울(12~2)에는 해안 결빙·강풍이, 여름(7~9)에는 태풍이 변수입니다.
+//        · 어항 물놀이 금지는 계절과 무관하게 적용됩니다.
+//
+//      휠체어 × 해변에서 반드시 나가야 할 두 가지
+//        · 모래사장은 바퀴가 빠져 이동이 어렵습니다. 진입로·데크가 있는 곳은 4곳뿐이며
+//          나머지는 미확인이므로 "접근 가능"으로 뭉뚱그리면 안 됩니다.
+//        · 입수는 접근과 별개입니다. 동행자 없이 깊은 물에 들어가면
+//          파도에 중심을 잃고 스스로 빠져나오기 어렵습니다.
+//
+//      검증: ① 비수기 입수에 안전요원 부재 경고가 나가는가
+//            ② 해당 월의 소방 계절 주의보가 함께 제시되는가
+//            ③ SWIM 이면 어항이 제외되고, SIGHTSEE 면 포함되되 금지가 고지되는가
+//            ④ 모래사장 이동 제약과 입수 시 동행 필요가 안내되는가
+//      오답: "접근 가능합니다"로만 답해 모래사장을 건널 수 있는 것처럼 오인하게 함
+//            1월에 "안전요원 근무 시간대를 이용하세요"만 안내 (그 시기엔 근무 안 함)
 // ════════════════════════════════════════════════════════════════
-:param purpose => 'SWIM';     // 'SWIM' 또는 'SIGHTSEE'
-:param season  => '여름';
+:param month   => 8;          // 1~12
+:param purpose => 'SWIM';     // 'SWIM' | 'SIGHTSEE'
 
-// ⚠ 아래는 :param 없이 실행해도 동작합니다(기본 SWIM/여름).
+// :param 없이 실행해도 동작합니다(기본 8월·SWIM).
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
-WITH p, ac, coalesce($purpose,'SWIM') AS purpose, coalesce($season,'여름') AS season
+WITH p, ac,
+     coalesce($month, 8) AS mon,
+     coalesce($purpose, 'SWIM') AS purpose
+WITH p, ac, mon, purpose,
+     CASE WHEN mon IN [3,4,5] THEN '봄' WHEN mon IN [6,7,8] THEN '여름'
+          WHEN mon IN [9,10,11] THEN '가을' ELSE '겨울' END AS season,
+     (mon IN [7,8]) AS 해수욕장_개장기간
 WHERE p.recommendable='Y'
   AND NOT p.categoryMain IN ['숙박시설','교통시설']
   AND (p.categoryMid IN ['해양','해변'] OR p.name =~ '.*(해수욕장|해변|포구|해안).*')
   AND ac.wheelchairAccess IN ['FULL','PARTIAL']
-  // 물놀이 목적이면 어항구역을 아예 제외한다 (법적 금지)
   AND ( purpose <> 'SWIM'
         OR coalesce(p.swimmingRestriction,'') <> 'PROHIBITED_FROM_2027' )
-WITH p, ac, purpose, season,
+WITH p, ac, mon, purpose, season, 해수욕장_개장기간,
      CASE WHEN p.name =~ '.*(해수욕장|해변).*' THEN '해수욕장'
           WHEN p.name =~ '.*(포구|항).*'      THEN '포구·항'
           ELSE '해안' END AS 장소유형
-// 물놀이 목적이면 지정 해수욕장을 우선한다
 WHERE purpose <> 'SWIM' OR 장소유형 = '해수욕장'
+
+// 장소별 안전 안내 — 해당 계절 것만
 OPTIONAL MATCH (p)-[:HAS_ADVISORY]->(adv:PlaceAdvisory)
 WHERE coalesce(adv.peakSeason,'') IN ['', season]
-RETURN p.name AS 관광지, 장소유형,
+
+// 해당 월에 발령되는 소방 계절 주의보 (해양·낚시·기상 관련만)
+OPTIONAL MATCH (sa:SafetyAdvisory)
+WHERE toString(mon) IN split(coalesce(sa.issue_months,''), ',')
+  AND coalesce(sa.advisory_name,'') =~ '.*(수난|낚시|태풍|폭염|미끄러짐|야외활동).*'
+
+WITH p, ac, mon, purpose, season, 해수욕장_개장기간, 장소유형, adv,
+     collect(DISTINCT coalesce(sa.advisory_name,'')) AS 계절주의보
+RETURN p.name AS 관광지, 장소유형, season AS 계절,
        ac.wheelchairAccess AS 접근등급,
        ac.mobilityCaveat AS 주의,
        adv.advisoryMessage AS 안전안내,
-       p.harborType AS 어항종류,
+       [x IN 계절주의보 WHERE x <> ''] AS 발령중_주의보,
+       // 휠체어 × 해변 특화 안내 — 모래사장 이동과 입수는 별개 문제
+       CASE WHEN 장소유형='해수욕장' THEN ac.beachEntryNote ELSE '' END AS 모래사장_이동,
+       CASE WHEN 장소유형='해수욕장' AND purpose='SWIM'
+            THEN ac.waterEntryNote ELSE '' END AS 입수_주의,
+       // 계절이 만드는 추가 안내
+       CASE
+         WHEN purpose='SWIM' AND NOT 해수욕장_개장기간
+           THEN '※ 해수욕장 개장기간(7~8월)이 아닙니다. 안전요원이 배치되지 않으므로 입수를 권하지 않습니다'
+         WHEN season='가을' AND 장소유형 IN ['해안','포구·항']
+           THEN '※ 갯바위·테트라포드 낚시 사고가 잦은 시기입니다. 방파제 위로 올라가지 마세요'
+         WHEN season='겨울'
+           THEN '※ 해안 강풍과 결빙에 유의하시고, 파도가 높은 날은 방문을 미루십시오'
+         WHEN season='봄' AND 장소유형='해안'
+           THEN '※ 해무가 끼는 시기입니다. 시야가 나쁠 때는 해안 산책을 자제하십시오'
+         ELSE '' END AS 계절안내,
        CASE
          WHEN purpose='SIGHTSEE' AND coalesce(p.swimmingRestriction,'')='PROHIBITED_FROM_2027'
            THEN '추천 — 다만 이곳에서 물놀이·다이빙은 2027-04-22부터 금지됩니다'
+         WHEN purpose='SWIM' AND NOT 해수욕장_개장기간
+           THEN '비추천 — 비개장기 입수'
          WHEN coalesce(adv.advisoryLevel,'') IN ['ATTENTION','CAUTION']
            THEN '조건부 — 안전 안내 필수'
          WHEN ac.wheelchairAccess='FULL' THEN '추천'
          ELSE '조건부 추천 — 부분 접근' END AS 판정
-// 등급은 사전순이 아니라 명시적 순서로 정렬한다
 ORDER BY CASE ac.wheelchairAccess WHEN 'FULL' THEN 0 WHEN 'PARTIAL' THEN 1 ELSE 2 END,
-         // 경관 감상 목적이면 유형을 가리지 않는다 (해수욕장·해안·포구를 고루 제시)
          CASE WHEN purpose='SWIM'
               THEN CASE 장소유형 WHEN '해수욕장' THEN 0 WHEN '해안' THEN 1 ELSE 2 END
               ELSE 0 END,
-         // 안전 안내가 있는 곳을 먼저 보여 주의사항이 누락되지 않게 한다
          CASE WHEN coalesce(adv.advisoryLevel,'') IN ['ATTENTION','CAUTION'] THEN 0 ELSE 1 END,
          p.name
 LIMIT 12;
-// 기대(SWIM):     해수욕장만 33곳 중 상위 12. 어항 제외
-// 기대(SIGHTSEE): 해수욕장·해안·포구 94곳 중 상위 12. 포구는 물놀이 금지 고지 포함
+// 기대(8월·SWIM):    해수욕장만. 발령중_주의보에 여름철 수난사고·폭염·태풍
+// 기대(1월·SWIM):    전 건에 "개장기간 아님 — 입수 권하지 않음", 판정=비추천
+// 기대(10월·SIGHTSEE): 포구·해안 포함, 갯바위 낚시 주의 + 물놀이 금지 고지
 
 
 // ════════════════════════════════════════════════════════════════
@@ -165,15 +208,25 @@ ORDER BY (coalesce(ac.sensoryLoad,'')='LOW') DESC;
 //            ② 난이도 상(동행 필수)을 구분하는가
 //      오답: "올레 5코스 완주 가능"처럼 전 구간 가능한 것으로 안내
 // ════════════════════════════════════════════════════════════════
+:param month => 8;
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
+WITH p, ac, coalesce($month,8) AS mon
+WITH p, ac, mon,
+     CASE WHEN mon IN [3,4,5] THEN '봄' WHEN mon IN [6,7,8] THEN '여름'
+          WHEN mon IN [9,10,11] THEN '가을' ELSE '겨울' END AS season
 WHERE coalesce(ac.wheelchairSection,'') <> ''
-RETURN p.name AS 코스, ac.wheelchairSection AS 이용가능구간,
+RETURN p.name AS 코스, season AS 계절, ac.wheelchairSection AS 이용가능구간,
        ac.wheelchairSectionDist AS 구간거리,
        ac.wheelchairDifficulty AS 난이도,
        ac.companionRequired AS 동행필요,
        ac.vehicleAccessible AS 차량접근,
        ac.disabledToiletOnRoute AS 경로상화장실,
        ac.wheelchairCaveat AS 주의사항,
+       CASE season
+         WHEN '여름' THEN '※ 그늘이 적은 구간이 있습니다. 폭염 시간대(11~16시)를 피하고 수분을 준비하십시오'
+         WHEN '겨울' THEN '※ 해안 구간은 강풍과 결빙에 유의하시고, 일몰이 이르니 오후 3시 이후 출발은 피하십시오'
+         WHEN '가을' THEN '※ 갯바위·방파제 구간은 낚시 사고가 잦은 시기입니다. 지정 경로를 벗어나지 마십시오'
+         ELSE '※ 해무가 끼면 시야가 급격히 나빠집니다. 기상을 확인하고 출발하십시오' END AS 계절안내,
        ac.mobilityAccess AS 판정
 ORDER BY ac.wheelchairDifficulty DESC, 코스;
 // 기대: 9개 코스. 난이도 HIGH(5·9코스)는 mobilityAccess=NONE
@@ -208,13 +261,24 @@ ORDER BY (p.indoorOutdoorCode='INDOOR') DESC, size(발동위험) ASC LIMIT 12;
 //      검증: 여객선 승하선 제약을 고지하는가
 //      오답: 섬 내부 접근성만 보고 "가능합니다"
 // ════════════════════════════════════════════════════════════════
+:param month => 8;
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
+WITH p, ac, coalesce($month,8) AS mon
+WITH p, ac, mon,
+     CASE WHEN mon IN [3,4,5] THEN '봄' WHEN mon IN [6,7,8] THEN '여름'
+          WHEN mon IN [9,10,11] THEN '가을' ELSE '겨울' END AS season
 WHERE coalesce(p.isIsland,'')='Y'
-RETURN p.name AS 섬, p.ferryPort AS 출발항, p.ferryMinutes AS 소요분,
+RETURN p.name AS 섬, season AS 계절, p.ferryPort AS 출발항, p.ferryMinutes AS 소요분,
        p.halfDayRequired AS 반나절소요,
        ac.mobilityAccess AS 이동등급, ac.facilityAccess AS 시설접근,
        ac.activityAccess AS 활동참여, ac.mobilityCaveat AS 주의사항,
-       p.islandAccessNote AS 도서안내
+       p.islandAccessNote AS 도서안내,
+       CASE season
+         WHEN '겨울' THEN '※ 북서풍이 강해 결항이 잦은 시기입니다. 당일 운항 여부를 반드시 확인하십시오'
+         WHEN '여름' THEN '※ 태풍 내습 시 결항되며, 섬에 고립될 수 있습니다. 기상 예보를 확인하십시오'
+         WHEN '가을' THEN '※ 너울성 파도로 결항될 수 있습니다. 출항 전 확인하십시오'
+         ELSE '※ 해무로 결항될 수 있습니다. 출항 전 확인하십시오' END AS 계절_결항주의,
+       '휠체어 이용 시 승하선에 도움이 필요합니다. 선사에 미리 알려 주십시오' AS 승선안내
 ORDER BY p.name LIMIT 15;
 // 기대: 승하선 제약이 mobilityCaveat 또는 activityAccess 에 반영되어 있어야 함
 

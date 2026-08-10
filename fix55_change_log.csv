@@ -1,0 +1,3 @@
+﻿placeId,fix,field,before,after,reason
+P291,FIX55,ambientRiskLevel/AnnualAvg,MEDIUM / 10.0,MEDIUM / 11.0,좌표 정정 후 반경1km 22건 기준 재계산 (LOW≤3.5 / MEDIUM≤12.0 / HIGH>12.0)
+P625,FIX55,ambientRiskLevel/AnnualAvg,MEDIUM / 5.0,LOW / 0.5,좌표 정정 후 반경1km 1건 기준 재계산 (LOW≤3.5 / MEDIUM≤12.0 / HIGH>12.0)

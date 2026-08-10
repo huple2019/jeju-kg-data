@@ -1,0 +1,190 @@
+# -*- coding: utf-8 -*-
+"""
+FIX54 — 중복 노드 3쌍 병합 + 관계 정리 + 좌표 기반 파생값 재계산
+
+  P1027 → P625  제주특별자치도립미술관
+  P1029 → P291  제주해녀박물관
+  P1028 → P529  제주삼양동유적
+
+■ 단순 병합이 아닌 이유
+  place_risk_score · place_nearby_accident_1km · firevent_OCCURRED_AT 는
+  모두 Place 좌표를 기준으로 계산된 파생값이다.
+  이번에 좌표를 공식값으로 바꾸므로 이 값들도 함께 다시 계산해야 한다.
+
+  특히 P1029(해녀박물관)에 붙어 있던 화재 3건은
+  2.9km 어긋난 좌표를 기준으로 매칭된 것이라 그대로 P291 로 옮기면 안 된다.
+  → 좌표 정정 후 반경 1km 로 재매칭한다.
+
+■ region 도 고친다
+  P529 는 REG_서귀포시_표선면 에 걸려 있는데, 이는 잘못된 지번주소에서 파생된 값이다.
+  삼양동유적은 제주시 삼양동 소재이므로 P1028 의 REG_제주시_삼양일동 이 맞다.
+"""
+import csv, io, math
+
+PAIRS = [("P625", "P1027"), ("P291", "P1029"), ("P529", "P1028")]
+
+# 공식 좌표 및 필드 정정
+FIX = {
+    "P625": {"name": "제주특별자치도립미술관",
+             "latitude": "33.4525957", "longitude": "126.4896313",
+             "feeGeneral": "2000",
+             "note_add": "구명칭·이명: 제주도립미술관, 제주특별자치도 도립미술관"},
+    "P291": {"name": "제주해녀박물관",
+             "latitude": "33.5242827", "longitude": "126.8629097",
+             "feeGeneral": "1100",
+             "note_add": "구명칭·이명: 해녀박물관"},
+    "P529": {"name": "제주삼양동유적",
+             "latitude": "33.523994", "longitude": "126.58665",
+             "jibunAddress": "UNKNOWN",
+             "indoorOutdoor": "실내+실외", "indoorOutdoorCode": "MIXED",
+             "note_add": "구명칭·이명: 삼양동선사유적지, 제주삼양동선사유적 "
+                         "(2011-07-28 국가유산 명칭 변경). "
+                         "지번주소는 기존 값(서귀포시 표선면 성읍리 690)이 타 관광지 데이터로 확인되어 UNKNOWN 처리"},
+}
+
+log = []
+
+
+def L(pid, field, before, after, reason):
+    log.append([pid, "FIX54", field, (str(before) or "(공백)")[:60], (str(after) or "(공백)")[:60], reason])
+
+
+def load(fn):
+    return list(csv.reader(io.StringIO(open(fn, encoding="utf-8-sig").read())))
+
+
+def save(fn, rows):
+    out = io.StringIO(); csv.writer(out, lineterminator="\n").writerows(rows)
+    open(fn, "w", encoding="utf-8-sig", newline="").write(out.getvalue())
+
+
+# ═══════════ 1. Place 필드 정정 ═══════════
+rows = load("nodes_place.csv")
+ix = {c: i for i, c in enumerate(rows[0])}
+by = {r[ix["placeId"]]: r for r in rows[1:]}
+for pid in [p for pair in PAIRS for p in pair]:
+    if pid not in by:
+        raise SystemExit(f"[FATAL] {pid} 없음 — 중단")
+
+for keep, drop in PAIRS:
+    r = by[keep]
+    f = FIX[keep]
+    for col in ("name", "latitude", "longitude", "feeGeneral", "jibunAddress",
+                "indoorOutdoor", "indoorOutdoorCode"):
+        if col in f and r[ix[col]] != f[col]:
+            L(keep, col, r[ix[col]], f[col], "공식 자료 기준 정정")
+            r[ix[col]] = f[col]
+    b = r[ix["note"]]
+    r[ix["note"]] = (b.strip() + " | " if b.strip() else "") + "[FIX54] " + f["note_add"]
+    L(keep, "note", b, r[ix["note"]], "구명칭 기록 (aliases 필드가 스키마에 없음)")
+
+    d = by[drop]
+    L(drop, "recommendable", d[ix["recommendable"]], "N", f"중복 노드 — 대표는 {keep}")
+    d[ix["recommendable"]] = "N"
+    b = d[ix["note"]]
+    d[ix["note"]] = (b.strip() + " | " if b.strip() else "") + \
+        f"[FIX54] 중복 노드 — 대표는 {keep} {FIX[keep]['name']}. 관계·요금 정보는 {keep} 로 이관"
+    L(drop, "note", b, d[ix["note"]], "병합 이력")
+
+save("nodes_place.csv", rows)
+P = {r[ix["placeId"]]: r for r in rows[1:]}
+
+# ═══════════ 2. 위험패턴 이관 (RP_CROWD_01) ═══════════
+rows = load("rel_risk_APPLIES_TO_place.csv")
+hdr = rows[0]; rcol, pcol = 0, 1
+existing = {(r[rcol], r[pcol]) for r in rows[1:]}
+added = 0
+for keep, drop in PAIRS:
+    for r in list(rows[1:]):
+        if r[pcol] == drop and (r[rcol], keep) not in existing:
+            new = list(r); new[pcol] = keep
+            rows.append(new); existing.add((r[rcol], keep)); added += 1
+            L(keep, "risk_APPLIES_TO", "(없음)", r[rcol], f"{drop} 에서 이관")
+save("rel_risk_APPLIES_TO_place.csv", rows)
+
+# ═══════════ 3. region 정정 (P529) ═══════════
+rows = load("rel_place_LOCATED_IN_region.csv")
+h = {c: i for i, c in enumerate(rows[0])}
+pc = next(i for c, i in h.items() if "place" in c.lower())
+rc = next(i for c, i in h.items() if "region" in c.lower() or "REG" in c)
+for r in rows[1:]:
+    if r[pc] == "P529" and r[rc] == "REG_서귀포시_표선면":
+        L("P529", "LOCATED_IN", r[rc], "REG_제주시_삼양일동",
+          "잘못된 지번주소에서 파생된 region — 삼양동유적은 제주시 삼양동 소재")
+        r[rc] = "REG_제주시_삼양일동"
+save("rel_place_LOCATED_IN_region.csv", rows)
+
+# ═══════════ 4. 좌표 기반 파생값 재계산 ═══════════
+fires = [r for r in csv.DictReader(open("nodes_accident_event_fire.csv", encoding="utf-8-sig"))
+         if r["latitude"].strip() and r["longitude"].strip()]
+
+
+def dist_m(la1, lo1, la2, lo2):
+    return math.hypot((la1 - la2) * 111000, (lo1 - lo2) * 92800)
+
+
+recalc = {}
+for keep, _ in PAIRS:
+    la, lo = float(P[keep][ix["latitude"]]), float(P[keep][ix["longitude"]])
+    near = []
+    for f in fires:
+        try:
+            d = dist_m(la, lo, float(f["latitude"]), float(f["longitude"]))
+        except ValueError:
+            continue
+        if d <= 1000:
+            near.append((f, round(d)))
+    cnt = collections_counter = {}
+    for f, _d in near:
+        cnt[f["risk_id"]] = cnt.get(f["risk_id"], 0) + 1
+    recalc[keep] = {"near": near, "types": cnt}
+
+# 4-1. nearby_accident 갱신
+rows = load("place_nearby_accident_1km.csv")
+h = {c: i for i, c in enumerate(rows[0])}
+for r in rows[1:]:
+    pid = r[h["placeId"]]
+    if pid in recalc:
+        n = len(recalc[pid]["near"])
+        types = ", ".join(f"{k}:{v}" for k, v in sorted(recalc[pid]["types"].items(), key=lambda x: -x[1]))
+        L(pid, "nearbyAccidentTotal", r[h["nearbyAccidentTotal"]], n, "좌표 정정에 따른 반경 1km 재계산")
+        r[h["nearbyAccidentTotal"]] = str(n)
+        r[h["nearbyAccidentTypes"]] = types
+        r[h["nearbyAnnualAvg"]] = f"{n/2:.1f}"
+save("place_nearby_accident_1km.csv", rows)
+
+# 4-2. firevent 재매칭 — 잘못된 좌표로 붙은 것 제거 후 재생성
+rows = load("rel_firevent_OCCURRED_AT_place.csv")
+hdr = rows[0]
+h = {c: i for i, c in enumerate(hdr)}
+pc = next(i for c, i in h.items() if "place" in c.lower())
+ac = 0
+dc = next((i for c, i in h.items() if "dist" in c.lower()), None)
+targets = {p for pair in PAIRS for p in pair}
+kept = [r for r in rows[1:] if r[pc] not in targets]
+removed = len(rows) - 1 - len(kept)
+for keep, _ in PAIRS:
+    for f, d in recalc[keep]["near"]:
+        new = [""] * len(hdr)
+        new[ac] = f["accidentId"]; new[pc] = keep
+        for c, i in h.items():
+            if "type" in c.lower() or "rel" in c.lower():
+                new[i] = "OCCURRED_AT"
+        if dc is not None:
+            new[dc] = str(d)
+        kept.append(new)
+L("(전체)", "firevent_OCCURRED_AT", f"{removed}건 제거",
+  f"{sum(len(recalc[k]['near']) for k, _ in PAIRS)}건 재생성", "좌표 정정 후 반경 1km 재매칭")
+save("rel_firevent_OCCURRED_AT_place.csv", [hdr] + kept)
+
+with open("fix54_change_log.csv", "w", encoding="utf-8-sig", newline="") as f:
+    w = csv.writer(f, lineterminator="\n")
+    w.writerow(["placeId", "fix", "field", "before", "after", "reason"])
+    w.writerows(log)
+
+print(f"FIX54 적용 완료 — {len(log)}건\n")
+for keep, drop in PAIRS:
+    n = len(recalc[keep]["near"])
+    print(f"  {keep} ← {drop}  좌표 {P[keep][ix['latitude']]},{P[keep][ix['longitude']]}  "
+          f"반경1km 화재 {n}건")
+print(f"\n  위험패턴 이관 {added}건 · firevent {removed}건 제거 후 재생성")

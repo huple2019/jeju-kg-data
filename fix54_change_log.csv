@@ -1,0 +1,33 @@
+﻿placeId,fix,field,before,after,reason
+P625,FIX54,name,제주특별자치도 도립미술관,제주특별자치도립미술관,공식 자료 기준 정정
+P625,FIX54,latitude,33.45921,33.4525957,공식 자료 기준 정정
+P625,FIX54,longitude,126.48759,126.4896313,공식 자료 기준 정정
+P625,FIX54,feeGeneral,5000,2000,공식 자료 기준 정정
+P625,FIX54,note,소개: 제주도립미술관은 제주도 같이 물 위에 떠있는 모습으로 설계되었다. 미술관을 둘러싼 물 그림자에 미술관,소개: 제주도립미술관은 제주도 같이 물 위에 떠있는 모습으로 설계되었다. 미술관을 둘러싼 물 그림자에 미술관,구명칭 기록 (aliases 필드가 스키마에 없음)
+P1027,FIX54,recommendable,Y,N,중복 노드 — 대표는 P625
+P1027,FIX54,note,"기당·이중섭·김창열과 동급 도립미술관, 수집 공백분","기당·이중섭·김창열과 동급 도립미술관, 수집 공백분 | [FIX54] 중복 노드 — 대표는 P625 제주특별",병합 이력
+P291,FIX54,name,해녀박물관,제주해녀박물관,공식 자료 기준 정정
+P291,FIX54,latitude,33.52305,33.5242827,공식 자료 기준 정정
+P291,FIX54,longitude,126.862848,126.8629097,공식 자료 기준 정정
+P291,FIX54,feeGeneral,(공백),1100,공식 자료 기준 정정
+P291,FIX54,note,UNKNOWN,UNKNOWN | [FIX54] 구명칭·이명: 해녀박물관,구명칭 기록 (aliases 필드가 스키마에 없음)
+P1029,FIX54,recommendable,Y,N,중복 노드 — 대표는 P291
+P1029,FIX54,note,(공백),[FIX54] 중복 노드 — 대표는 P291 제주해녀박물관. 관계·요금 정보는 P291 로 이관,병합 이력
+P529,FIX54,name,삼양동선사유적지,제주삼양동유적,공식 자료 기준 정정
+P529,FIX54,latitude,33.5235045,33.523994,공식 자료 기준 정정
+P529,FIX54,longitude,126.5879995,126.58665,공식 자료 기준 정정
+P529,FIX54,jibunAddress,제주특별자치도 서귀포시 표선면 성읍리 690,UNKNOWN,공식 자료 기준 정정
+P529,FIX54,indoorOutdoor,실내,실내+실외,공식 자료 기준 정정
+P529,FIX54,indoorOutdoorCode,INDOOR,MIXED,공식 자료 기준 정정
+P529,FIX54,note,UNKNOWN,"UNKNOWN | [FIX54] 구명칭·이명: 삼양동선사유적지, 제주삼양동선사유적 (2011-07-28 국가",구명칭 기록 (aliases 필드가 스키마에 없음)
+P1028,FIX54,recommendable,Y,N,중복 노드 — 대표는 P529
+P1028,FIX54,note,(공백),[FIX54] 중복 노드 — 대표는 P529 제주삼양동유적. 관계·요금 정보는 P529 로 이관,병합 이력
+P625,FIX54,risk_APPLIES_TO,(없음),RP_CROWD_01,P1027 에서 이관
+P291,FIX54,risk_APPLIES_TO,(없음),RP_CROWD_01,P1029 에서 이관
+P529,FIX54,risk_APPLIES_TO,(없음),RP_CROWD_01,P1028 에서 이관
+P529,FIX54,LOCATED_IN,REG_서귀포시_표선면,REG_제주시_삼양일동,잘못된 지번주소에서 파생된 region — 삼양동유적은 제주시 삼양동 소재
+(전체),FIX54,firevent_OCCURRED_AT,3499건,3500건 (장소 변경 11건),좌표 정정 후 최근접 장소 재매칭 — 원본 로직 99.9% 재현 검증 후 적용
+P625,FIX54,nearbyAccidentTotal,(구좌표 기준),1,반경 1km 재계산
+P291,FIX54,nearbyAccidentTotal,20,22,반경 1km 재계산
+P529,FIX54,nearbyAccidentTotal,11,11,반경 1km 재계산 (변동 없음)
+P118,FIX54,firevent_OCCURRED_AT,(없음),2건,FIX52 좌표 정정 효과 — 서빈백사에 정상 매칭

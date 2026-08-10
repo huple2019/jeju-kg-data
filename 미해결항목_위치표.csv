@@ -1,0 +1,26 @@
+﻿분류,번호,항목,placeId,관광지명,필드,현재값,할 일
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P070,우도도항선선착장,mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P114,우도잠수함(제주씨월드),mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P118,우도산호해변 홍조단괴 서빈백사,mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P280,우도 봉수대,mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P282,우도 비양도,mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P414,우도(해양도립공원),mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P443,우도등대,mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P486,우도봉,mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A1,부속섬 도달제약 미반영,P631,추자연도교,mobilityAccess / wheelchairAccess / activityAccess / recommendForMobility / mobilityCaveat,wheel=PARTIAL gate=Y caveat=(공백),도항선 접근성 판단 후 하향 또는 mobilityCaveat에 도달제약 추가
+A. KG 데이터 미결,A2,유모차 축 미판단,P227,제주올레 1-1코스,strollerAccess,strollerAccess=PARTIAL,7코스는 계단 명시 — NONE 하향 여부 결정
+A. KG 데이터 미결,A2,유모차 축 미판단,P358,제주올레 7코스,strollerAccess,strollerAccess=PARTIAL,7코스는 계단 명시 — NONE 하향 여부 결정
+A. KG 데이터 미결,A3,무장애 추천코스 5.2km 미등재,P915,가파도,(신규 데이터),미등재,올레 10-1(4.2km)과 별개 경로 — 등재 여부 결정
+A. KG 데이터 미결,A4,중복 노드 의심 — 해녀박물관,P291 / P1029,해녀박물관 / 제주해녀박물관,latitude / longitude,좌표 2.8km 차이. 원본 주소는 구좌읍 해녀박물관길 26 → P1029가 근접. P291 좌표 오류 의심,좌표 검증 후 병합 판단
+A. KG 데이터 미결,A4,중복 노드 의심 — 삼양동유적,P529 / P1028,삼양동선사유적지 / 제주삼양동유적,latitude / longitude,좌표 1.8km 차이. 원본 주소는 제주시 선사로2길 13,좌표 검증 후 병합 판단
+A. KG 데이터 미결,A4,중복 노드 의심 — 도립미술관,P625 / P1027,제주특별자치도 도립미술관 / 제주특별자치도립미술관,placeId 전체,좌표 1m 차이 — 사실상 동일 지점. P625 관계 17개 / P1027 관계 4개,병합 여부 결정 후 관계 재배선
+B. 원본 대조 대기,B2,열린관광 숙박 상세 미대조,P023,롯데호텔제주점,접근성 전 필드,evidenceType=PUBLICATION,열린관광 페이지 대조
+B. 원본 대조 대기,B2,열린관광 숙박 상세 미대조,P047,그랜드하얏트제주,접근성 전 필드,evidenceType=PUBLICATION,열린관광 페이지 대조
+B. 원본 대조 대기,B3,혼합 근거 미대조,P985,옷귀마테마타운,접근성 전 필드,evidenceType=PUBLICATION,근거 출처가 3종 혼합 — 어느 것이 실측인지 분리 필요
+C. 외부 확인 대기 (KG 완료),C1,유선 확인,P416,가파도 마라도 정기여객선,verifyStatus / activityEvidence,안내문구·재확인 기록 반영 완료 (verifyStatus=VERIFIED),㈜아름다운섬나라 — 2021·2022 이후 개선 여부
+C. 외부 확인 대기 (KG 완료),C1,유선 확인,P944,제주빅볼랜드,verifyStatus / activityEvidence,안내문구·재확인 기록 반영 완료 (verifyStatus=PARTIAL),제주빅볼랜드 — 예약처 경유
+C. 외부 확인 대기 (KG 완료),C1,유선 확인,P951,세리월드,verifyStatus / activityEvidence,안내문구·재확인 기록 반영 완료 (verifyStatus=PARTIAL),승마 장애인 정책 — 가능 시 게이트 Y 복원 근거
+C. 외부 확인 대기 (KG 완료),C1,유선 확인,P992,대유ATV수렵사격랜드,verifyStatus / activityEvidence,안내문구·재확인 기록 반영 완료 (verifyStatus=PARTIAL),대유랜드 064-738-0500
+D. v4 과제,D1,음력 7~13일 구조화,P884·P915·P416·P896,,mobilityCaveat (텍스트로만),텍스트,날짜 조건 검색용 속성 신설 — 스키마 변경
+D. v4 과제,D2,activityAccess 축 범위 정의,(문서),,README_SCHEMA_v3.md,축 한정 명시 없음,이동 중심인지 전 유형인지 문서화
+D. v4 과제,D3,:Facility 레이어,P951·P992 등 복합시설,,(스키마 신설),Place 단위 판정,체험별 판정 구조 설계

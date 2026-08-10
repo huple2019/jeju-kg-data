@@ -54,6 +54,8 @@ WHERE p.recommendable='Y'
   AND NOT p.categoryMain IN ['숙박시설','교통시설']
   AND (p.categoryMid IN ['해양','해변'] OR p.name =~ '.*(해수욕장|해변|포구|해안).*')
   AND ac.wheelchairAccess IN ['FULL','PARTIAL']
+  // 핵심 체험이 불가능한 곳은 이동축 추천에서 제외
+  AND coalesce(ac.recommendForMobility,'Y') = 'Y'
   AND ( purpose <> 'SWIM'
         OR coalesce(p.swimmingRestriction,'') <> 'PROHIBITED_FROM_2027' )
 WITH p, ac, mon, purpose, season, 해수욕장_개장기간,
@@ -115,20 +117,41 @@ LIMIT 12;
 
 
 // ════════════════════════════════════════════════════════════════
-// [T2] 시설은 되는데 활동은 안 되는 곳 (12곳)
-//      질문: "휠체어로 오름이나 산책로 갈 수 있어?"
+// [T2] 핵심 체험이 불가능한 곳 — 추천 대상에서 제외되는가
+//      질문: "휠체어로 오름이나 액티비티 즐길 수 있어?"
 //
-//      검증: 시설접근과 활동참여를 분리해 답하는가
-//      오답: "접근 가능합니다"로만 답해 등반 가능한 것처럼 오인하게 함
+//      핵심: "시설 접근 가능"이 주차장·매표소까지만 의미하는 경우가 많습니다.
+//            잠수함은 선내 수직 계단, 짚라인은 출발대 계단, ATV는 직접 조작이 필요합니다.
+//            이런 곳을 "부분 이용 가능"으로 제시하면 헛걸음을 하게 됩니다.
+//            → recommendForMobility='N' 으로 추천 대상에서 제외합니다.
+//
+//      감각축은 다릅니다. 시각·청각장애인은 동행자나 시설 정책에 따라
+//      이용 가능할 수 있으나 그 정보가 확보되지 않았습니다.
+//      "불가"가 아니라 "확인 필요"로 안내해야 합니다.
+//
+//      검증: ① 이동축 추천에서 제외되는가
+//            ② 감각축은 UNKNOWN 으로 두고 확인 안내가 나가는가
+//      오답: "매표소까지 접근 가능합니다"를 추천 근거로 제시
 // ════════════════════════════════════════════════════════════════
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
-WHERE ac.facilityAccess='AVAILABLE' AND ac.activityAccess='UNAVAILABLE'
+WHERE coalesce(ac.recommendForMobility,'Y') = 'N'
 RETURN p.name AS 관광지, p.categoryMid AS 유형,
        ac.mobilityAccess AS 이동등급,
        ac.accessVerdictReason AS 판정사유,
-       '시설까지는 가능 / 활동 참여 불가' AS 안내원칙
-ORDER BY p.name;
-// 기대: 12곳. 종달리해안도로·천백고지휴게소·미악산·거린사슴·삼나무길·올레10-1 등
+       '이동 보조가 필요한 분께는 추천하지 않습니다' AS 이동축_판정,
+       coalesce(ac.recommendForVisual,'UNKNOWN')  AS 시각축,
+       coalesce(ac.recommendForHearing,'UNKNOWN') AS 청각축,
+       ac.sensoryAccessNote AS 감각축_안내
+ORDER BY p.categoryMid, p.name
+LIMIT 20;
+// 기대: 179곳. 이동축 전부 제외, 감각축은 UNKNOWN + 확인 안내
+
+// 추천 대상 집계 — 축별로 몇 곳이 남는가
+MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
+WHERE p.recommendable='Y'
+RETURN coalesce(ac.recommendForMobility,'Y') AS 이동축추천,
+       count(*) AS 건수 ORDER BY 건수 DESC;
+// 기대: Y 850 · N 179
 
 
 // ════════════════════════════════════════════════════════════════
@@ -229,7 +252,10 @@ RETURN p.name AS 코스, season AS 계절, ac.wheelchairSection AS 이용가능�
          ELSE '※ 해무가 끼면 시야가 급격히 나빠집니다. 기상을 확인하고 출발하십시오' END AS 계절안내,
        ac.mobilityAccess AS 판정
 ORDER BY ac.wheelchairDifficulty DESC, 코스;
-// 기대: 9개 코스. 난이도 HIGH(5·9코스)는 mobilityAccess=NONE
+// 기대: 10개 코스 — 제주올레 공식 휠체어 코스 전체
+//   구간 한정 9개: 01·04·05·06·08·10·12·14·17
+//   전 구간  1개: 10-1 (가파도) — wheelchairSection 값이 '전 구간' 으로 시작
+//   난이도 HIGH(5·8코스)는 mobilityAccess=NONE 이므로 조건검색에 노출되지 않는다
 
 
 // ════════════════════════════════════════════════════════════════
@@ -326,7 +352,7 @@ CALL () { MATCH (ac:Accessibility) WHERE ac.cognitiveAccess<>'UNKNOWN'
 RETURN 항목, 건수
 UNION
 CALL () { MATCH (ac:Accessibility) WHERE coalesce(ac.wheelchairSection,'')<>''
-          RETURN 'T7 올레구간' AS 항목, count(*) AS 건수 }
+          RETURN 'T7 올레휠체어코스(공식 10개)' AS 항목, count(*) AS 건수 }
 RETURN 항목, 건수
 UNION
 CALL () { MATCH (e:Event) WHERE e.recommendable='Y'

@@ -1,0 +1,25 @@
+﻿placeId,fix,field,before,after,reason
+P884,FIX44,mobilityCaveat,"가파도 4.2km 순환 코스는 완만한 경사로 전 구간 휠체어 통행이 가능하고, 섬 안에 장애인 전용주차 2면과 장애인 화장실이","가파도 4.2km 순환 코스는 완만한 경사로 전 구간 휠체어 통행이 가능하고, 섬 안에 장애인 전용주차 2면과 장애인 화장실이",2022 실제 승선 시도 기록 반영 — '선적 가능' 표현이 자력 승선으로 오해될 소지
+P884,FIX44,companionRequired,UNKNOWN,Y,승선·선내이동·하선·섬내 이동 전 단계에서 동행자 도움 필요
+P884,FIX44,activityEvidence,"제주올레 공식 코스정보 — 4.2km · 1~2시간 · 난이도 하 · 완만한 경사, 전 구간 휠체어 이용 가능. 한국관광공사 ","제주올레 공식 코스정보 — 4.2km · 1~2시간 · 난이도 하 · 완만한 경사, 전 구간 휠체어 이용 가능. 한국관광공사 ",1차 기록 근거 추가
+P884,FIX44,verifyNote,제주올레 공식 코스정보로 확인(2026-08) — 전 구간 휠체어 이용 가능. 제주올레 공식 휠체어 코스 10개 중 유일한 ',제주올레 공식 코스정보로 확인(2026-08) — 전 구간 휠체어 이용 가능. 제주올레 공식 휠체어 코스 10개 중 유일한 ',확인 시점·재확인 필요 명시
+P884,FIX44,correctionHistory,"nan | FIX28: Activity 축 모순 해소 | FIX37: 난이도 오기재 정정, UNAVAILABLE→CONDITI","nan | FIX28: Activity 축 모순 해소 | FIX37: 난이도 오기재 정정, UNAVAILABLE→CONDITI",이력
+P884,FIX44,sourceCheckUrl,https://easyjeju.net · https://www.jejuolle.org/trail#/road/10_1 (공식 코,https://easyjeju.net · https://www.jejuolle.org/trail#/road/10_1 (공식 코,1차 기록 출처
+P915,FIX44,mobilityCaveat,(공백),가파도는 섬 안이 대체로 평탄해 휠체어로 둘러보실 수 있습니다. 실제 제약은 운진항에서 배를 타는 과정에 있습니다. 2022년,2022 실제 승선 시도 기록 반영 — '선적 가능' 표현이 자력 승선으로 오해될 소지
+P915,FIX44,companionRequired,UNKNOWN,Y,승선·선내이동·하선·섬내 이동 전 단계에서 동행자 도움 필요
+P915,FIX44,activityEvidence,(공백),"서귀포신문 2022-12-21 기획기사(서귀포시장애인자립생활지원센터, 2022-10 실제 승선 시도 기록) — 운진항 가파도행",1차 기록 근거 추가
+P915,FIX44,verifyNote,검증완료(2026-07),검증완료(2026-07) ※ 2022-10 시점 기록 — 이후 항만·선박 개선 여부 미확인. 재확인 필요. ※ 기존 '접이식 ,확인 시점·재확인 필요 명시
+P915,FIX44,correctionHistory,FIX20: FULL 재점검 — 구간편차 기준 일괄 적용,"FIX20: FULL 재점검 — 구간편차 기준 일괄 적용 | FIX44: 여객선 승하선 실태 반영, 자력 승선 오해 문구 정정",이력
+P915,FIX44,sourceCheckUrl,https://easyjeju.net,https://easyjeju.net · https://www.seogwipo.co.kr/news/articleView.htm,1차 기록 출처
+P914,FIX44,mobilityCaveat,(공백),마라도는 배에서 내리는 선착장에 부잔교가 설치되어 있지 않아 하선에도 여러 사람의 도움이 필요합니다. 실제 제약은 운진항에서 ,2022 실제 승선 시도 기록 반영 — '선적 가능' 표현이 자력 승선으로 오해될 소지
+P914,FIX44,companionRequired,UNKNOWN,Y,승선·선내이동·하선·섬내 이동 전 단계에서 동행자 도움 필요
+P914,FIX44,activityEvidence,(공백),"서귀포신문 2022-12-21 기획기사(서귀포시장애인자립생활지원센터, 2022-10 실제 승선 시도 기록) — 운진항 가파도행",1차 기록 근거 추가
+P914,FIX44,verifyNote,검증완료(2026-07),검증완료(2026-07) ※ 2022-10 시점 기록 — 이후 항만·선박 개선 여부 미확인. 재확인 필요. ※ 기존 '접이식 ,확인 시점·재확인 필요 명시
+P914,FIX44,correctionHistory,FIX17: 섬·항만 실지 접근 재검증 하향,"FIX17: 섬·항만 실지 접근 재검증 하향 | FIX44: 여객선 승하선 실태 반영, 자력 승선 오해 문구 정정",이력
+P914,FIX44,sourceCheckUrl,https://easyjeju.net,https://easyjeju.net · https://www.seogwipo.co.kr/news/articleView.htm,1차 기록 출처
+P416,FIX44,mobilityCaveat,(공백),"실제 제약은 운진항에서 배를 타는 과정에 있습니다. 2022년 확인 기준으로, 전동휠체어를 이용하시면 수동휠체어로 갈아타셔야 ",2022 실제 승선 시도 기록 반영 — '선적 가능' 표현이 자력 승선으로 오해될 소지
+P416,FIX44,companionRequired,UNKNOWN,Y,승선·선내이동·하선·섬내 이동 전 단계에서 동행자 도움 필요
+P416,FIX44,activityEvidence,(공백),"서귀포신문 2022-12-21 기획기사(서귀포시장애인자립생활지원센터, 2022-10 실제 승선 시도 기록) — 운진항 가파도행",1차 기록 근거 추가
+P416,FIX44,verifyNote,검증완료(2026-07),검증완료(2026-07) ※ 2022-10 시점 기록 — 이후 항만·선박 개선 여부 미확인. 재확인 필요. ※ 기존 '접이식 ,확인 시점·재확인 필요 명시
+P416,FIX44,correctionHistory,FIX17: 섬·항만 실지 접근 재검증 하향,"FIX17: 섬·항만 실지 접근 재검증 하향 | FIX44: 여객선 승하선 실태 반영, 자력 승선 오해 문구 정정",이력
+P416,FIX44,sourceCheckUrl,https://easyjeju.net,https://easyjeju.net · https://www.seogwipo.co.kr/news/articleView.htm,1차 기록 출처

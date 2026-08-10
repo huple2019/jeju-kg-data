@@ -1,0 +1,11 @@
+﻿placeId,fix,field,before,after,reason
+P503,FIX40,wheelchairSection,논짓물~대평포구,(제거),8코스 종점 구간으로 판단 — P879 로 이관
+P503,FIX40,wheelchairSectionDist,3.6km,(제거),8코스 종점 구간으로 판단 — P879 로 이관
+P503,FIX40,wheelchairDifficulty,HIGH,(제거),8코스 종점 구간으로 판단 — P879 로 이관
+P503,FIX40,mobilityCaveat,(구간 언급 포함),(구간 언급 제거),구간 이관에 따라 안내 문구 정리
+P879,FIX40,wheelchairSection,(공백),논짓물~대평포구,P503 에서 이관 — 8코스 종점 구간
+P879,FIX40,wheelchairSectionDist,(공백),3.6km,P503 에서 이관 — 8코스 종점 구간
+P879,FIX40,wheelchairDifficulty,(공백),HIGH,P503 에서 이관 — 8코스 종점 구간
+P879,FIX40,verifyStatus,(변경),PENDING,미검증 상태 명시
+P879,FIX40,mobilityCaveat,(변경),"조사자료에 '논짓물~대평포구' 3.6km가 휠체어 통행 가능 구간으로 기록되어 있으나, 해당 구간이 어느 코",단정 회피 문구
+P879,FIX40,correctionHistory,(변경),"FIX40: 휠체어 구간 이관 수신 (P503 → P879), 귀속 미검증",이관 이력

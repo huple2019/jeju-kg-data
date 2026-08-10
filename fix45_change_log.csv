@@ -1,0 +1,22 @@
+﻿placeId,fix,field,before,after,reason
+P884,FIX45,mobilityCaveat,"가파도 4.2km 순환 코스는 완만한 경사로 전 구간 휠체어 통행이 가능하고, 섬 안에 장애인 전용주차 2면","가파도 4.2km 순환 코스는 완만한 경사로 전 구간 휠체어 통행이 가능하고, 섬 안에 장애인 전용주차 2면",2021 현장조사 반영 — 조수·경사로·할인·결항 확인 등 실행정보 추가
+P884,FIX45,activityEvidence,"제주올레 공식 코스정보 — 4.2km · 1~2시간 · 난이도 하 · 완만한 경사, 전 구간 휠체어 이용 가","제주올레 공식 코스정보 — 4.2km · 1~2시간 · 난이도 하 · 완만한 경사, 전 구간 휠체어 이용 가",2021 현장조사 근거 추가
+P884,FIX45,verifyNote,제주올레 공식 코스정보로 확인(2026-08) — 전 구간 휠체어 이용 가능. 제주올레 공식 휠체어 코스 1,제주올레 공식 코스정보로 확인(2026-08) — 전 구간 휠체어 이용 가능. 제주올레 공식 휠체어 코스 1,상호 확증 기록
+P884,FIX45,sourceCheckUrl,https://easyjeju.net · https://www.jejuolle.org/trail#/road/,https://easyjeju.net · https://www.jejuolle.org/trail#/road/,출처 추가
+P884,FIX45,correctionHistory,"nan | FIX28: Activity 축 모순 해소 | FIX37: 난이도 오기재 정정, UNAVAILAB","nan | FIX28: Activity 축 모순 해소 | FIX37: 난이도 오기재 정정, UNAVAILAB",이력
+P915,FIX45,mobilityCaveat,가파도는 섬 안이 대체로 평탄해 휠체어로 둘러보실 수 있습니다. 실제 제약은 운진항에서 배를 타는 과정에 있,"가파도는 섬 안이 대체로 평탄해 휠체어로 둘러보실 수 있고, 무장애 추천 코스가 총 5.2km 13개 지점으",2021 현장조사 반영 — 조수·경사로·할인·결항 확인 등 실행정보 추가
+P915,FIX45,activityEvidence,"서귀포신문 2022-12-21 기획기사(서귀포시장애인자립생활지원센터, 2022-10 실제 승선 시도 기록) ","서귀포신문 2022-12-21 기획기사(서귀포시장애인자립생활지원센터, 2022-10 실제 승선 시도 기록) ",2021 현장조사 근거 추가
+P915,FIX45,verifyNote,검증완료(2026-07) ※ 2022-10 시점 기록 — 이후 항만·선박 개선 여부 미확인. 재확인 필요. ,검증완료(2026-07) ※ 2022-10 시점 기록 — 이후 항만·선박 개선 여부 미확인. 재확인 필요. ,상호 확증 기록
+P915,FIX45,sourceCheckUrl,https://easyjeju.net · https://www.seogwipo.co.kr/news/artic,https://easyjeju.net · https://www.seogwipo.co.kr/news/artic,출처 추가
+P915,FIX45,correctionHistory,"FIX20: FULL 재점검 — 구간편차 기준 일괄 적용 | FIX44: 여객선 승하선 실태 반영, 자력 승","FIX20: FULL 재점검 — 구간편차 기준 일괄 적용 | FIX44: 여객선 승하선 실태 반영, 자력 승",이력
+P416,FIX45,mobilityCaveat,"실제 제약은 운진항에서 배를 타는 과정에 있습니다. 2022년 확인 기준으로, 전동휠체어를 이용하시면 수동휠",배를 타고 내리는 높이가 조수간만에 따라 수시로 바뀌어 계단 이용을 피하기 어렵습니다. 음력 7~13일 무렵,2021 현장조사 반영 — 조수·경사로·할인·결항 확인 등 실행정보 추가
+P416,FIX45,activityEvidence,"서귀포신문 2022-12-21 기획기사(서귀포시장애인자립생활지원센터, 2022-10 실제 승선 시도 기록) ","서귀포신문 2022-12-21 기획기사(서귀포시장애인자립생활지원센터, 2022-10 실제 승선 시도 기록) ",2021 현장조사 근거 추가
+P416,FIX45,verifyNote,검증완료(2026-07) ※ 2022-10 시점 기록 — 이후 항만·선박 개선 여부 미확인. 재확인 필요. ,검증완료(2026-07) ※ 2022-10 시점 기록 — 이후 항만·선박 개선 여부 미확인. 재확인 필요. ,상호 확증 기록
+P416,FIX45,sourceCheckUrl,https://easyjeju.net · https://www.seogwipo.co.kr/news/artic,https://easyjeju.net · https://www.seogwipo.co.kr/news/artic,출처 추가
+P416,FIX45,correctionHistory,"FIX17: 섬·항만 실지 접근 재검증 하향 | FIX44: 여객선 승하선 실태 반영, 자력 승선 오해 문구","FIX17: 섬·항만 실지 접근 재검증 하향 | FIX44: 여객선 승하선 실태 반영, 자력 승선 오해 문구",이력
+P896,FIX45,mobilityCaveat,(공백),운진항 승선장은 배를 타고 내리는 높이가 조수간만에 따라 수시로 바뀌어 계단 이용을 피하기 어렵습니다. 음력,2021 현장조사 반영 — 조수·경사로·할인·결항 확인 등 실행정보 추가
+P896,FIX45,companionRequired,UNKNOWN,Y,이동 지원 필요 명시
+P896,FIX45,activityEvidence,(공백),두리함께 가파도 무장애 여행정보(2021) — 승선장은 조수간만 차이로 승선 높이가 수시로 바뀌어 계단 이용,2021 현장조사 근거 추가
+P896,FIX45,verifyNote,검증완료(2026-07),검증완료(2026-07) ※ FIX45: 두리함께 2021 현장조사 반영 — 2022 서귀포신문 1차 기록과,상호 확증 기록
+P896,FIX45,sourceCheckUrl,https://easyjeju.net,https://easyjeju.net · https://blog.naver.com/duritrip/22251,출처 추가
+P896,FIX45,correctionHistory,FIX17: 섬·항만 실지 접근 재검증 하향,FIX17: 섬·항만 실지 접근 재검증 하향 | FIX45: 두리함께 2021 현장조사 반영 (조수 시점·경,이력

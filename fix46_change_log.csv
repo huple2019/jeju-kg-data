@@ -1,0 +1,2 @@
+﻿placeId,fix,field,before,after,reason
+P951,FIX46,elderlyAccess,FULL,PARTIAL,mobilityCaveat에 '임산부·고령 이용자도 제한 대상'을 명시해 놓고 필드는 FULL — 내부 모순 해소. strollerAccess PARTIAL 하향과 동일 논리

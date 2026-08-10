@@ -64,6 +64,10 @@ SET ac.placeId=row.placeId,
     ac.multiTypeSource=row.multiTypeSource, ac.multiTypeNote=row.multiTypeNote,
     ac.verifyStatus=row.verifyStatus,          // VERIFIED/SURVEYED/PARTIAL/PENDING/EXCLUDED
     ac.verifyNote=row.verifyNote,
+    ac.recommendForMobility=row.recommendForMobility,  // Y/N — 이동축 추천 대상
+    ac.recommendForVisual=row.recommendForVisual,      // Y/N/UNKNOWN
+    ac.recommendForHearing=row.recommendForHearing,
+    ac.sensoryAccessNote=row.sensoryAccessNote,        // 감각축 확인 안내
     ac.beachAccessRoute=row.beachAccessRoute,   // 있음/미확인 — 백사장 진입로
     ac.beachEntryNote=row.beachEntryNote,       // 모래사장 이동 안내
     ac.waterEntryNote=row.waterEntryNote,       // 입수 시 동행 안내

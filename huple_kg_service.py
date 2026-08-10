@@ -170,16 +170,36 @@ WITH p, ac,
        WHEN 'VP_HEARING'  THEN ac.hearingAccess
        WHEN 'VP_DEVELOP'  THEN ac.cognitiveAccess
        ELSE ac.mobilityAccess END AS grade
-WHERE $profile IS NULL OR grade IN
-      CASE WHEN $strict THEN ['FULL'] ELSE ['FULL','PARTIAL'] END
+WHERE ($profile IS NULL OR grade IN
+       CASE WHEN $strict THEN ['FULL'] ELSE ['FULL','PARTIAL'] END)
+  // 축별 추천 게이트 — 핵심 체험이 불가능한 곳은 제외한다.
+  // 예: 잠수함은 선내 계단, 짚라인은 출발대 계단 → 매표소 접근만으로 추천 불가
+  AND ( $profile IS NULL
+        OR ($profile IN ['VP_WHEEL','VP_MOBILITY']
+            AND coalesce(ac.recommendForMobility,'Y') = 'Y')
+        OR ($profile = 'VP_VISUAL'  AND coalesce(ac.recommendForVisual,'UNKNOWN')  <> 'N')
+        OR ($profile = 'VP_HEARING' AND coalesce(ac.recommendForHearing,'UNKNOWN') <> 'N')
+        OR NOT $profile IN ['VP_WHEEL','VP_MOBILITY','VP_VISUAL','VP_HEARING'] )
+  // FIX35 — 구간 한정 접근(mobilityAccess=NONE + 실측 구간 보유)은 조건검색에서 제외한다.
+  // 올레 5·9코스가 여기 해당한다. 코스 전체는 휠체어 접근이 불가하고 일부 구간만
+  // 통행 가능하므로, "휠체어로 갈 만한 곳" 목록에 올리면 코스 전체가 가능한 것으로 읽힌다.
+  // 상태확인(CYPHER_STATUS)으로 해당 코스를 직접 조회할 때만 구간을 안내한다.
+  // ※ 위 grade 필터가 현재 NONE 을 이미 거르지만, strict 로직이 바뀌면 조용히 새어
+  //   들어오므로 의존하지 않고 여기서 명시적으로 배제한다.
+  AND NOT (ac.mobilityAccess = 'NONE' AND coalesce(ac.wheelchairSection,'') <> '')
 OPTIONAL MATCH (p)-[:HAS_ADVISORY]->(adv:PlaceAdvisory)
 WHERE (adv.peakSeason = '' OR adv.peakSeason = $season)
 RETURN p.name AS name, p.categoryMid AS category, grade AS accessGrade,
        ac.facilityAccess AS facility, ac.activityAccess AS activity,
        ac.companionRequired AS companion, ac.assistLevel AS assistLevel,
        ac.beachAccessRoute AS beachRoute, ac.beachEntryNote AS beachNote,
-       ac.waterEntryNote AS waterNote,
+       ac.waterEntryNote AS waterNote, ac.sensoryAccessNote AS sensoryNote,
+       ac.recommendForVisual AS recVisual, ac.recommendForHearing AS recHearing,
        ac.disabledToilet AS toilet, ac.mobilityCaveat AS caveat,
+       // FIX35 — 구간 한정 코스는 구간명·거리를 반드시 함께 내보낸다.
+       // 이 4개 필드가 비어 있지 않으면 "코스 전체"가 아니라 "해당 구간"만 가능하다는 뜻이다.
+       ac.wheelchairSection AS wcSection, ac.wheelchairSectionDist AS wcSectionDist,
+       ac.wheelchairDifficulty AS wcDifficulty, ac.wheelchairCaveat AS wcCaveat,
        ac.verifyStatus AS verified,
        coalesce(p.directRiskScore, 0.0) AS directRisk,
        p.ambientRiskLevel AS ambientLevel, p.ambientNote AS ambientNote,
@@ -203,6 +223,9 @@ OPTIONAL MATCH (p)-[:HAS_ADVISORY]->(adv:PlaceAdvisory)
 RETURN p.name AS name, p.categoryMid AS category,
        round(dist) AS distanceM,
        ac.mobilityAccess AS accessGrade, ac.mobilityCaveat AS caveat,
+       // FIX35 — 구간 한정 코스 안내용
+       ac.wheelchairSection AS wcSection, ac.wheelchairSectionDist AS wcSectionDist,
+       ac.wheelchairDifficulty AS wcDifficulty,
        coalesce(p.directRiskScore, 0.0) AS directRisk,
        p.ambientRiskLevel AS ambientLevel,
        adv.advisoryMessage AS advisory
@@ -225,6 +248,11 @@ RETURN p.name AS name, p.openHours AS hours, p.closedDays AS closed,
        ac.facilityAccess AS facility, ac.activityAccess AS activity,
        ac.companionRequired AS companion, ac.assistLevel AS assistLevel,
        ac.disabledToilet AS toilet, ac.mobilityCaveat AS caveat,
+       // FIX35 — 상태확인은 구간 한정 코스의 유일한 안내 경로다. 4개 필드 전부 반환한다.
+       ac.wheelchairSection AS wcSection, ac.wheelchairSectionDist AS wcSectionDist,
+       ac.wheelchairDifficulty AS wcDifficulty, ac.wheelchairCaveat AS wcCaveat,
+       // FIX36 — 활동참여 판정의 근거(운영사 명시 문구 여부)를 함께 노출한다.
+       ac.activityEvidence AS activityEvidence, ac.accessVerdictReason AS verdictReason,
        ac.verifyStatus AS verified, ac.source AS source,
        p.swimmingRestriction AS restriction, h.harborType AS harborType,
        p.restrictionEffectiveDate AS restrictionDate,
@@ -336,6 +364,28 @@ def build_place_context(row: dict) -> PlaceContext:
     if row.get("waterNote"):
         add(f"[입수] {row['waterNote']}")
         c.verbatim.append(row["waterNote"])
+
+    # 감각축 정보가 없는 경우 — "불가"가 아니라 "확인 필요"임을 명시
+    if row.get("sensoryNote"):
+        add(f"[확인필요] {row['sensoryNote']}")
+        c.verbatim.append(row["sensoryNote"])
+
+    # FIX35 — 구간 한정 접근.
+    #   올레 코스는 코스 전체가 아니라 실측된 일부 구간만 휠체어 통행이 가능하다.
+    #   구간명과 거리를 빼고 "접근 가능"만 전달하면 코스 전체가 가능한 것으로 읽히므로,
+    #   구간명을 verbatim 에 등록해 응답에서 누락되면 가드가 잡도록 한다.
+    #   (mobilityCaveat 에도 같은 내용이 합성돼 있으나, 그쪽은 앞 12자가 9개 코스 모두
+    #    동일해 가드 키로는 코스를 구별하지 못한다. 구간명이 있어야 코스별로 강제된다.)
+    if row.get("wcSection"):
+        seg = f"{row['wcSection']} {row.get('wcSectionDist','')}".strip()
+        # FIX42 — 제주올레 공식 휠체어 코스 10개 중 10-1(가파도)만 '전 구간' 통행 가능이다.
+        #   나머지 9개와 같은 문구를 쓰면 "코스 전체가 아니라 …" 라는 정반대 안내가 나간다.
+        #   값이 '전 구간' 으로 시작하는지로 분기한다.
+        if row["wcSection"].startswith("전 구간"):
+            add(f"[전구간] 코스 전 구간({row.get('wcSectionDist','')}) 휠체어 통행이 가능합니다")
+        else:
+            add(f"[구간한정] 코스 전체가 아니라 '{seg}' 구간에 한해 휠체어 통행이 가능합니다")
+        c.verbatim.append(seg)
 
     if row.get("caveat"):
         add(f"[주의] {row['caveat']}")

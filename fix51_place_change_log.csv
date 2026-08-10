@@ -1,0 +1,8 @@
+﻿placeId,fix,field,before,after,reason
+P114,FIX51,isIsland,Y,N,성산포항 출발 해상 잠수함 — 우도 입도 없음
+P114,FIX51,islandName,우도,,우도 오분류 제거
+P114,FIX51,ferryPort,성산항,성산포항,출발지 (유람선 승선)
+P114,FIX51,islandAccessNote,여객선 필수 — 풍랑특보 시 결항. 방문 전 운항 확인 필요,성산포항에서 유람선으로 해상 잠수함 선착장까지 이동 후 잠수함 환승. 우도에 입도하지 않음,이동 경로 명시
+P631,FIX51,isIsland,UNKNOWN,Y,추자도 소재
+P631,FIX51,islandName,(공백),추자도,섬 명시
+P631,FIX51,islandAccessNote,(공백),추자도까지 여객선 필수 — 기상에 따라 결항. 방문 전 운항 확인 필요,도달 제약

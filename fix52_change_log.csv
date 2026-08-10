@@ -1,0 +1,3 @@
+﻿placeId,fix,field,before,after,reason
+P118,FIX52,latitude,33.290378,33.50917,우도 아닌 제주 남서쪽 육지 좌표 — 위키/해양수산부 공유수면 정보 기준 정정
+P118,FIX52,longitude,126.353859,126.94750,동일

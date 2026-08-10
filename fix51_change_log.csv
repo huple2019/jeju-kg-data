@@ -1,0 +1,63 @@
+﻿placeId,fix,field,before,after,reason
+P070,FIX51,recommendForMobility,Y,N,접근사슬 단절 — 필수 여객선 승하선 안전 미확보
+P070,FIX51,mobilityCaveat,(공백),선착장 육상부(주차장·대합실·매표소)와 선박 승하선은 별도로 판단해야 합니다. 우도까지 여객선 이용이 필수입,현장 접근성 + 도달 제약 병기
+P070,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,현장 접근 조건부 / 도달 접근사슬 미확보 — 섬 내부는 부분 이용 가능하나 여객선 승하선 안전이 확인되지 ,판정 근거 명문화
+P070,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,"[FIX51] 접근사슬 판정 — 현장 등급 보존, 게이트만 하향",판정 근거
+P070,FIX51,verifyNote,(공백)," ※ FIX51: 접근사슬 판정 — wheelchairAccess 는 섬 도착 이후 현장 접근성, recom",접근사슬 근거
+P070,FIX51,correctionHistory,(공백), | FIX51: 게이트 Y→N (접근사슬),이력
+P118,FIX51,recommendForMobility,Y,N,접근사슬 단절 — 필수 여객선 승하선 안전 미확보
+P118,FIX51,mobilityCaveat,(공백),"입구 인근에 장애인 전용주차 1면과 해변까지 이어지는 경사로가 있으나, 경사로 종점 이후 홍조단괴 해변 표면",현장 접근성 + 도달 제약 병기
+P118,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,현장 접근 조건부 / 도달 접근사슬 미확보 — 섬 내부는 부분 이용 가능하나 여객선 승하선 안전이 확인되지 ,판정 근거 명문화
+P118,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,"[FIX51] 접근사슬 판정 — 현장 등급 보존, 게이트만 하향",판정 근거
+P118,FIX51,verifyNote,(공백)," ※ FIX51: 접근사슬 판정 — wheelchairAccess 는 섬 도착 이후 현장 접근성, recom",접근사슬 근거
+P118,FIX51,correctionHistory,(공백), | FIX51: 게이트 Y→N (접근사슬),이력
+P280,FIX51,recommendForMobility,Y,N,접근사슬 단절 — 필수 여객선 승하선 안전 미확보
+P280,FIX51,mobilityCaveat,(공백),정상부는 현무암 계단으로 오르는 구조입니다. 도로변이나 하부에서의 조망은 가능하나 정상 등반은 어렵습니다. ,현장 접근성 + 도달 제약 병기
+P280,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,현장 접근 조건부 / 도달 접근사슬 미확보 — 섬 내부는 부분 이용 가능하나 여객선 승하선 안전이 확인되지 ,판정 근거 명문화
+P280,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,"[FIX51] 접근사슬 판정 — 현장 등급 보존, 게이트만 하향",판정 근거
+P280,FIX51,verifyNote,(공백)," ※ FIX51: 접근사슬 판정 — wheelchairAccess 는 섬 도착 이후 현장 접근성, recom",접근사슬 근거
+P280,FIX51,correctionHistory,(공백), | FIX51: 게이트 Y→N (접근사슬),이력
+P282,FIX51,recommendForMobility,Y,N,접근사슬 단절 — 필수 여객선 승하선 안전 미확보
+P282,FIX51,mobilityCaveat,(공백),"우도와 육로로 연결되어 있고 비교적 평탄하다고 소개되나, 용암석·잔디·해안 노면의 유효폭과 단차가 실측된 자",현장 접근성 + 도달 제약 병기
+P282,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,현장 접근 조건부 / 도달 접근사슬 미확보 — 섬 내부는 부분 이용 가능하나 여객선 승하선 안전이 확인되지 ,판정 근거 명문화
+P282,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,"[FIX51] 접근사슬 판정 — 현장 등급 보존, 게이트만 하향",판정 근거
+P282,FIX51,verifyNote,(공백)," ※ FIX51: 접근사슬 판정 — wheelchairAccess 는 섬 도착 이후 현장 접근성, recom",접근사슬 근거
+P282,FIX51,correctionHistory,(공백), | FIX51: 게이트 Y→N (접근사슬),이력
+P414,FIX51,recommendForMobility,Y,N,접근사슬 단절 — 필수 여객선 승하선 안전 미확보
+P414,FIX51,mobilityCaveat,(공백),"우도봉을 제외한 주요 도로는 경사가 완만한 편이나, 좁고 경사진 도로에 자동차·전기차·이륜차·보행자가 섞여 ",현장 접근성 + 도달 제약 병기
+P414,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,현장 접근 조건부 / 도달 접근사슬 미확보 — 섬 내부는 부분 이용 가능하나 여객선 승하선 안전이 확인되지 ,판정 근거 명문화
+P414,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,"[FIX51] 접근사슬 판정 — 현장 등급 보존, 게이트만 하향",판정 근거
+P414,FIX51,verifyNote,(공백)," ※ FIX51: 접근사슬 판정 — wheelchairAccess 는 섬 도착 이후 현장 접근성, recom",접근사슬 근거
+P414,FIX51,correctionHistory,(공백), | FIX51: 게이트 Y→N (접근사슬),이력
+P443,FIX51,recommendForMobility,Y,N,접근사슬 단절 — 필수 여객선 승하선 안전 미확보
+P443,FIX51,mobilityCaveat,(공백),장애인 차량이 허가를 받아 등대 인근까지 이동할 수 있다는 과거(2015년) 안내가 있으나 현재 운영 여부는,현장 접근성 + 도달 제약 병기
+P443,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,현장 접근 조건부 / 도달 접근사슬 미확보 — 섬 내부는 부분 이용 가능하나 여객선 승하선 안전이 확인되지 ,판정 근거 명문화
+P443,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,"[FIX51] 접근사슬 판정 — 현장 등급 보존, 게이트만 하향",판정 근거
+P443,FIX51,verifyNote,(공백)," ※ FIX51: 접근사슬 판정 — wheelchairAccess 는 섬 도착 이후 현장 접근성, recom",접근사슬 근거
+P443,FIX51,correctionHistory,(공백), | FIX51: 게이트 Y→N (접근사슬),이력
+P486,FIX51,recommendForMobility,Y,N,접근사슬 단절 — 필수 여객선 승하선 안전 미확보
+P486,FIX51,mobilityCaveat,(공백),주차장까지는 차량 접근이 가능하나 그 이후 정상·등대 구간은 가파른 오르막입니다. 하부 접근과 정상 접근을 ,현장 접근성 + 도달 제약 병기
+P486,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,현장 접근 조건부 / 도달 접근사슬 미확보 — 섬 내부는 부분 이용 가능하나 여객선 승하선 안전이 확인되지 ,판정 근거 명문화
+P486,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,"[FIX51] 접근사슬 판정 — 현장 등급 보존, 게이트만 하향",판정 근거
+P486,FIX51,verifyNote,(공백)," ※ FIX51: 접근사슬 판정 — wheelchairAccess 는 섬 도착 이후 현장 접근성, recom",접근사슬 근거
+P486,FIX51,correctionHistory,(공백), | FIX51: 게이트 Y→N (접근사슬),이력
+P114,FIX51,wheelchairAccess,PARTIAL,NONE,잠수함 승선은 사다리 이용 — 성산포항 유람선 환승 후 해상 선착장
+P114,FIX51,mobilityAccess,PARTIAL,NONE,동일
+P114,FIX51,strollerAccess,PARTIAL,NONE,동일
+P114,FIX51,activityAccess,CONDITIONAL,UNAVAILABLE,핵심 체험(잠수함 승선) 자체가 불가
+P114,FIX51,recommendForMobility,Y,N,핵심 체험 불가
+P114,FIX51,mobilityCaveat,(공백),우도에 들어가는 관광지가 아닙니다. 성산포항에서 유람선으로 해상 잠수함 선착장까지 이동한 뒤 사다리를 이용해,이동 경로 정정 및 체험 구조 안내
+P114,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,활동참여 불가 — 성산포항 유람선 환승 후 잠수함 사다리 승하선. 우도 입도 시설이 아님,판정 근거
+P114,FIX51,partialReason,[도서] 여객선 승선 시 높이차·선내 계단. 섬 내 이동수단 별도 확인 필요,[FIX51] 우도 도항선 제약이 아니라 잠수함 자체 구조가 불가 사유,판정 근거
+P114,FIX51,verifyNote,(공백),"한국관광공사 여행지 정보 확인(2026-08) — 성산포항에서 해저 잠수함 선착장까지 유람선 이동, 선착장에",근거 및 미확인 사항
+P114,FIX51,correctionHistory,(공백)," | FIX51: 우도 입도시설 오분류 정정, 활동 불가 확정",이력
+P631,FIX51,wheelchairAccess,PARTIAL,UNKNOWN,보행로 유효폭·단차·경사·차도 분리 근거 없음 — 과잉 판정 정정
+P631,FIX51,mobilityAccess,PARTIAL,UNKNOWN,동일
+P631,FIX51,strollerAccess,PARTIAL,UNKNOWN,동일
+P631,FIX51,activityAccess,CONDITIONAL,UNKNOWN,현장 근거 미확보 — 불가가 아니라 미조사
+P631,FIX51,recommendForMobility,Y,N,추자도까지 여객선 필수 + 교량 접근성 미확인
+P631,FIX51,mobilityCaveat,(공백),"상추자도와 하추자도를 잇는 교량이라는 기본 정보만 확인되고, 보행로 폭·단차·경사·차도 분리 여부는 조사되지",미조사 상태 명시
+P631,FIX51,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,"미조사 — 교량 보행 접근성 근거 미확보, 여객선 도달 제약 병존",판정 근거
+P631,FIX51,partialReason,(공백),[FIX51] 근거 없는 PARTIAL 정정 — UNKNOWN 은 불가가 아니라 미조사,판정 근거
+P631,FIX51,verifyNote,(공백),비짓제주 기본 제원 외 접근성 상세 미발견(2026-08). 현장 실측 또는 지자체 도로 도면 확인 필요,근거
+P631,FIX51,correctionHistory,(공백), | FIX51: 근거 없는 PARTIAL → UNKNOWN,이력

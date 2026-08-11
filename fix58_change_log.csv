@@ -1,0 +1,4 @@
+﻿placeId,fix,field,before,after,reason
+(전체),FIX58,RiskPattern,36개,39개,RP_FOG 3단계 신설 — 기상청 안개주의보(200m)·도로교통 감속기준(100m)
+(전체),FIX58,APPLIES_TO_ROAD,0건,52건,도로 15개에 위험패턴 연결 — 내비 API 연동 시 경로 위험 판정 근거
+(전체),FIX58,APPLIES_TO(place),+87건,29곳×3단계,안개 근거 보유 관광지에 RP_FOG 연결

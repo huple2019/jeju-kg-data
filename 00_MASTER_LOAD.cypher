@@ -1,4 +1,4 @@
-// ════════════════════════════════════════════════════════════════
+﻿// ════════════════════════════════════════════════════════════════
 //  제주 안전관광 지식그래프 — 마스터 적재 스크립트
 //  중간보고 최종 스키마(노드 10종) 기준 · 판단 경로까지 동작
 //  실행 순서를 반드시 지킬 것 (노드 → 관계, 상위 zip → 브리지)
@@ -582,6 +582,12 @@ MERGE (r:RoadSegment {roadId: row.roadId})
 SET r.name=row.roadName, r.routeNo=row.routeNo, r.section=row.section,
     r.roadType=row.roadType, r.riskNote=row.riskNote,
     r.trafficRiskLevel=row.trafficRiskLevel;
+
+// ── 위험패턴 → 도로 구간 (FIX58) ──
+//   내비·교통 API 연동 시 경로상 도로의 위험을 판정하는 근거가 됩니다.
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rel_risk_APPLIES_TO_ROAD_road.csv' AS row
+MATCH (r:RiskPattern {risk_id:row.risk_id}),(rs:RoadSegment {roadId:row.roadId})
+MERGE (r)-[:APPLIES_TO_ROAD]->(rs);
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rel_accident_OCCURRED_ON_road.csv' AS row
 MATCH (e:AccidentEvent {accidentId:row.accidentId}), (r:RoadSegment {roadId:row.roadId})

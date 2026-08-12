@@ -23,15 +23,15 @@ RP_CROWD_02,TR_CROWD_03,혼잡_대체추천,CrowdAvoid,ENV_CROWD_RATIO,혼잡위
 RP_NIGHT_01,TR_TIME_02,야간_저조도위험,NightLowLightRisk,ENV_TIME_SUNSET,야간위험,"minutes_to_sunset <= 60 AND zone IN [오름,중산간,해안]",,,minute_offset,주의,오름·중산간·해안,서비스 기준·소방 조기귀가 유도,적용
 RP_LOST_01,TR_TIME_03,길잃음위험,LostRisk,ENV_TIME_SUNSET,야간위험,"after_sunset = true AND zone IN [오름,중산간]",,,minute_offset,위험,오름·중산간,소방 통계(5년 558건)·SA_01,적용
 RP_DROWN_01,,익수위험(수난·다이빙),DrowningRisk,,수난위험,"activity IN [Swimming,Diving,Fishing,PhotoTaking] AND zone IN [해수욕장,항포구,갯바위,테트라포드]",,,,위험,항포구·해수욕장·갯바위,소방 통계(수난 3년 245건·항포구 5년 96건)·SA_05·SA_19,적용
-RP_MACHINE_01,,농기계 상해위험,MachineInjuryRisk,,활동위험,"activity IN [Farming,Mowing,Harvesting] AND equipment IN [파쇄기,예초기,전동가위]",,,,위험,농가·묘지,소방 통계(파쇄기 46건·벌초 170명)·SA_02~04·SA_07,적용
+RP_MACHINE_01,,농기계 상해위험,MachineInjuryRisk,,활동위험,"activity IN [Farming,Mowing,Harvesting] AND equipment IN [파쇄기,예초기,전동가위]",,,,위험,[장소 무관] 농가·묘지,소방 통계(파쇄기 46건·벌초 170명)·SA_02~04·SA_07,적용
 RP_ANIMAL_01,,동물 접촉위험(벌·뱀·해파리),AnimalEncounterRisk,,활동위험,"activity IN [Mowing,Trekking,Swimming] AND season IN [여름,초가을]",,,,주의,중산간·묘지·해수욕장,소방청 벌쏘임 예보제·SA_08,적용
-RP_OUTDOOR_01,,휴가철 야외활동 복합위험,OutdoorCompositeRisk,,복합위험,season = 휴가철(7~9월) AND activity = OutdoorActivity,,,,주의,도 전역,"소방 통계(37,624명 중 28.6% 집중)·SA_06",적용
+RP_OUTDOOR_01,,휴가철 야외활동 복합위험,OutdoorCompositeRisk,,복합위험,season = 휴가철(7~9월) AND activity = OutdoorActivity,,,,주의,[장소 무관] 도 전역,"소방 통계(37,624명 중 28.6% 집중)·SA_06",적용
 RP_TRAFFIC_01,,교통사고위험(렌터카·연휴),TrafficCompositeRisk,,교통위험,activity = Driving AND (vehicleType = rental OR period = 연휴),,,,주의,도로 전역,소방 인터뷰(렌터카 11.4%)·SA_09·SA_15,적용
 RP_MOUNTAIN_01,,산악사고위험(실족·조난),MountainAccidentRisk,,활동위험,"activity = Trekking AND zone IN [한라산,오름,올레길]",,,,주의,한라산·오름·올레길,소방 통계(등산·오름 길잃음 30.6%)·SA_10·SA_17,적용
-RP_FALL_01,,수확철 낙상위험(사다리),HarvestFallRisk,,활동위험,activity = Harvesting AND equipment = 사다리,,,,주의,감귤 농가,SA_11(추정),적용
-RP_FIRE_01,,난방기기 화재위험,FireRisk,,화재위험,season = 겨울 AND activity = IndoorHeating,,,,주의,주거·숙박시설,전국 소방 겨울철 대책·SA_13(추정),적용
-RP_CO_01,,일산화탄소 중독위험,COPoisoningRisk,,활동위험,"activity IN [Camping,Fishing] AND enclosed_space = true AND heating = true",,,,위험,캠핑장·낚시터,소방청 낚시 CO 중독 통계·SA_14,적용
-RP_ROCKFALL_01,,해빙기 낙석·붕괴위험,RockfallRisk,,자연위험,season = 해빙기(2~3월) AND zone = 절개지,,,,주의,절개지·낙석 우려 구간,행안부 해빙기 점검 제도·SA_16(추정),적용
+RP_FALL_01,,수확철 낙상위험(사다리),HarvestFallRisk,,활동위험,activity = Harvesting AND equipment = 사다리,,,,주의,[장소 무관] 감귤 농가,SA_11(추정),적용
+RP_FIRE_01,,난방기기 화재위험,FireRisk,,화재위험,season = 겨울 AND activity = IndoorHeating,,,,주의,[장소 무관] 주거·숙박시설,전국 소방 겨울철 대책·SA_13(추정),적용
+RP_CO_01,,일산화탄소 중독위험,COPoisoningRisk,,활동위험,"activity IN [Camping,Fishing] AND enclosed_space = true AND heating = true",,,,위험,[장소 무관] 캠핑장·낚시터,소방청 낚시 CO 중독 통계·SA_14,적용
+RP_ROCKFALL_01,,해빙기 낙석·붕괴위험,RockfallRisk,,자연위험,season = 해빙기(2~3월) AND zone = 절개지,,,,주의,절벽 아래 통행 구간(해안산책로·동굴·탐방로) — 전망 지점 제외,행안부 해빙기 점검 제도·SA_16(추정),적용
 RP_TYPHOON_01,,태풍 복합위험,TyphoonRisk,,복합위험,"weather_alert IN [태풍주의보,태풍경보]",,,,통제,해안·하천·전역,기상청 태풍특보·SA_20,적용
 RP_FALL_CLIFF,,추락위험(절벽·노출지형),CliffFallRisk,,자연위험,"zone IN [절벽,전망대,갯바위,노출지형]",,,,위험,절벽·전망대·갯바위,뉴스 사고 데이터(추락 38건) — 기사화된 중대사고,적용
 RP_SLIP_TERRAIN,,지형·노면 미끄럼낙상위험,TerrainSlipRisk,,자연위험,"surface IN [판석,데크,야자매트,너덜길,비포장] OR terrain = 급경사",,,,주의,트레일·산책로·시장 보행구간,뉴스 사고 데이터(지형·노면 낙상/미끄럼 31건),적용

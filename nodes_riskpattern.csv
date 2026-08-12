@@ -35,6 +35,6 @@ RP_ROCKFALL_01,,해빙기 낙석·붕괴위험,RockfallRisk,,자연위험,season
 RP_TYPHOON_01,,태풍 복합위험,TyphoonRisk,,복합위험,"weather_alert IN [태풍주의보,태풍경보]",,,,통제,해안·하천·전역,기상청 태풍특보·SA_20,적용
 RP_FALL_CLIFF,,추락위험(절벽·노출지형),CliffFallRisk,,자연위험,"zone IN [절벽,전망대,갯바위,노출지형]",,,,위험,절벽·전망대·갯바위,뉴스 사고 데이터(추락 38건) — 기사화된 중대사고,적용
 RP_SLIP_TERRAIN,,지형·노면 미끄럼낙상위험,TerrainSlipRisk,,자연위험,"surface IN [판석,데크,야자매트,너덜길,비포장] OR terrain = 급경사",,,,주의,트레일·산책로·시장 보행구간,뉴스 사고 데이터(지형·노면 낙상/미끄럼 31건),적용
-RP_FOG_01,TR_FOG_01,안개_시야주의,FogVisibilityCaution,ENV_VISIBILITY,안개위험,,,,,,,,
-RP_FOG_02,TR_FOG_02,짙은안개_운전주의,DenseFogDrivingCaution,ENV_VISIBILITY,안개위험,,,,,,,,
-RP_FOG_03,TR_FOG_03,짙은안개_이동자제,DenseFogTravelAvoid,ENV_VISIBILITY,안개위험,,,,,,,,
+RP_FOG_01,TR_FOG_01,안개_시야주의,FogVisibilityCaution,ENV_VISIBILITY,안개위험,visibility < 1000 AND visibility >= 200,200,1000,m,주의,중산간 도로·고지대 탐방로,기상청 안개 시정 구분·제주 안개 다발 구간 뉴스,적용
+RP_FOG_02,TR_FOG_02,짙은안개_운전주의,DenseFogDrivingCaution,ENV_VISIBILITY,안개위험,visibility < 200 AND visibility >= 100,100,200,m,위험,중산간 횡단도로·간선도로,기상청 안개주의보 기준(시정 200m 이하),적용
+RP_FOG_03,TR_FOG_03,짙은안개_이동자제,DenseFogTravelAvoid,ENV_VISIBILITY,안개위험,visibility < 100,,100,m,통제,전 도로·야외 탐방로,도로교통 감속운행 기준(시정 100m 이하 최고속도 50% 감속),적용

@@ -1,0 +1,77 @@
+﻿placeId,fix,field,before,after,reason
+P002,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=동반가능_시각장애인 편의시설
+P003,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=동반 가능_시각장애인 편의시설
+P005,FIX65,visualAccess,UNKNOWN,FULL,brailepromotion=매표소에 점자홍보물 있음; helpdog=동반가능; guidehuman=관광해설사 안내 가능
+P006,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(모살밭회관 오른쪽 공중화장실)_시각장애인 편의시설
+P023,FIX65,visualAccess,UNKNOWN,PARTIAL,"braileblock=객실 진입로, 건물 출입구, 계단; helpdog=안내견 동반가능; guidehuman=프론트 직원 대기."
+P046,FIX65,visualAccess,UNKNOWN,PARTIAL,blindhandicapetc=안내요원 있음(하루 4회)
+P047,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자블록 있음(주요시설 앞)_시각장애인 편의시설; helpdog=동반가능; guidehuman=안내요원 있음
+P063,FIX65,visualAccess,UNKNOWN,PARTIAL,blindhandicapetc=점자블록 있음
+P065,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자유도로 있음_시각장애인 편의시설; audioguide=음성안내기 있음; guidehuman=전시해설자 있음
+P068,FIX65,visualAccess,UNKNOWN,PARTIAL,guidehuman=안내데스크에서 도움 가능
+P075,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(주요시설 앞)_시각장애인 편의시설
+P101,FIX65,visualAccess,UNKNOWN,FULL,audioguide=오디오가이드 있음; helpdog=동반가능; guidehuman=전시해설자 있음(문화해설)
+P120,FIX65,visualAccess,UNKNOWN,PARTIAL,guidehuman=안내요원 있음_시각장애인 편의시설
+P160,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=안내견 동반 가능
+P161,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=안내견 동반 가능
+P166,FIX65,visualAccess,UNKNOWN,FULL,helpdog=보조견 동반 가능함; guidehuman=안내요원 있음
+P166,FIX65,disabledToilet,UNKNOWN,PARTIAL,restroom=장애인 화장실 있음
+P169,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=건물 출입구 앞
+P175,FIX65,visualAccess,UNKNOWN,FULL,audioguide=오디오가이드 있음; helpdog=동반가능; guidehuman=전시해설자 있음(문화해설)
+P195,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=동반가능_시각장애인 편의시설
+P214,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(화장실 앞)_시각장애인 편의시설
+P273,FIX65,visualAccess,UNKNOWN,PARTIAL,"braileblock=점자블록 있음(주출입구,계단 앞)_시각장애인 편의시설"
+P277,FIX65,visualAccess,UNKNOWN,PARTIAL,blindhandicapetc=안내요원 있음(하루 4회)
+P286,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(화장실 앞)_시각장애인 편의시설
+P287,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(화장실 앞)_시각장애인 편의시설
+P288,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(화장실 앞)_시각장애인 편의시설
+P295,FIX65,strollerAccess,PARTIAL,FULL,"stroller=대여가능 (24개월 이하, 대여료 1,000원); lactationroom=수유실 있음"
+P296,FIX65,strollerAccess,PARTIAL,FULL,"stroller=대여가능 (24개월 이하, 대여료 1,000원); lactationroom=수유실 있음"
+P297,FIX65,strollerAccess,PARTIAL,FULL,"stroller=대여가능 (24개월 이하, 대여료 1,000원); lactationroom=수유실 있음"
+P298,FIX65,strollerAccess,PARTIAL,FULL,"stroller=대여가능 (24개월 이하, 대여료 1,000원); lactationroom=수유실 있음"
+P305,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음_시각장애인 편의시설
+P338,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(화장실 입구 안)_시각장애인 편의시설
+P353,FIX65,visualAccess,UNKNOWN,PARTIAL,blindhandicapetc=안내요원 있음(하루 4회)
+P365,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(데크로드)_시각장애인 편의시설
+P370,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자유도로 있음(주 출입구 앞)_시각장애인 편의시설
+P386,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자블록 있음(주출입구)_시각장애인 편의시설; helpdog=보조견동반 가능함; guidehuman=안내요원 있음
+P401,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(공중화장실 앞)_점자블록 있음
+P426,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음
+P444,FIX65,visualAccess,UNKNOWN,PARTIAL,"braileblock=점자블록 있음(주출입구,계단 앞)_시각장애인 편의시설"
+P464,FIX65,visualAccess,UNKNOWN,FULL,"braileblock=점자블록 있음(출입문, 엘리베이터)_시각장애인 편의시설; helpdog=동반가능"
+P468,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(주출입구)_시각장애인 편의시설
+P474,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자블록 있음_시각장애인 편의시설; guidehuman=안내요원 있음
+P475,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(관내에만)_시각장애인 편의시설
+P544,FIX65,strollerAccess,UNKNOWN,PARTIAL,babysparechair=유아의자 비치(5대)
+P599,FIX65,disabledToilet,UNKNOWN,PARTIAL,restroom=장애인 전용 화장실 있음
+P647,FIX65,visualAccess,UNKNOWN,PARTIAL,"braileblock=점자블록 있음(접근로,계단,주출입구)_시각장애인 편의시설"
+P681,FIX65,visualAccess,UNKNOWN,PARTIAL,guidehuman=전시해설자 있음(1일 4회)_시각장애인 편의시설
+P682,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자블록 있음(주출입구)_시각장애인 편의시설; guidehuman=안내요원 있음
+P683,FIX65,strollerAccess,UNKNOWN,PARTIAL,stroller=입구에서 유모차 2대 보유
+P705,FIX65,visualAccess,UNKNOWN,PARTIAL,"braileblock=점자유도로 있음(전시관 출입구 앞)<br />
+점자 블록 있음_시각장애인"
+P711,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(주출입구)_시각장애인 편의시설
+P732,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=동반가능_시각장애인 편의시설
+P734,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=동반가능_시각장애인 편의시설
+P754,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자블록 있음(주요시설 앞)_시각장애인 편의시설; brailepromotion=점자 안내판 있음
+P754,FIX65,disabledToilet,UNKNOWN,PARTIAL,restroom=장애인 화장실 있음
+P763,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자블록 있음(주요시설 앞)_시각장애인 편의시설; brailepromotion=점자 안내판 있음
+P763,FIX65,strollerAccess,PARTIAL,FULL,"stroller=대여 가능 (4대/숙박시 무상대여, 당일관람시 신분증 지참); infantsfamilyetc=장애인 화장실 내 유아용 보호의자 "
+P763,FIX65,disabledToilet,UNKNOWN,PARTIAL,restroom=장애인 화장실 있음
+P806,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=동반가능_시각장애인 편의시설
+P816,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(전시관 출입구 앞)_시각장애인 편의시설
+P833,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(탐방안내센터)_시각장애인 편의시설
+P879,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=보조견 동반 가능함
+P879,FIX65,disabledToilet,UNKNOWN,PARTIAL,restroom=장애인 화장실 있음_무장애 편의시설
+P884,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=보조견 동반 가능함
+P914,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(주출입구)_시각장애인 편의시설
+P915,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=보조견 동반 가능함
+P947,FIX65,visualAccess,UNKNOWN,FULL,helpdog=동반가능_시각장애인 편의시설; guidehuman=안내요원 있음
+P1001,FIX65,visualAccess,UNKNOWN,PARTIAL,helpdog=동반가능_시각장애인 편의시설
+P1004,FIX65,visualAccess,UNKNOWN,PARTIAL,guidehuman=매표소에 안내데스크 및 안내요원 상주
+P1011,FIX65,visualAccess,UNKNOWN,PARTIAL,braileblock=점자블록 있음(먹거리장터 주출입구)_시각장애인 편의시설
+P1011,FIX65,strollerAccess,UNKNOWN,PARTIAL,"stroller=대여가능(4대, 24개월 미만)"
+P1013,FIX65,visualAccess,UNKNOWN,PARTIAL,guidehuman=안내요원 있음_시각장애인 편의시설
+P1016,FIX65,visualAccess,UNKNOWN,PARTIAL,guidehuman=안내요원 있음_시각장애인 편의시설
+P1022,FIX65,visualAccess,UNKNOWN,FULL,braileblock=점자블록 있음(주요시설 앞)_시각장애인 편의시설; helpdog=동반가능; guidehuman=안내요원 있음(전시해설자 있
+P1027,FIX65,strollerAccess,UNKNOWN,PARTIAL,stroller=안내데스크에서 유모차 무료대여 가능(10대구비); lactationroom=안내데스크 뒤쪽에 위치

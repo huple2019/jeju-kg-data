@@ -337,7 +337,12 @@ MERGE (e)-[rel:EVIDENCES]->(r) SET rel.attribution='PLACE_CONFIRMED_FIRE';
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rel_firevent_OCCURRED_AT_place.csv' AS row
 MATCH (e:AccidentEvent {accidentId:row.accidentId}),(p:Place {placeId:row.placeId})
-MERGE (e)-[:OCCURRED_AT]->(p);
+MERGE (e)-[rel:OCCURRED_AT]->(p)
+SET rel.distanceM = toFloat(row.distance_m);
+//  거리를 관계 속성으로 보존합니다.
+//  매칭 규칙(사고 1건당 최근접 Place, 반경 1km) 검증에 쓰이고,
+//  '500m 내 사고' 같은 반경 질의도 가능해집니다.
+//  ※ 속성명은 distanceM 입니다. CSV 컬럼명(distance_m)을 그대로 쓰면 빈 결과가 나옵니다.
 
 // 활동 → 위험패턴
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/rel_activity_CARRIES_riskpattern.csv' AS row

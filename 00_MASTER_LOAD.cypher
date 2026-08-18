@@ -157,6 +157,13 @@ SET ac.placeId=row.placeId,
     ac.multiTypeSource=row.multiTypeSource, ac.multiTypeNote=row.multiTypeNote,
     ac.verifyStatus=row.verifyStatus,          // VERIFIED/SURVEYED/PARTIAL/PENDING/EXCLUDED
     ac.verifyNote=row.verifyNote,
+//  ※ evidenceDetail 은 의도적으로 적재하지 않습니다.
+//    CSV 991행에 값이 있으나 800건(81%)이 routeCondition 과 내용이 같습니다.
+//      evidenceDetail : "경로 상태 조사: 계단 있음+노면 불량+판석"
+//      routeCondition : "계단 있음+노면 불량+판석"
+//    접두어만 다를 뿐이고, 130건은 UNKNOWN 만 들어 있습니다.
+//    같은 사실을 두 속성에 두면 한쪽만 고쳤을 때 조용히 어긋납니다.
+//    원본 서술은 CSV 에 보존하고 그래프에는 정규화된 routeCondition 만 둡니다.
     ac.recommendForMobility=row.recommendForMobility,  // Y/N — 이동축 추천 대상
     ac.recommendForVisual=row.recommendForVisual,      // Y/N/UNKNOWN
     ac.recommendForHearing=row.recommendForHearing,
@@ -252,6 +259,10 @@ LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-
 MERGE (a:RecommendationAction {action_id: row.action_id})
 SET a.type=row.action_type, a.nameKr=row.action_kr, a.decisionLevel=row.decision_level;
 
+//  ※ VisitorProfile 은 두 계열이 공존합니다. 총 14개 노드가 정상입니다.
+//      VP_01~03      (profileId)   사고 데이터의 피해자 유형 — 관광객·지역주민·종사자
+//      VP_OLDER 등 11 (profile_id)  서비스 이용자 유형 — 고령·휠체어·시각 등
+//    속성명이 profileId / profile_id 로 다르니 쿼리 시 주의하십시오.
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/nodes_visitor_profile_v3.csv' AS row
 MERGE (v:VisitorProfile {profile_id: row.profile_id})
 SET v.type=row.profile_type, v.nameKr=row.profile_kr, v.kind='recommendation_target';
@@ -486,8 +497,13 @@ RETURN a.advisory_id, a.advisoryMessage;
 
 // 지정어항 원장 (70곳) — 참조·검증용
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/jeju_designated_harbor.csv' AS row
-MERGE (h:DesignatedHarbor {harborName: row.harborName, harborType: row.harborType})
-SET h.address=row.address, h.validity=row.validity,
+//  ※ MERGE 키에 address 를 포함합니다.
+//    제주에는 동명 어항이 3쌍 있습니다 — 신양항·세화항·신흥항.
+//    신양항·세화항은 harborType 이 달라 구분되지만,
+//    신흥항은 제주시 조천읍과 서귀포시 남원읍 둘 다 '어촌정주어항' 이라
+//    이름+유형만으로는 한 노드로 합쳐져 70곳이 69곳이 됩니다.
+MERGE (h:DesignatedHarbor {harborName: row.harborName, harborType: row.harborType, address: row.address})
+SET h.validity=row.validity,
     h.matchConfidence=row.harborConfidence, h.reviewFlag=row.reviewFlag;
 
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/huple2019/jeju-kg-data/refs/heads/main/jeju_designated_harbor.csv' AS row

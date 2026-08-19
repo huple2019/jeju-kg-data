@@ -1,0 +1,18 @@
+﻿placeId,fix,field,before,after,reason
+P951,FIX73,mobilityCaveat,체험별로 이용 조건이 다릅니다. 미로공원은 통로가 좁고 계단이 있어 휠체어와 유모차를 가지고 입장하실 수 없,"세 가지 체험 모두 휠체어로는 이용하시기 어렵습니다. 카트와 승마는 이용 불가로 안내되고, 미로공원은 통로가","승마 불가 확인 반영 — 기존 ""예약 전 문의"" 에서 확정으로 변경"
+P951,FIX73,accessVerdictReason,"시설접근 가능 / 활동참여 조건부 — 복합 레저시설. 카트는 장애인 이용 제한·탑승 거부 가능 명시, 미로공","시설접근 가능 / 활동참여 불가 — 카트·승마 이용 불가, 미로공원 휠체어·유모차 입장 불가. 부지 진입로와",판정 근거 갱신
+P951,FIX73,activityAccess,CONDITIONAL,UNAVAILABLE,세 체험 모두 불가 확인 — CONDITIONAL(조건부) 은 일부 가능을 뜻하므로 부적절
+P951,FIX73,partialReason,"[FIX38] 카트 조항을 시설 전체에 전파한 기존 판정을 정정. 카트·미로공원은 제한 명시, 승마는 미확인",[FIX73] 승마 불가 확인으로 활동참여 UNAVAILABLE 확정. mobilityAccess=NONE ,판정 근거
+P951,FIX73,verifyStatus,PARTIAL,VERIFIED,카트·승마·미로공원 세 체험 모두 공식 자료로 확인
+P951,FIX73,verifyNote,카트·미로공원은 운영사 공식 문구로 직접 확인(2026-08). 승마는 장애인 이용 안내 미확보 — 유선 확,"비짓제주 공식 페이지 확인(2026-08) — 세리카트 이용 불가, 세리승마 이용 불가, 미로공원은 울퉁불퉁",외부 확인 근거 및 판정 이유
+P951,FIX73,correctionHistory,"FIX21-A: 경로상 휠체어 접근 불가 | FIX38: 카트 조항 전체 전파 정정, UNAVAILABLE→","FIX21-A: 경로상 휠체어 접근 불가 | FIX38: 카트 조항 전체 전파 정정, UNAVAILABLE→",이력
+P023,FIX73,source,열린관광 모두의여행(한국관광공사) 숙박 상세,한국관광공사 열린관광 모두의여행 — 숙박 무장애 편의정보,출처 기관·자료명 명확화
+P023,FIX73,sourceDate,2026-07,2026-08-12,열린관광 페이지 최종 수정일
+P023,FIX73,verifyNote,검증완료(2026-07) — 열린관광 숙박 상세 대조 [FIX65] 한국관광공사 무장애 API(detailW,한국관광공사 열린관광 모두의여행 공식 페이지 확인 — 최종 수정 2026-08-12. 주출입구 경사로·휠체어,출처 확인 및 evidenceType 유지 사유
+P023,FIX73,correctionHistory,FIX65: visualAccess UNKNOWN→PARTIAL (KTO API),FIX65: visualAccess UNKNOWN→PARTIAL (KTO API) | FIX73: 열린관광 ,이력
+P047,FIX73,source,열린관광 모두의여행(한국관광공사) 숙박 상세,한국관광공사 열린관광 모두의여행 — 숙박 무장애 편의정보,출처 기관·자료명 명확화
+P047,FIX73,sourceDate,2026-07,2025-08-28,열린관광 페이지 최종 수정일
+P047,FIX73,verifyNote,검증완료(2026-07) — 열린관광 숙박 상세 대조 [FIX65] 한국관광공사 무장애 API(detailW,한국관광공사 열린관광 모두의여행 공식 페이지 확인 — 최종 수정 2025-08-28. 주출입구 경사로·휠체어,출처 확인 및 evidenceType 유지 사유
+P047,FIX73,correctionHistory,FIX65: visualAccess UNKNOWN→FULL (KTO API),FIX65: visualAccess UNKNOWN→FULL (KTO API) | FIX73: 열린관광 공식 ,이력
+P985,FIX73,verifyNote,"부분검증(2026-08) — 오감 액티비티 수록, 휠체어 탑승 가부 미확인","근거 출처가 필드별로 다름 — 한국관광공사 관광정보: 장애인화장실 없음, 장애인용 엘리베이터 없음, 장애인 ",필드별 근거 분리 기록
+P985,FIX73,correctionHistory,(공백),FIX73: 근거 출처 필드별 분리 기록,이력

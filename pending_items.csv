@@ -1,0 +1,6 @@
+﻿분류,번호,항목,placeId,관광지명,필드,현재값,할 일
+A. 데이터 작업 필요,A1,체험별 참여 가부 미확인,P992,대유ATV수렵사격랜드,activityAccess,UNAVAILABLE (구조 추론),ATV·사격·버기카 각 체험의 장애인 참여 가부 — 064-738-0500
+A. 데이터 작업 필요,A2,장애인 이용정책 미확인,P944,제주빅볼랜드,activityAccess,UNAVAILABLE (신체기준만 확인),휠체어·보행장애 이용 가부 — 예약처 1588-6418
+A. 데이터 작업 필요,A3,전동휠체어 선적 미확인,P416,가파도 마라도 정기여객선,mobilityAccess / verifyStatus,PARTIAL / VERIFIED,전동휠체어 선적 가부 — ㈜아름다운섬나라. 수동휠체어는 공식 FAQ로 확인됨
+B. v4 스키마 과제,B1,AccessCondition 노드 신설,P884·P915·P416·P896,,mobilityCaveat (텍스트),텍스트,조수·여객선·계절 조건을 구조화 — 날짜 조건 검색 가능해짐
+B. v4 스키마 과제,B2,PlaceActivity 노드 신설,P951·P992 등 복합시설,,(스키마 신설),Place 단위 판정,체험 단위 판정 — Place 하위 종속 노드로 처리

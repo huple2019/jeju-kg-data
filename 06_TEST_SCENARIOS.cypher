@@ -1,4 +1,4 @@
-// ════════════════════════════════════════════════════════════════
+﻿// ════════════════════════════════════════════════════════════════
 //  06_TEST_SCENARIOS.cypher — 복합 판정 테스트 10종
 //
 //  목적: 안전·무장애 판정이 실제로 작동하는지 확인합니다.
@@ -144,14 +144,14 @@ RETURN p.name AS 관광지, p.categoryMid AS 유형,
        ac.sensoryAccessNote AS 감각축_안내
 ORDER BY p.categoryMid, p.name
 LIMIT 20;
-// 기대: 179곳. 이동축 전부 제외, 감각축은 UNKNOWN + 확인 안내
+// 기대: 180곳. 이동축 전부 제외, 감각축은 UNKNOWN + 확인 안내
 
 // 추천 대상 집계 — 축별로 몇 곳이 남는가
 MATCH (p:Place)-[:HAS_ACCESSIBILITY]->(ac:Accessibility)
 WHERE p.recommendable='Y'
 RETURN coalesce(ac.recommendForMobility,'Y') AS 이동축추천,
        count(*) AS 건수 ORDER BY 건수 DESC;
-// 기대: Y 850 · N 179
+// 기대: Y 839 · N 190   (2026-08 FIX73 기준)
 
 
 // ════════════════════════════════════════════════════════════════
@@ -204,7 +204,7 @@ ORDER BY (ac.visualAccess='FULL') DESC LIMIT 12;
 // 미확보분 규모 — 안내 시 반드시 함께 고려
 MATCH (ac:Accessibility) WHERE ac.visualAccess='UNKNOWN'
 RETURN count(*) AS 시각정보_미확보;
-// 기대: 1005곳. "정보 없음"이지 "불가"가 아님
+// 기대: 944곳. "정보 없음"이지 "불가"가 아님
 
 
 // ════════════════════════════════════════════════════════════════
@@ -252,7 +252,7 @@ RETURN p.name AS 코스, season AS 계절, ac.wheelchairSection AS 이용가능�
          ELSE '※ 해무가 끼면 시야가 급격히 나빠집니다. 기상을 확인하고 출발하십시오' END AS 계절안내,
        ac.mobilityAccess AS 판정
 ORDER BY ac.wheelchairDifficulty DESC, 코스;
-// 기대: 10개 코스 — 제주올레 공식 휠체어 코스 전체
+// 기대: 11곳 — 제주올레 공식 휠체어 코스 10 + 가파도 순환로 1 휠체어 코스 전체
 //   구간 한정 9개: 01·04·05·06·08·10·12·14·17
 //   전 구간  1개: 10-1 (가파도) — wheelchairSection 값이 '전 구간' 으로 시작
 //   난이도 HIGH(5·8코스)는 mobilityAccess=NONE 이므로 조건검색에 노출되지 않는다

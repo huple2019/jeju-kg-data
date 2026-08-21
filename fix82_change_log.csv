@@ -1,0 +1,13 @@
+﻿placeId,fix,field,before,after,reason
+P010,FIX82,mobilityCaveat,휠체어로 이동하실 수 있습니다.,해안 산책로 일부 구간에 4~6cm 단차와 가파른 경사가 있어 휠체어로 이동하시기 어렵습니다. 전망대 진입 구간에는 경사로가 ,"인권위 권고 및 제주도 개선 수용 반영 — 기존 ""이동하실 수 있습니다"" 는 사실과 반대"
+P010,FIX82,routeCondition,동행보조 필요+휠체어 접근 가능,해안 산책로 일부 구간 4~6cm 단차+가파른 경사로+전망대 진입 경사로 없음+장애인화장실 출입문 폭 협소·접이식 문(편의증진,인권위 진정 및 권고 내용 반영
+P010,FIX82,mobilityAccess,PARTIAL,NONE,인권위가 안전한 이동·이용이 어려운 상태로 판단
+P010,FIX82,wheelchairAccess,PARTIAL,NONE,동일
+P010,FIX82,activityAccess,CONDITIONAL,UNAVAILABLE,해안 산책로 이용이 핵심 활동인데 접근 제한
+P010,FIX82,recommendForMobility,Y,N,인권위 판단 — 비장애인과 동등한 수준의 이용이 곤란한 상태
+P010,FIX82,disabledToilet,PARTIAL,NONE,편의증진법 시행규칙 기준 미달 — 출입문 폭 협소·접이식 문
+P010,FIX82,companionRequired,UNKNOWN,Y,단차·경사 구간 존재
+P010,FIX82,accessVerdictReason,시설접근 기준 판정 — 활동참여 개별 근거 미확보,"활동참여 불가 — 해안 산책로 4~6cm 단차·가파른 경사, 전망대 진입 경사로 없음. 국가인권위원회가 휠체어 이용 장애인의 ",판정 근거 — 인권위 판단
+P010,FIX82,partialReason,(공백),[FIX82] 인권위 권고 대상 시설. 개선 완료 확인 시 재판정 필요,판정 근거
+P010,FIX82,verifyNote,검증완료(2026-07) ※ FIX74: mobilityCaveat 은 routeCondition 태그에서 자동 생성된 일반 ,"국가인권위원회 공표(2026-08-14) — 2025-10 진정 접수, 2026-03-06 제주도지사에게 개선 권고, 2026",인권위 자료 근거 및 재확인 필요 명시
+P010,FIX82,correctionHistory,(공백)," | FIX82: 인권위 권고 반영, PARTIAL→NONE 하향",이력

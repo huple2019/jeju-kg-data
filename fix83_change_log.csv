@@ -1,0 +1,43 @@
+﻿placeId,fix,field,before,after,reason
+P007,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 동행보조 필요+휠체어 접근 가능
+P007,FIX83,mobilityCaveat,휠체어로 이동하실 수 있습니다.,휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 함께 오시길 권해 드립니다.,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P014,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 포장도로+휠체어 접근 가능+동행보조 필요
+P014,FIX83,mobilityCaveat,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P030,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 휠체어 접근 가능+동행보조 필요
+P030,FIX83,mobilityCaveat,휠체어로 이동하실 수 있습니다.,휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 함께 오시길 권해 드립니다.,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P042,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 야외구간 동행보조 필요+휠체어 접근 가능
+P042,FIX83,mobilityCaveat,휠체어로 이동하실 수 있습니다.,휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 함께 오시길 권해 드립니다.,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P078,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 동행보조 필요+휠체어 접근 가능
+P078,FIX83,mobilityCaveat,휠체어로 이동하실 수 있습니다.,휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 함께 오시길 권해 드립니다.,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P081,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 포장도로+선박 승하선 보조 필요+휠체어 접근 가능
+P081,FIX83,mobilityCaveat,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P100,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 레일바이크 탑승 보조 필요+휠체어 접근 가능
+P100,FIX83,mobilityCaveat,휠체어로 이동하실 수 있습니다.,휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 함께 오시길 권해 드립니다.,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P103,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 포장도로+선박 승하선 보조 필요+휠체어 접근 가능
+P103,FIX83,mobilityCaveat,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P112,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 포장도로+선박 승하선 보조 필요+휠체어 접근 가능
+P112,FIX83,mobilityCaveat,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P133,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 포장도로+선박 승하선 보조 필요+휠체어 접근 가능
+P133,FIX83,mobilityCaveat,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P141,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 포장도로+초지/목장길+휠체어 접근 가능+동행보조 필요
+P141,FIX83,mobilityCaveat,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P145,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 포장도로+항구/유람선 접근+선박 승하선 보조 필요+휠체어 접근 가능
+P145,FIX83,mobilityCaveat,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,포장된 길로 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P678,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 단차 없음+휠체어 접근 가능+이동 보조 필요
+P678,FIX83,mobilityCaveat,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 ,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P721,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 이동 보조 필요+휠체어 접근 가능
+P721,FIX83,mobilityCaveat,휠체어로 이동하실 수 있습니다.,휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 함께 오시길 권해 드립니다.,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P806,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 단차 없음+휠체어 접근 가능+이동 보조 필요
+P806,FIX83,mobilityCaveat,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 ,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P818,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 단차 없음+이동 보조 필요+휠체어 접근 가능
+P818,FIX83,mobilityCaveat,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 ,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P831,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 무장애 코스 포함+휠체어 접근 가능+이동 보조 필요
+P831,FIX83,mobilityCaveat,무장애 코스가 마련되어 있습니다. 휠체어로 이동하실 수 있습니다.,무장애 코스가 마련되어 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 ,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P833,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 단차 없음+휠체어 접근 가능+이동 보조 필요
+P833,FIX83,mobilityCaveat,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 ,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P891,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 단차 없음+이동 보조 필요+휠체어 접근 가능
+P891,FIX83,mobilityCaveat,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 ,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P892,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 단차 없음+무장애 코스 포함+휠체어 접근 가능+이동 보조 필요
+P892,FIX83,mobilityCaveat,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다.,단차 없이 이동하실 수 있습니다. 휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 ,FIX74 자동생성 시 누락된 동행 필요 안내 복원
+P1004,FIX83,companionRequired,UNKNOWN,Y,routeCondition 에 보조 필요 명시 — 휠체어 접근 가능+이동 보조 필요
+P1004,FIX83,mobilityCaveat,휠체어로 이동하실 수 있습니다.,휠체어로 이동하실 수 있습니다. 이동에 도움이 필요할 수 있으니 동행자와 함께 오시길 권해 드립니다.,FIX74 자동생성 시 누락된 동행 필요 안내 복원
